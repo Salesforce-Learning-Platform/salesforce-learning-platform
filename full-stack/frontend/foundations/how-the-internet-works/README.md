@@ -110,3 +110,43 @@ contexts:
 These connections are called out again, more concretely, in
 [what-happens-when-you-enter-a-url.md](what-happens-when-you-enter-a-url.md) and
 [cdns-caching-and-performance.md](cdns-caching-and-performance.md).
+
+## When to Deep-Dive vs. Skim
+
+If you've never studied networking before, read every file in this module in full and in order —
+it's the most heavily depended-on module in the entire Frontend learning path. If you already have
+networking background, you can skim the earlier files but should still read
+[what-happens-when-you-enter-a-url.md](what-happens-when-you-enter-a-url.md) closely — it's the
+synthesis every later module (especially
+[Understanding HTTP and HTTPS](../understanding-http-and-https/) and
+[CDNs, Caching, and Performance](cdns-caching-and-performance.md)) assumes you can narrate from
+memory.
+
+## Quick Knowledge Check
+
+Try answering before revealing each answer — this is a much better test of retention than
+recognizing the answer once you see it.
+
+<details>
+<summary>What's the difference between the Internet and the Web?</summary>
+
+The Internet is the global network infrastructure (IP, routing, ISPs). The Web is one application
+that runs on top of it, built from HTML documents linked together and transferred via HTTP/HTTPS.
+Email, SSH, and Salesforce API calls all use the Internet without using the Web at all. See
+[what-is-the-internet.md](what-is-the-internet.md).
+
+</details>
+
+<details>
+<summary>Why does establishing an HTTPS connection take longer than plain HTTP, before any actual page data is sent?</summary>
+
+HTTPS requires a TCP handshake, then a TLS handshake, both completed before the first HTTP request
+is even sent. Each adds at least one network round trip. See
+[what-happens-when-you-enter-a-url.md](what-happens-when-you-enter-a-url.md).
+
+</details>
+
+## Continue Your Learning Path
+
+Next in the [Foundations sequence](../README.md):
+[Client-Server Architecture](../client-server-architecture/).

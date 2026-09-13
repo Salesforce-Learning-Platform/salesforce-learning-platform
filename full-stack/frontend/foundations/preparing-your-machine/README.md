@@ -22,3 +22,35 @@ baseline so every later module can assume it.
 | [installing-a-package-manager-and-node.md](installing-a-package-manager-and-node.md) | Node.js, npm, and what "installing a dependency" actually does |
 | [setting-up-your-code-editor.md](setting-up-your-code-editor.md) | Configuring an editor for frontend development |
 | [browser-devtools-essentials.md](browser-devtools-essentials.md) | The DevTools panels you'll use constantly, and what each is for |
+
+## When to Deep-Dive vs. Skim
+
+If you're already an experienced developer switching to frontend work, skim this whole module as a
+setup checklist rather than reading it linearly — but don't skip
+[browser-devtools-essentials.md](browser-devtools-essentials.md) even if you know a different
+editor and terminal well; the Network panel specifically is used throughout every later module in
+this platform.
+
+## Quick Knowledge Check
+
+<details>
+<summary>Why shouldn't node_modules/ be committed to version control?</summary>
+
+It's large and fully regenerable from package.json and the lock file — committing it bloats the
+repository and defeats the purpose of dependency management. See
+[installing-a-package-manager-and-node.md](installing-a-package-manager-and-node.md).
+
+</details>
+
+<details>
+<summary>What's the difference between a linter and a formatter?</summary>
+
+A formatter only changes appearance (spacing, indentation) and has no opinion on correctness. A
+linter flags actual likely mistakes or convention violations — it can catch real bugs, a formatter
+never does. See [setting-up-your-code-editor.md](setting-up-your-code-editor.md).
+
+</details>
+
+## Continue Your Learning Path
+
+Next in the [Foundations sequence](../README.md): [Git and GitHub](../git-and-github/).

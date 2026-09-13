@@ -40,3 +40,39 @@ connection in a codebase, and reason about *why* a given protocol was chosen for
 | HTTP / HTTPS / TLS | Application | [http-https-and-tls.md](../how-the-internet-works/http-https-and-tls.md) |
 
 This module does not repeat those — it adds to the map.
+
+## When to Deep-Dive vs. Skim
+
+If you're only building conventional HTTP-based web applications, you can skim this module — its
+main value is recognition (knowing what `ws://` or `ftp://` mean when you see them) rather than
+daily use. Deep-dive
+[application-layer-protocols-overview.md](application-layer-protocols-overview.md) specifically if
+you're about to build a real-time feature (chat, live notifications) and need to justify choosing
+WebSocket over repeated HTTP polling.
+
+## Quick Knowledge Check
+
+<details>
+<summary>Why does WebSocket start as an HTTP request, even though the ongoing communication doesn't look like HTTP at all?</summary>
+
+The initial "upgrade handshake" reuses HTTP's addressing and negotiation so the connection can pass
+through the same infrastructure (proxies, firewalls) that already allows ordinary web traffic,
+before switching to a persistent, full-duplex channel. See
+[application-layer-protocols-overview.md](application-layer-protocols-overview.md).
+
+</details>
+
+<details>
+<summary>What question should you ask first when choosing between two protocols for a new feature?</summary>
+
+Whether the communication is a one-off request/response or an ongoing conversation, and whether
+guaranteed delivery matters more than low latency — the requirement should determine the protocol,
+not familiarity. See
+[choosing-and-recognizing-protocols.md](choosing-and-recognizing-protocols.md).
+
+</details>
+
+## Continue Your Learning Path
+
+Next in the [Foundations sequence](../README.md):
+[Understanding HTTP and HTTPS](../understanding-http-and-https/).

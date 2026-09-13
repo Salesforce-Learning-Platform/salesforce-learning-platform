@@ -40,3 +40,39 @@ responsibility split described in this module — presentation and interaction o
 business logic and data authority on the server — is exactly why Apex, not client-side
 JavaScript, is the trusted place to enforce sharing rules, validation, and business logic in
 Salesforce applications.
+
+## When to Deep-Dive vs. Skim
+
+If you've ever been surprised that a "hidden" or "disabled" frontend control didn't actually stop
+someone from performing an action, deep-dive
+[frontend-and-backend-responsibilities.md](frontend-and-backend-responsibilities.md) — it explains
+precisely why. If you already have backend development experience, you can skim the lifecycle
+file but should still read
+[state-management-across-the-boundary.md](state-management-across-the-boundary.md), since
+confusing client-side and server-side state is a recurring source of real bugs.
+
+## Quick Knowledge Check
+
+<details>
+<summary>Why is client-side form validation not a security control?</summary>
+
+Because a client can be bypassed entirely — DevTools, a modified request, or a direct API call
+skip the frontend altogether. Only server-side validation is enforced regardless of what sent the
+request. See
+[frontend-and-backend-responsibilities.md](frontend-and-backend-responsibilities.md).
+
+</details>
+
+<details>
+<summary>Why does HTTP being stateless matter for how logins and shopping carts actually work?</summary>
+
+Because HTTP itself remembers nothing between requests, applications must deliberately build
+continuity using cookies, sessions, or tokens — the server, not the client, remains the
+authoritative source of truth for what's actually been saved. See
+[state-management-across-the-boundary.md](state-management-across-the-boundary.md).
+
+</details>
+
+## Continue Your Learning Path
+
+Next in the [Foundations sequence](../README.md): [Internet Protocols](../internet-protocols/).
