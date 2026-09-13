@@ -31,3 +31,37 @@ Modern Salesforce development (using Salesforce CLI and source-tracked orgs) is 
 this same Git workflow — metadata changes are tracked as files in a repository, developed on
 branches, and merged via pull requests exactly as described in this module, rather than being
 edited directly in a single shared production org.
+
+## When to Deep-Dive vs. Skim
+
+If you've never used Git before, work through all four files in order — this module is used
+constantly from here on, including by this repository's own contribution workflow (see
+[CONTRIBUTING.md](../../../../CONTRIBUTING.md)). If you already use Git daily, deep-dive
+[the-pull-request-workflow.md](the-pull-request-workflow.md) specifically to make sure you can
+explain *why* code review exists, not just the mechanical steps.
+
+## Quick Knowledge Check
+
+<details>
+<summary>What's the actual difference between git fetch and git pull?</summary>
+
+git fetch downloads new commits from the remote without touching your working files — always safe
+to run. git pull fetches and then immediately merges into your current branch, which can trigger a
+conflict if you have overlapping local changes. See
+[working-with-remotes-and-github.md](working-with-remotes-and-github.md).
+
+</details>
+
+<details>
+<summary>Is a merge conflict a sign something went wrong?</summary>
+
+No — it's Git correctly refusing to guess when two branches changed the same lines incompatibly,
+and handing the decision back to a human. Resolving it is a normal editing task. See
+[branching-and-merging.md](branching-and-merging.md).
+
+</details>
+
+## Continue Your Learning Path
+
+Next in the [Foundations sequence](../README.md):
+[AI as Your Coding Partner](../ai-as-your-coding-partner/).
