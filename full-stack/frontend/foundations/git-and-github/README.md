@@ -61,6 +61,12 @@ and handing the decision back to a human. Resolving it is a normal editing task.
 
 </details>
 
+## References
+
+- [Git Reference Documentation](https://git-scm.com/docs) — the official, authoritative command reference
+- [Learn Git Branching](https://learngitbranching.js.org/) — a free, interactive, in-browser visualizer for practicing exactly the branching and merging scenarios in this module
+- [GitHub Docs — Pull Requests](https://docs.github.com/en/pull-requests)
+
 ## Continue Your Learning Path
 
 Next in the [Foundations sequence](../README.md):
