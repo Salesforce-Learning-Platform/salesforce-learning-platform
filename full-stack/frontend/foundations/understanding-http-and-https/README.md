@@ -63,6 +63,13 @@ still no. 401 Unauthorized means the server doesn't know who's asking at all. Se
 
 </details>
 
+## References
+
+- IETF, [RFC 9110 — HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110)
+- MDN Web Docs, [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- MDN Web Docs, [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS)
+- MDN Web Docs, [HTTP Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching)
+
 ## Continue Your Learning Path
 
 Next in the [Foundations sequence](../README.md):

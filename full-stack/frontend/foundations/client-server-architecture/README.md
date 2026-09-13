@@ -73,6 +73,11 @@ authoritative source of truth for what's actually been saved. See
 
 </details>
 
+## References
+
+- MDN Web Docs, [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) — the practical
+  reference for the request/response mechanics this module builds on.
+
 ## Continue Your Learning Path
 
 Next in the [Foundations sequence](../README.md): [Internet Protocols](../internet-protocols/).

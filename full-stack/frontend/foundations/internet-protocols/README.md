@@ -72,6 +72,12 @@ not familiarity. See
 
 </details>
 
+## References
+
+- IETF, [RFC 5321 — Simple Mail Transfer Protocol](https://www.rfc-editor.org/rfc/rfc5321)
+- MDN Web Docs, [WebSocket API](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+- IANA, [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) — the authoritative list behind the port table in [tcp-ip-ports-and-routing.md](../how-the-internet-works/tcp-ip-ports-and-routing.md)
+
 ## Continue Your Learning Path
 
 Next in the [Foundations sequence](../README.md):

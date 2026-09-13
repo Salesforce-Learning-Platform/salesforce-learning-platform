@@ -51,6 +51,13 @@ never does. See [setting-up-your-code-editor.md](setting-up-your-code-editor.md)
 
 </details>
 
+## References
+
+- [Node.js downloads](https://nodejs.org/en/download) — official installers and version manager guidance
+- [Visual Studio Code documentation](https://code.visualstudio.com/docs)
+- [ESLint](https://eslint.org/) — the standard JavaScript/TypeScript linter
+- [Prettier](https://prettier.io/) — the standard code formatter referenced in this module
+
 ## Continue Your Learning Path
 
 Next in the [Foundations sequence](../README.md): [Git and GitHub](../git-and-github/).
