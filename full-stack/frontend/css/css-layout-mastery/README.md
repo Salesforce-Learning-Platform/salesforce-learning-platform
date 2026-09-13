@@ -58,5 +58,5 @@ See [stacking-context.md](stacking-context.md).
 
 ## Continue Your Learning Path
 
-Next: [CSS Flexbox](flexbox-deep-dive.md) — see the
+Next: [Responsive Web Design](../responsive-web-design/) — see the
 [Frontend learning path](../../README.md) for the full sequence.
