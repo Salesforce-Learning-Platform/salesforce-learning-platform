@@ -196,5 +196,5 @@ where needed.
 
 ## ➡️ Next
 
-Continue to the JavaScript Interview Puzzles module, the next module in this section, which tests
-everything in this section with "predict the output" exercises.
+Continue to the [JavaScript Interview Puzzles](../interview-puzzles/README.md) module, the next module in
+this section, which tests everything in this section with "predict the output" exercises.
