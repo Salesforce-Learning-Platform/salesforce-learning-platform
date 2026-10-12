@@ -97,7 +97,7 @@ is_palindrome("python")    # False
 ```
 
 `reverse_in_place` needs no second list — O(1) extra space — in contrast to `items[::-1]`, which
-builds a full copy. (Text is just an array of characters here; the Strings module treats it in
+builds a full copy. (Text is just an array of characters here; the [Strings](../strings/README.md) module treats it in
 depth.)
 
 ## 💧 Worked Example 3: Container With the Most Water
@@ -189,7 +189,8 @@ from the beginning — which is what separates this from the nested-loop O(n²) 
 
 If the data is **not** sorted and you need a pair sum, two pointers alone are the wrong tool:
 sorting first costs O(n log n) and loses the original positions, and a hash-based lookup (covered in
-the Hashing module, later in this domain) solves it in O(n) without sorting.
+the [Hashing](../hashing/README.md) module, and worked through as
+[two-sum](../hashing/hash-based-problem-solving.md)) solves it in O(n) without sorting.
 
 ## Common Mistakes
 
