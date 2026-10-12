@@ -239,8 +239,8 @@ print(cache.get("b"))        # None
 print(cache.get("a"), cache.get("c"))   # 1 3
 ```
 
-Without `OrderedDict`, the standard from-scratch answer pairs a dictionary with your own doubly linked list (covered in the Linked Lists module later
-in this domain). The principle is general: **a hash table gives fast access by key; pair it with another structure when you also
+Without `OrderedDict`, the standard from-scratch answer pairs a dictionary with your own doubly linked list (built in
+[doubly-linked-lists.md](../linked-lists/doubly-linked-lists.md)). The principle is general: **a hash table gives fast access by key; pair it with another structure when you also
 need order.**
 
 ## 📋 Choosing the Pattern
@@ -296,5 +296,5 @@ Carry these ideas forward:
 
 ## ➡️ Next
 
-Continue to the Linked Lists module, the next module in this domain, where data is connected by references instead of stored side by
+Continue to the [Linked Lists](../linked-lists/README.md) module, the next module in this domain, where data is connected by references instead of stored side by
 side — and where the LRU cache's linked-list half is built by hand.
