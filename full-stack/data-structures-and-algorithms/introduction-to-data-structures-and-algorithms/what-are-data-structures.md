@@ -76,8 +76,8 @@ NON-LINEAR structures → elements arranged in HIERARCHICAL or
 ```
 
 This domain's own module sequence follows roughly this progression — starting with linear
-structures (this module through Stacks and Queues), then moving to non-linear ones (Trees, Graphs,
-Heaps) later in the domain.
+structures (this module through Stacks and Queues), then moving to non-linear ones ([Trees](../trees/README.md), [Graphs](../graphs/README.md),
+[Heaps](../heaps-and-priority-queues/README.md)) later in the domain.
 
 ## Why This Matters, Even With High-Level Languages Handling the Details
 

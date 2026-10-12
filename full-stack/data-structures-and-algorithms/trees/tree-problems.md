@@ -486,5 +486,5 @@ Carry these ideas forward:
 
 ## ➡️ Next
 
-Continue to the Binary Search Trees module, the next module in this domain, where an ordering rule on the values turns a binary tree
+Continue to the [Binary Search Trees](../binary-search-trees/README.md) module, the next module in this domain, where an ordering rule on the values turns a binary tree
 into a structure that can search, insert, and delete in O(log n) — when it stays balanced.

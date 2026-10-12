@@ -236,7 +236,7 @@ print([values[i] for i in range(len(values)) if left_child(i) >= len(values)])  
 ```
 
 This is compact (no pointers) and gives O(1) access to a node's parent — the same idea as the parent array in
-[tree-fundamentals.md](tree-fundamentals.md). It is exactly how a **heap** is stored (the Heaps and Priority Queues module later in this domain). It works
+[tree-fundamentals.md](tree-fundamentals.md). It is exactly how a **heap** is stored (see the [Heaps and Priority Queues](../heaps-and-priority-queues/README.md) module). It works
 only for complete trees: a sparse tree stored this way would waste most of the array on gaps — a skewed tree of height `h` needs an array of
 about `2ʰ` slots.
 

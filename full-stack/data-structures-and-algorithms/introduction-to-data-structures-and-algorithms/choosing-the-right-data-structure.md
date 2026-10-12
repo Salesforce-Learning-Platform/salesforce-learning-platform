@@ -49,7 +49,7 @@ remove) the MOST RECENTLY added page first
 
 ARRAY (used as a STACK): genuinely perfect fit - "most recently
   added, accessed first" is EXACTLY a stack's core behavior
-  (covered in full in Stacks and Queues, later in this domain)
+  (covered in full in [Stacks and Queues](../stacks-and-queues/README.md))
 ```
 
 This previews a genuinely common, real pattern this domain will cover repeatedly — a data

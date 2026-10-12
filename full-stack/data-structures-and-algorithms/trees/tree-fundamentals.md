@@ -238,7 +238,7 @@ print(depths_from_parents(parents))        # [0, 1, 1, 2, 2, 2]
 This compact form needs only one integer per node and finds a node's *parent* in O(1) — something the linked representation (which only points
 downward) cannot do without extra work. The trade-off is that finding a node's children takes a scan (or the derived dictionary above). It
 reappears in disjoint-set (union-find) structures, and the same index idea is used to store *complete binary trees* in arrays, as you will see in
-[binary-trees.md](binary-trees.md) and in the Heaps module later in this domain.
+[binary-trees.md](binary-trees.md) and in the [Heaps and Priority Queues](../heaps-and-priority-queues/README.md) module.
 
 ## 🧭 Kinds of Trees You Will Meet
 
