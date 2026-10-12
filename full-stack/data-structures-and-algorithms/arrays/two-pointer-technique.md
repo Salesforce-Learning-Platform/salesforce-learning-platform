@@ -23,7 +23,7 @@ SAME DIRECTION   a READER scans every element; a WRITER trails behind,
 ```
 
 (A third pattern — a "fast" and a "slow" pointer moving at different speeds — shows up mainly with
-linked lists, later in this domain.)
+[linked lists](../linked-lists/common-linked-list-problems.md).)
 
 ## 🎯 Worked Example 1: A Pair That Adds Up to a Target (Sorted Array)
 

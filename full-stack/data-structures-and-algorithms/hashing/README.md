@@ -92,5 +92,5 @@ not change while they are stored, which is why hashable types are normally immut
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Linked Lists module, the next module in this domain, where data is connected by references instead of stored side by
+Continue to the [Linked Lists](../linked-lists/README.md) module, the next module in this domain, where data is connected by references instead of stored side by
 side.
