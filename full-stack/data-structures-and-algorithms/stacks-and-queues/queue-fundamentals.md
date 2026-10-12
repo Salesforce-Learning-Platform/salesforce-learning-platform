@@ -320,7 +320,7 @@ print(bfs_distances(graph, "A"))       # {'A': 0, 'B': 1, 'C': 1, 'D': 2, 'E': 3
 ```
 
 `F` is unreachable, so it does not appear. BFS is developed fully for trees in [tree-traversal.md](../trees/tree-traversal.md) (level-order
-traversal) and for graphs in the Graphs module later in this domain.
+traversal) and for graphs in the [Graphs](../graphs/README.md) module (see [breadth-first-search.md](../graphs/breadth-first-search.md)).
 
 ### Tests for the Applications
 
@@ -368,8 +368,8 @@ hit counter and BFS agree with brute-force versions
 ## 🚌 A Related Structure: The Priority Queue
 
 In an ordinary queue, order of arrival decides who is served first. A **priority queue** serves the item with the highest priority first,
-whatever its arrival time (hospital triage, task schedulers). It is usually built on a heap, which is the subject of the Heaps and Priority Queues
-module later in this domain; `queue.PriorityQueue` and `heapq` provide it in Python.
+whatever its arrival time (hospital triage, task schedulers). It is usually built on a heap, which is the subject of the
+[Heaps and Priority Queues](../heaps-and-priority-queues/README.md) module; `queue.PriorityQueue` and `heapq` provide it in Python.
 
 ## ⚖️ Queue Cost Summary
 

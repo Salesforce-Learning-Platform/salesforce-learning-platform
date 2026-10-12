@@ -83,5 +83,5 @@ a root `1` with only a right child `2`, both have preorder `[1, 2]` and postorde
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Binary Search Trees module, the next module in this domain, where an ordering rule on the values turns a binary tree into a structure that can search,
+Continue to the [Binary Search Trees](../binary-search-trees/README.md) module, the next module in this domain, where an ordering rule on the values turns a binary tree into a structure that can search,
 insert, and delete in O(log n) — when it stays balanced.
