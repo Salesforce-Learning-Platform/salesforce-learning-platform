@@ -83,5 +83,5 @@ multiplying per-iteration worst cases, is amortized analysis.
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Strings module, the next module in this domain, where the traversal, two-pointer,
+Continue to the [Strings](../strings/README.md) module, the next module in this domain, where the traversal, two-pointer,
 and sliding-window ideas from this module are applied to text.

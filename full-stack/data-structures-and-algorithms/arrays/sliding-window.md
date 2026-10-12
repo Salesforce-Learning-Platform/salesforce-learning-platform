@@ -108,7 +108,7 @@ longest_unique_substring("abcabcbb")   # 3   ("abc")
 
 Here the update goes **after** the `while` loop: for a **longest** valid window, only the window
 that has just been made valid again is a candidate. (Membership checks on a set are O(1) on average;
-the Hashing module, later in this domain, explains why. A string is treated as an array of
+the [Hashing](../hashing/README.md) module explains why. A string is treated as an array of
 characters here.)
 
 ## 🧩 The Template
@@ -182,5 +182,5 @@ into O(n) total work (see this file). Every complexity claim here uses the vocab
 
 ## ➡️ Next
 
-Continue to the Strings module, the next module in this domain, where the two-pointer and
+Continue to the [Strings](../strings/README.md) module, the next module in this domain, where the two-pointer and
 sliding-window ideas reappear on text.

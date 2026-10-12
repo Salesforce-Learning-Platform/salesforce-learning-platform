@@ -141,7 +141,7 @@ To change elements in place, assign through the index: `vals[i] = vals[i] * 2`.
 Any traversal can also be written recursively. It still does O(n) work, but each call adds a frame
 to the call stack, so it uses O(n) space instead of O(1) — the
 [recursive call-stack cost](../time-and-space-complexity/space-complexity.md) described earlier.
-The Recursion module, later in this domain, returns to this trade-off.
+The [Recursion](../recursion/README.md) module returns to this trade-off.
 
 ## Common Mistakes
 
