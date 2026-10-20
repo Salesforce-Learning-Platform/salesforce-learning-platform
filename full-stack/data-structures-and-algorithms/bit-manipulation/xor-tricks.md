@@ -214,7 +214,7 @@ print(hamming_distance(0b1011101, 0b1001001), hamming_distance(1, 4), hamming_di
 print((7 ^ -3) < 0, (7 ^ 3) < 0, (-7 ^ -3) < 0)                                                      # True False False
 ```
 
-(Finding the pair in a list whose XOR is *largest* is a classic problem that is solved efficiently with a trie of the numbers' bits; the Tries module later in this domain covers it.)
+(Finding the pair in a list whose XOR is *largest* is a classic problem that is solved efficiently with a trie of the numbers' bits; [tries-with-bits-and-dp.md](../tries/tries-with-bits-and-dp.md) shows how.)
 
 ## ✅ Verification
 

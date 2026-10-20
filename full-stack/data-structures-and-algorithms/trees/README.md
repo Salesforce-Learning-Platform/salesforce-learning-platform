@@ -3,7 +3,7 @@
 ## 📚 Overview
 
 Every structure so far has arranged items in a line. A **tree** arranges them in a **hierarchy**: one root, and every other node hanging below exactly one parent.
-Trees describe file systems, web pages, organization charts, parsed code, and decision processes, and they are the foundation of binary search trees, heaps, tries,
+Trees describe file systems, web pages, organization charts, parsed code, and decision processes, and they are the foundation of binary search trees, heaps, [tries](../tries/README.md),
 and the graph algorithms that follow in this domain. This module teaches the vocabulary, the binary tree and its shapes, the four ways of visiting every node
 (preorder, inorder, postorder, and level order), and the recursive way of thinking that solves most tree problems.
 

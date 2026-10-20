@@ -258,7 +258,7 @@ def word_break(s, words):
 print(word_break("leetcode", ["leet", "code"]), word_break("applepenapple", ["apple", "pen"]), word_break("catsandog", ["cats", "dog", "sand", "and", "cat"]))       # True True False
 ```
 
-Without the table, the recursion re-solves the same suffixes many times: a string of 30 letters `a` with the words `a`, `aa`, and `aaa` can be segmented in 53,798,080 different ways (the stair-climbing count for steps of 1, 2, and 3), and a plain recursion would visit them all. With the table, each prefix is solved once. The cost is O(n²) prefix pairs times the cost of a substring-and-lookup. (A trie of the dictionary can speed up the inner test, which is a natural combination for the Tries module later in this domain.)
+Without the table, the recursion re-solves the same suffixes many times: a string of 30 letters `a` with the words `a`, `aa`, and `aaa` can be segmented in 53,798,080 different ways (the stair-climbing count for steps of 1, 2, and 3), and a plain recursion would visit them all. With the table, each prefix is solved once. The cost is O(n²) prefix pairs times the cost of a substring-and-lookup. (A trie of the dictionary can speed up the inner test, which is a natural combination developed in [tries-with-bits-and-dp.md](../tries/tries-with-bits-and-dp.md).)
 
 ## ✅ Verification
 

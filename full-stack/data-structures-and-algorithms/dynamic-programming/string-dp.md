@@ -411,4 +411,4 @@ Carry these ideas forward:
 
 ## ➡️ Next
 
-Continue to the Tries module, the next module in this domain, where the focus moves to a tree built for strings — one that answers prefix questions in time proportional to the length of the query, and that combines naturally with bit manipulation and with dynamic programming.
+Continue to the [Tries](../tries/README.md) module, the next module in this domain, where the focus moves to a tree built for strings — one that answers prefix questions in time proportional to the length of the query, and that combines naturally with bit manipulation and with dynamic programming.
