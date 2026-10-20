@@ -494,12 +494,12 @@ cyclic placement |     17.70 | True
 
 | Approach | Time | Extra space | Changes the input | Handles several missing and duplicated values |
 |----------|------|-------------|-------------------|-----------------------------------------------|
-| Sum formula or XOR | O(n) | O(1) | No | **No** — one unknown only |
+| Sum formula or [XOR](../bit-manipulation/xor-tricks.md) | O(n) | O(1) | No | **No** — one unknown only |
 | Set or counter | O(n) | O(n) | No | Yes |
 | Sort, then scan | O(n log n) | O(1) to O(n) | Yes, unless it sorts a copy | Yes |
 | Cyclic placement | O(n) | O(1) if the input may be rearranged | Yes (or O(n) for a copy) | Yes |
 
-In Python, the built-ins implemented in C (`sum`, `set`) beat a hand-written loop by a wide margin at this size, so cyclic placement is not a speed-up in practice. Its value is **generality with O(1) extra space**: the sum and XOR tricks answer only the one-missing-number question, while placement also finds duplicates, several missing values, and the first missing positive. It is also the answer interviewers usually have in mind when they say "in O(n) time and constant space".
+In Python, the built-ins implemented in C (`sum`, `set`) beat a hand-written loop by a wide margin at this size, so cyclic placement is not a speed-up in practice. Its value is **generality with O(1) extra space**: the sum and [XOR](../bit-manipulation/xor-tricks.md) tricks answer only the one-missing-number question, while placement also finds duplicates, several missing values, and the first missing positive. It is also the answer interviewers usually have in mind when they say "in O(n) time and constant space".
 
 The same trade-off appears for sorting itself: a hand-written cyclic sort on a permutation of 1 to `n` is O(n), yet Python's built-in `sorted` is still faster for the sizes you are likely to use:
 

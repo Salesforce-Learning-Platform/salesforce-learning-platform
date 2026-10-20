@@ -180,7 +180,7 @@ for n in (8, 64, 512, 4096):
  4,096 |      44,007 |      49,152
 ```
 
-(For a power of two, `n.bit_length() - 1` is exactly log₂ n, so the last column is `n·log₂ n`.) Why does the count
+(For a power of two, `n.bit_length() - 1` is exactly log₂ n, so the last column is `n·log₂ n`; the [Bit Manipulation](../bit-manipulation/power-of-two-and-counting-bits.md) module explains why.) Why does the count
 track `n log n`? Look at the tree level by level for `n = 8`:
 
 ```

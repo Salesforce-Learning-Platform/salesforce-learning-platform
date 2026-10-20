@@ -69,4 +69,4 @@ The candidate answers form a range (from the heaviest package to the total weigh
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Bit Manipulation module, where the focus moves from searching through values to working with the individual bits inside them — a toolkit that makes some counts, checks, and searches astonishingly short.
+Continue to the [Bit Manipulation](../bit-manipulation/README.md) module, where the focus moves from searching through values to working with the individual bits inside them — a toolkit that makes some counts, checks, and searches astonishingly short.
