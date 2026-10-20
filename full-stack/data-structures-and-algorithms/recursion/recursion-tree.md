@@ -240,7 +240,7 @@ The function body ran only **31 times** for `fib_memo(30)` — once for each val
 returns instantly although the naive version would need on the order of 10¹⁹ calls for the same answer. The cost is
 **memory**: the cache holds one entry per distinct argument (O(n) here).
 
-This idea — *spot repeated subproblems and store their answers* — is the core of the Dynamic Programming module later in
+This idea — *spot repeated subproblems and store their answers* — is the core of the [Dynamic Programming](../dynamic-programming/README.md) module later in
 this domain. Seeing it in the recursion tree is the best way to recognize when it applies: if the same node appears
 in several places, cache it.
 

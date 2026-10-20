@@ -198,7 +198,7 @@ with negative weight is itself a negative cycle — walk back and forth along it
 
 ## 🌐 Floyd-Warshall (All Pairs)
 
-To get the shortest distance between *every* pair of vertices, one could run Dijkstra from every source. Floyd-Warshall instead uses dynamic programming over the *intermediate vertices allowed*. Let `d[i][j]` be the best
+To get the shortest distance between *every* pair of vertices, one could run Dijkstra from every source. Floyd-Warshall instead uses [dynamic programming](../dynamic-programming/dp-fundamentals.md) over the *intermediate vertices allowed*. Let `d[i][j]` be the best
 distance found from `i` to `j`. For each vertex `k` in turn, ask: *does going through `k` improve any pair?* — that is, is `d[i][k] + d[k][j] < d[i][j]`? After considering all `k`, every pair holds its true shortest distance.
 
 ```python

@@ -165,8 +165,8 @@ Doubling `n` roughly **quadruples** the worst-case time (quadratic), while the r
 case is exactly what Big-O's "worst case" language describes — see
 [time-complexity.md](../time-and-space-complexity/time-complexity.md).
 
-Two alternatives exist, both beyond this module: a dynamic-programming table (O(n²) time *and* space — see the
-Dynamic Programming module later in this domain), and **Manacher's algorithm**, which finds the answer in O(n)
+Two alternatives exist, both beyond this module: a dynamic-programming table (O(n²) time *and* space — see
+[string-dp.md](../dynamic-programming/string-dp.md) in the Dynamic Programming module), and **Manacher's algorithm**, which finds the answer in O(n)
 time ([GeeksforGeeks: Manacher's Algorithm](https://www.geeksforgeeks.org/dsa/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/)).
 Expand-around-center is the standard interview answer because it is short and its O(1) space is hard to beat.
 

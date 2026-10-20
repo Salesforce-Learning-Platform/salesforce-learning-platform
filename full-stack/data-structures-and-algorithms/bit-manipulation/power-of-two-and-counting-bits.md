@@ -206,7 +206,7 @@ assert counting_bits(50_000) == counting_bits_clear_lowest(50_000) == [bin(i).co
 [0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4, 1]
 ```
 
-Each entry is built from an earlier entry, so every number is computed once from a smaller one — the same idea as dynamic programming, which a later module develops fully.
+Each entry is built from an earlier entry, so every number is computed once from a smaller one — the same idea as [dynamic programming](../dynamic-programming/dp-fundamentals.md), which a later module develops fully.
 
 ## 🧱 More Single-Bit Patterns
 
@@ -317,4 +317,4 @@ Carry these ideas forward:
 
 ## ➡️ Next
 
-Continue to the Dynamic Programming module, the next module in this domain, where the focus moves from manipulating single values to solving problems by building answers out of smaller answers.
+Continue to the [Dynamic Programming](../dynamic-programming/README.md) module, the next module in this domain, where the focus moves from manipulating single values to solving problems by building answers out of smaller answers.

@@ -94,4 +94,4 @@ is O(n). See [palindrome-problems.md](palindrome-problems.md).
 ## ➡️ Continue Your Learning Path
 
 Continue to the [Recursion](../recursion/README.md) module, the next module in this domain, which introduces
-solutions defined in terms of smaller versions of themselves — the foundation for trees, graphs, and dynamic programming.
+solutions defined in terms of smaller versions of themselves — the foundation for trees, graphs, and [dynamic programming](../dynamic-programming/README.md).
