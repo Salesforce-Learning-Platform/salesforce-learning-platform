@@ -249,7 +249,7 @@ The general tree above puts no restriction on the number of children or the arra
 | **Binary tree** | At most 2 children per node (left, right) | The next file; the basis of most of the others |
 | **Binary search tree** | Left subtree < node < right subtree | Fast search, insertion, deletion |
 | **Heap** | A parent is ≥ (or ≤) its children | Priority queues |
-| **Trie** | Children indexed by characters | Prefix search |
+| **[Trie](../tries/README.md)** | Children indexed by characters | Prefix search |
 | **Balanced trees** (AVL, red-black, B-tree) | Height kept near log n | Guaranteed fast operations; database indexes |
 
 ## ⚖️ What a Tree Costs

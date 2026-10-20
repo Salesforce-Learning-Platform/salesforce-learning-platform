@@ -291,7 +291,7 @@ Carry these ideas forward:
 - Equal keys must have equal hashes; keys must be hashable (effectively immutable).
 - Collisions are inevitable and early; the strategy (chaining or probing) and the load factor determine how well a table copes.
 - Most hash-based solutions are "single pass, remember what you have seen" — O(n) time bought with O(n) space.
-- Later modules lean on this: graph algorithms track visited nodes in sets, [dynamic programming](../dynamic-programming/dp-fundamentals.md) caches in dictionaries, and tries build on
+- Later modules lean on this: graph algorithms track visited nodes in sets, [dynamic programming](../dynamic-programming/dp-fundamentals.md) caches in dictionaries, and [tries](../tries/README.md) build on
   dictionary-like children.
 
 ## ➡️ Next

@@ -482,7 +482,7 @@ Carry these ideas forward:
 - Shape controls cost: operations take time proportional to the height, which ranges from log n to n.
 - DFS uses a stack and O(height) memory; BFS uses a queue and O(width) memory; know the traversal that fits the problem.
 - Returning one value while recording another in a variable lets one pass answer questions that look like they need two.
-- Binary search trees (next) add an ordering rule that makes searching fast; heaps, tries, and the graph algorithms later in this domain reuse everything here.
+- Binary search trees (next) add an ordering rule that makes searching fast; heaps, [tries](../tries/README.md), and the graph algorithms later in this domain reuse everything here.
 
 ## ➡️ Next
 
