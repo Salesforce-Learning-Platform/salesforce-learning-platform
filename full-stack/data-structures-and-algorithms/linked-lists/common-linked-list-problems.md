@@ -192,7 +192,7 @@ print(to_list(merge_sorted(build([]), build([1, 2]))))                 # [1, 2]
 ```
 
 **O(n + m) time, O(1) extra space** — it relinks the existing nodes rather than creating new ones. This is the *merge* step of merge sort, which
-works particularly well on linked lists (the Sorting module returns to it).
+works particularly well on linked lists (the [merge sort](../sorting-algorithms/merge-sort.md) file in the Sorting module returns to it).
 
 ## 5️⃣ Remove the *n*-th Node From the End
 

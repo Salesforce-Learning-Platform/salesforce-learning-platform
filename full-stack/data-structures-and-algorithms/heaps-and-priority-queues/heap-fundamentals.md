@@ -295,7 +295,7 @@ print(heap_sort([7, 2, 9, 4, 1, 8, 2]))                       # [1, 2, 2, 4, 7, 
 ```
 
 Total **O(n log n)** time regardless of the input order — there is no bad case like a quicksort's — and this version needs O(n) extra space for the heap. The classic *in-place* heap sort, which sorts within the
-original array by building a **max**-heap and swapping the maximum to the end, is covered with the other sorting algorithms later in this domain.
+original array by building a **max**-heap and swapping the maximum to the end, is covered in [heap-sort.md](../sorting-algorithms/heap-sort.md) with the other sorting algorithms.
 
 ## ⚖️ Heap Operations at a Glance
 

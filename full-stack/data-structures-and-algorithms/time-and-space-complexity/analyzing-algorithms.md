@@ -60,7 +60,7 @@ the number of iterations needed is the number of times n can be
 HALVED before reaching 1, which is PRECISELY log₂(n).
 ```
 
-Any algorithm that repeatedly *halves* the problem it's working on — not just binary search —
+Any algorithm that repeatedly *halves* the problem it's working on — not just [binary search](../searching-algorithms/binary-search.md) —
 follows this same O(log n) pattern.
 
 ## Rule 4: Sequential Loops Add, Nested Loops Multiply
