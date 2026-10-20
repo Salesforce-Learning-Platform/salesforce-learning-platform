@@ -458,5 +458,5 @@ Carry these ideas forward:
 
 ## ➡️ Next
 
-Continue to the Sorting Algorithms module, the next module in this domain, where the focus moves from connecting data to ordering it — and where the heap, the divide-and-conquer recursion, and the comparison-counting ideas from earlier modules
+Continue to the [Sorting Algorithms](../sorting-algorithms/README.md) module, the next module in this domain, where the focus moves from connecting data to ordering it — and where the heap, the divide-and-conquer recursion, and the comparison-counting ideas from earlier modules
 reappear.

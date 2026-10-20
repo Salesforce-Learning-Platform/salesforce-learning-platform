@@ -81,4 +81,4 @@ and can also detect negative cycles, or Floyd-Warshall for all pairs. See [short
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Sorting Algorithms module, the next module in this domain, where the focus moves from connecting data to ordering it — and where the heap, divide-and-conquer recursion, and comparison-counting ideas from earlier modules reappear.
+Continue to the [Sorting Algorithms](../sorting-algorithms/README.md) module, the next module in this domain, where the focus moves from connecting data to ordering it — and where the heap, divide-and-conquer recursion, and comparison-counting ideas from earlier modules reappear.

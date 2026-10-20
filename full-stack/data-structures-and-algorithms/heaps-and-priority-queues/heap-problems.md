@@ -332,7 +332,7 @@ Carry these ideas forward:
 - A heap keeps only a *partial* order — a parent never exceeds its children — which is why it is cheaper than a sorted structure: O(1) peek, O(log n) push and pop, O(n) build.
 - To keep the `k` largest items, use a **min**-heap of size `k`; to keep the `k` smallest, use a **max**-heap.
 - Use `heapq` in single-threaded Python; handle ties with a counter; change priorities with lazy deletion.
-- Heaps are the engine of Dijkstra's shortest-path algorithm and of Prim's minimum spanning tree algorithm in the Graphs module that follows, and of heap sort in the Sorting module later in this domain.
+- Heaps are the engine of Dijkstra's shortest-path algorithm and of Prim's minimum spanning tree algorithm in the Graphs module that follows, and of [heap sort](../sorting-algorithms/heap-sort.md) in the Sorting module.
 
 ## ➡️ Next
 
