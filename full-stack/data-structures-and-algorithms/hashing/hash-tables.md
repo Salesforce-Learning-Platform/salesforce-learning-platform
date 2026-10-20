@@ -220,6 +220,7 @@ confirmed from CPython's source (`Objects/dictobject.c`, 3.9) and the language d
 | Maximum load | 0.75 | **Two-thirds** of the slots may be used before it grows |
 | Order | Bucket order (looks random) | **Insertion order**, guaranteed since Python 3.7 |
 
+A power-of-two size also lets CPython turn `hash mod size` into a single bit mask, `hash & (size - 1)` (see [power-of-two-and-counting-bits.md](../bit-manipulation/power-of-two-and-counting-bits.md)).
 CPython keeps a compact array of entries in insertion order plus a separate sparse array of small indexes into it — that is how
 it preserves order and saves memory. You can watch the two-thirds rule from the outside by measuring the dictionary's size in
 memory as keys are added; each jump is a resize:

@@ -391,4 +391,4 @@ Carry these ideas forward:
 
 ## ➡️ Next
 
-Continue to the Bit Manipulation module, the next module in this domain, where the focus moves from searching through values to working with the individual bits inside them — a toolkit that makes some searches, counts, and checks astonishingly short.
+Continue to the [Bit Manipulation](../bit-manipulation/README.md) module, the next module in this domain, where the focus moves from searching through values to working with the individual bits inside them — a toolkit that makes some searches, counts, and checks astonishingly short.

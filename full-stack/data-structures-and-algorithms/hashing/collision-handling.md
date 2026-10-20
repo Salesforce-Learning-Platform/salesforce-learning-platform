@@ -306,7 +306,8 @@ spread them out:
 - **Quadratic probing** steps `1, 4, 9, …` from the start slot, which breaks up long runs.
 - **Double hashing** uses a *second* hash of the key as the step size, so different keys get different paths.
 - **CPython's `dict`** uses a recurrence that mixes in the higher bits of the hash. Its source (`Objects/dictobject.c`) documents the
-  scheme: start at `j = hash mod 2ⁱ`, then repeatedly set `perturb >>= 5` and `j = (5·j + 1 + perturb) mod 2ⁱ`. This
+  scheme: start at `j = hash mod 2ⁱ`, then repeatedly set `perturb >>= 5` and `j = (5·j + 1 + perturb) mod 2ⁱ`. Because the table size is
+  a power of two, "mod 2ⁱ" is just a bit mask (see [power-of-two-and-counting-bits.md](../bit-manipulation/power-of-two-and-counting-bits.md)). This
   reproduces that recurrence:
 
 ```python
