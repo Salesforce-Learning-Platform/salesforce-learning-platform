@@ -369,7 +369,7 @@ None [1, 2, 3, 4, 5]
 [10, 20, 25, 30, 40]
 ```
 
-Notice what each tool is for: `heapq.nsmallest` / `nlargest` for the *top k* ([heap-problems.md](../heaps-and-priority-queues/heap-problems.md)), `heapq.merge` for combining already-sorted streams (the engine of external sorting in [merge-sort.md](merge-sort.md)), and `bisect.insort` for keeping a list sorted as items arrive (each insertion is O(n) because of the shifting, but the search is O(log n) — see the Searching Algorithms module).
+Notice what each tool is for: `heapq.nsmallest` / `nlargest` for the *top k* ([heap-problems.md](../heaps-and-priority-queues/heap-problems.md)), `heapq.merge` for combining already-sorted streams (the engine of external sorting in [merge-sort.md](merge-sort.md)), and `bisect.insort` for keeping a list sorted as items arrive (each insertion is O(n) because of the shifting, but the search is O(log n) — see the [Searching Algorithms](../searching-algorithms/README.md) module).
 
 ## 🧭 The Decision Guide
 
@@ -459,4 +459,4 @@ Carry these ideas forward:
 
 ## ➡️ Next
 
-Continue to the Searching Algorithms module, where sorted data pays off: binary search finds an item among a million in about twenty steps, and the same halving idea solves a surprising range of problems that have nothing to do with lists.
+Continue to the [Searching Algorithms](../searching-algorithms/README.md) module, where sorted data pays off: binary search finds an item among a million in about twenty steps, and the same halving idea solves a surprising range of problems that have nothing to do with lists.

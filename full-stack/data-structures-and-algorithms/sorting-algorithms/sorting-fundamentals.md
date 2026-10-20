@@ -2,7 +2,7 @@
 
 ## Putting Things in Order — and Why It Is Worth Studying
 
-Sorting is one of the most common things programs do, and one of the most useful: a sorted list can be searched in O(log n) by binary search, merged
+Sorting is one of the most common things programs do, and one of the most useful: a sorted list can be searched in O(log n) by [binary search](../searching-algorithms/binary-search.md), merged
 with another sorted list in a single pass, scanned for duplicates by comparing neighbours, and presented to a person in a readable order. Many problems that look unrelated — finding the median, grouping
 equal items, scheduling intervals, matching two lists — become easy *after* a sort.
 

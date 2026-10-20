@@ -74,4 +74,4 @@ The cost depends on how evenly each partition splits the list. If the pivot is r
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Searching Algorithms module, where sorted data pays off: binary search finds an item among a million in about twenty steps, and the same idea of halving the possibilities solves a surprising range of problems — including some that have no list in them at all.
+Continue to the [Searching Algorithms](../searching-algorithms/README.md) module, where sorted data pays off: binary search finds an item among a million in about twenty steps, and the same idea of halving the possibilities solves a surprising range of problems — including some that have no list in them at all.
