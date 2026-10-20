@@ -454,7 +454,7 @@ Carry these ideas forward:
 - BFS for fewest edges, Dijkstra for non-negative costs, Bellman-Ford for negative costs or edge limits, DFS for structure (cycles, order, components).
 - Union-find answers "connected yet?" in near-constant time, and powers Kruskal's algorithm.
 - Many problems hide an implicit graph (grids, words, puzzle states): model first, then pick the algorithm.
-- Dynamic programming, backtracking, and many scheduling problems later in this domain are graph problems in disguise.
+- [Dynamic programming](../dynamic-programming/README.md), backtracking, and many scheduling problems are graph problems in disguise.
 
 ## ➡️ Next
 

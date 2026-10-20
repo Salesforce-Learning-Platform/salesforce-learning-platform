@@ -14,7 +14,7 @@ stack at once; you trust the inside count and add one.
 
 Recursion is the natural way to describe anything that contains smaller copies of itself — folders inside
 folders, a tree whose branches are smaller trees, a problem that splits into two half-size problems. It is the
-foundation of trees, graphs, backtracking, divide and conquer, and dynamic programming later in this domain.
+foundation of trees, graphs, backtracking, divide and conquer, and [dynamic programming](../dynamic-programming/README.md) later in this domain.
 
 All code in this file was run on CPython 3.9, and the printed outputs are real.
 

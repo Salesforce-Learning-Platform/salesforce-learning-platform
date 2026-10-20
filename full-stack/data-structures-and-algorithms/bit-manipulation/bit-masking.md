@@ -185,7 +185,7 @@ print(has_subset_with_sum([3, 34, 4, 12, 5, 2], 9), has_subset_with_sum([3, 34, 
 True False
 ```
 
-The brute-force check costs O(2ⁿ · n), which is fine for about 20 items (a million masks) and hopeless for 40 (a trillion). When a problem has overlapping sub-structure, the Dynamic Programming module later in this domain shows how to avoid recomputation, and "bitmask DP" uses these same integers as states.
+The brute-force check costs O(2ⁿ · n), which is fine for about 20 items (a million masks) and hopeless for 40 (a trillion). When a problem has overlapping sub-structure, the [Dynamic Programming](../dynamic-programming/README.md) module shows how to avoid recomputation, and "bitmask DP" uses these same integers as states.
 
 A neighbouring trick enumerates only the **submasks** of a given mask — the subsets of a subset. Starting from the mask itself, `(sub - 1) & mask` steps to the next smaller submask, because subtracting 1 flips the lowest set bit and everything below it, and the AND discards the bits that were never in the mask:
 

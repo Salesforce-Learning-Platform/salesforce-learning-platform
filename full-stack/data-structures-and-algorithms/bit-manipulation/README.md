@@ -70,4 +70,4 @@ XOR is commutative and associative, `a ^ a == 0`, and `a ^ 0 == a`. XORing the w
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Dynamic Programming module, the next module in this domain, where the focus moves from manipulating single values to solving problems by building answers out of smaller answers.
+Continue to the [Dynamic Programming](../dynamic-programming/README.md) module, the next module in this domain, where the focus moves from manipulating single values to solving problems by building answers out of smaller answers.
