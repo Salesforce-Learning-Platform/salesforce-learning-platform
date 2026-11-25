@@ -68,4 +68,4 @@ A monolithic kernel runs all operating-system services in kernel space and calls
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Processes and Threads module, the next module in this section, where the focus moves from the operating system as a whole to its central abstraction: what a running program looks like to the kernel, how threads share a process, and how the kernel switches among them.
+Continue to the [Processes and Threads module](../processes-and-threads/README.md), the next module in this section, where the focus moves from the operating system as a whole to its central abstraction: what a running program looks like to the kernel, how threads share a process, and how the kernel switches among them.
