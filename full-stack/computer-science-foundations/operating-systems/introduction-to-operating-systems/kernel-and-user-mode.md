@@ -25,24 +25,50 @@ Memory is divided accordingly into **kernel space** — reserved for the privile
 
 ## 🧪 Seeing the Protection at Work
 
-Two experiments make the protection visible. First, a program that reads from the forbidden address `0` — a null pointer — is stopped by the hardware and the kernel, not by Python. The experiment runs in a child process so that the crash does not take this document down with it:
+Two experiments make the protection visible. First, the kernel's defence of itself: a system call receives **pointers** from a caller it does not trust, so the kernel must check each one before it reads or writes through it. The next block calls the C library's `write` and `read` directly through `ctypes` (as in [what-is-an-operating-system.md](what-is-an-operating-system.md)), once with a valid buffer and once with a null pointer — address `0`, which no program is allowed to use — and once with a descriptor that is not open:
 
 ```python
+import ctypes
+import ctypes.util
 import os
-import subprocess
-import sys
+import tempfile
 
-crash = subprocess.run([sys.executable, "-c", "import ctypes; ctypes.string_at(0)"], capture_output=True)
-print("child process return code:", crash.returncode, "(a negative value -N means: killed by signal N)")
+libc = ctypes.CDLL(ctypes.util.find_library("c"), use_errno=True)
+libc.write.argtypes = [ctypes.c_int, ctypes.c_void_p, ctypes.c_size_t]      # write(descriptor, buffer, byte count)
+libc.write.restype = ctypes.c_ssize_t
+libc.read.argtypes = [ctypes.c_int, ctypes.c_void_p, ctypes.c_size_t]       # read(descriptor, buffer, byte count)
+libc.read.restype = ctypes.c_ssize_t
+
+def report(label, result):
+    error = ctypes.get_errno()
+    outcome = f"errno {error}: {os.strerror(error)}" if result == -1 else "ok"
+    print(f"{label:<38} returned {result:>2} | {outcome}")
+
+valid = ctypes.create_string_buffer(b"hello")
+with tempfile.TemporaryFile() as scratch:
+    report("write 5 bytes from a valid buffer", libc.write(scratch.fileno(), valid, 5))
+    report("write 5 bytes from a null pointer", libc.write(scratch.fileno(), None, 5))
+    report("write to descriptor 9999 (not open)", libc.write(9999, valid, 5))
+
+zero = os.open("/dev/zero", os.O_RDONLY)
+report("read 8 bytes into a valid buffer", libc.read(zero, ctypes.create_string_buffer(8), 8))
+report("read 8 bytes into a null pointer", libc.read(zero, None, 8))
+os.close(zero)
 print("this process is unaffected and still running:", os.getpid() > 0)
 ```
 
 ```text
-child process return code: -11 (a negative value -N means: killed by signal N)
+write 5 bytes from a valid buffer      returned  5 | ok
+write 5 bytes from a null pointer      returned -1 | errno 14: Bad address
+write to descriptor 9999 (not open)    returned -1 | errno 9: Bad file descriptor
+read 8 bytes into a valid buffer       returned  8 | ok
+read 8 bytes into a null pointer       returned -1 | errno 14: Bad address
 this process is unaffected and still running: True
 ```
 
-The sequence of events is: the CPU executes a load from address 0, finds no valid mapping for it, and raises an **exception** that transfers control to the kernel (in kernel mode); the kernel concludes that the process did something illegal and sends it the **SIGSEGV** signal ("segmentation violation"), which by default terminates it ([Wikipedia: Segmentation fault](https://en.wikipedia.org/wiki/Segmentation_fault)). Signal number 11 is `SIGSEGV` on both Linux and macOS, hence `-11`. The parent process, in a different address space, never notices.
+The kernel did not crash, and the caller was not harmed. The kernel checked each argument, found that the null pointer does not refer to memory the caller owns and that descriptor 9999 is not open, and failed each call with an error code: `EFAULT` ("Bad address") for the pointer and `EBADF` ("Bad file descriptor") for the descriptor. The caller simply received `-1` and an error number, and carried on. A kernel that trusted its callers' pointers could be tricked into overwriting its own memory or into leaking another program's data, so this validation is part of every system call that takes one.
+
+**What if the program touches the bad address itself?** Then nobody validates it in advance: the CPU executes the load from address 0, finds no valid mapping for it, and raises an **exception** that transfers control to the kernel (in kernel mode). The kernel concludes that the process did something illegal and sends it the **SIGSEGV** signal ("segmentation violation"), which by default terminates it ([Wikipedia: Segmentation fault](https://en.wikipedia.org/wiki/Segmentation_fault)) — the "Segmentation fault" message a shell prints. Signal number 11 is `SIGSEGV` on both Linux and macOS, so a parent that started such a process with Python's `subprocess` module would see the return code `-11`, because Python reports death by signal *N* as `-N` ([Python docs: `Popen.returncode`](https://docs.python.org/3/library/subprocess.html#subprocess.Popen.returncode)); the parent, in a different address space, would never notice the crash. This lesson does not run that experiment: on macOS every crash of a Python process opens a "Python quit unexpectedly" report window that offers to send details to Apple, which is noise rather than learning. The experiments in this module simulate a fatal failure with the `SIGKILL` signal instead, which ends a process just as completely but is not reported as a crash.
 
 Second, ordinary programs cannot perform privileged operations, even when they ask politely through the proper system call. The kernel checks who is asking:
 
@@ -99,7 +125,7 @@ When a program calls a function such as `write`, the library function is, as Wik
  user mode      library returns the result to the program  ◄───────────────────────────────────────────────┘
 ```
 
-Two details matter for safety. The kernel **validates every argument**, because the caller is untrusted: a pointer into someone else's memory, a negative length, or a bad file descriptor must produce an error, not a security hole. And the entry point is **fixed**: if programs could jump into the kernel anywhere they liked, they could skip the checks.
+Two details matter for safety. The kernel **validates every argument**, because the caller is untrusted: a pointer into someone else's memory, a negative length, or a bad file descriptor must produce an error, not a security hole — which is exactly what the first experiment above showed. And the entry point is **fixed**: if programs could jump into the kernel anywhere they liked, they could skip the checks.
 
 ## ⏱️ What Does Crossing the Boundary Cost?
 
@@ -195,7 +221,7 @@ The arithmetic loop spends essentially all its time in user mode. The `os.stat` 
 - **"The OS checks every instruction a program executes."** It does not. Programs run at full hardware speed in user mode; the hardware raises an exception only when the program attempts something forbidden, and the kernel steps in then.
 - **"User mode and kernel mode are different processors."** It is the same CPU, switching state many thousands of times per second.
 - **"A system call is slow because the kernel is slow."** The mode switch itself is cheap; what makes a system call slow is the work requested (I/O, path lookups, locking) — and making too many of them.
-- **"A segmentation fault is Python's (or the language's) fault."** It is the hardware and the kernel stopping a program that touched memory it does not own. A language runtime can only trigger it by bugs in native code (as `ctypes` did here).
+- **"A segmentation fault is Python's (or the language's) fault."** It is the hardware and the kernel stopping a program that touched memory it does not own. A language runtime can only trigger it through bugs in native code, such as a faulty C extension or misused `ctypes` calls.
 - **"Running as root removes the protection."** It removes the *permission checks*; the hardware still isolates the kernel from user mode, which is why even root's programs cannot execute privileged CPU instructions directly.
 
 ## ➡️ Next

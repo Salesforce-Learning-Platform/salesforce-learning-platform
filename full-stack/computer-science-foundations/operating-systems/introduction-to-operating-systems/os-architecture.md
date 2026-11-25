@@ -90,13 +90,13 @@ Two further ideas change what "the OS" means for a program without being kernel 
 
 ## 🧪 Experiment 1: Fault Isolation
 
-The robustness argument can be shown directly with processes standing in for address spaces. Imagine a *service* that depends on a *driver* with a fatal bug — here, reading memory at address 0, which kills the process that does it. In the first program, the driver's code runs inside the service's own process, as in a monolithic kernel; in the second, the driver runs in a separate process that the service supervises, as in a microkernel:
+The robustness argument can be shown directly with processes standing in for address spaces. Imagine a *service* that depends on a *driver* with a fatal bug. A real driver bug would usually end in a segmentation fault ([kernel-and-user-mode.md](kernel-and-user-mode.md) explains how the hardware and the kernel produce one); the experiment has the driver kill itself with the `SIGKILL` signal instead, which ends a process just as instantly and completely but, unlike a genuine segmentation fault, does not make macOS open a crash-report window. In the first program, the driver's code runs inside the service's own process, as in a monolithic kernel; in the second, the driver runs in a separate process that the service supervises, as in a microkernel:
 
 ```python
 import subprocess
 import sys
 
-CRASH = "import ctypes; ctypes.string_at(0)"                     # a "driver" that dies with a segmentation fault
+CRASH = "import os, signal; os.kill(os.getpid(), signal.SIGKILL)"   # a "driver" that suffers a fatal failure and is gone at once
 
 shared_address_space = "print('service: started', flush=True); " + CRASH + "; print('service: finished', flush=True)"
 result = subprocess.run([sys.executable, "-c", shared_address_space], capture_output=True, text=True)
@@ -114,11 +114,11 @@ print("driver in its own process ->", "exit code", result.returncode, "| output:
 ```
 
 ```text
-driver inside the service's own process -> exit code -11 | output: ['service: started']
-driver in its own process -> exit code 0 | output: ['service: started', 'service: the driver died with code -11 - the service restarts it', 'service: finished']
+driver inside the service's own process -> exit code -9 | output: ['service: started']
+driver in its own process -> exit code 0 | output: ['service: started', 'service: the driver died with code -9 - the service restarts it', 'service: finished']
 ```
 
-When the faulty code shares the service's address space, the whole service dies instantly with signal 11 and never reaches its last line. When the faulty code is isolated in its own process, only that process dies; the service sees the exit code, restarts the driver, and finishes normally. That is the reliability argument for microkernels, in miniature: **separate address spaces turn a crash into an event that can be handled**.
+When the faulty code shares the service's address space, the whole service dies instantly (exit code -9 means "killed by signal 9") and never reaches its last line. When the faulty code is isolated in its own process, only that process dies; the service sees the exit code, restarts the driver, and finishes normally. That is the reliability argument for microkernels, in miniature: **separate address spaces turn a crash into an event that can be handled**.
 
 ## 🧪 Experiment 2: What Does Isolation Cost?
 
