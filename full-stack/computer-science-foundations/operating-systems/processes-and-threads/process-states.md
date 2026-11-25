@@ -260,7 +260,7 @@ That gap, 12 ticks against 17, is the reason multiprogramming exists: a process 
 
 Real kernels refine the model:
 
-- **Swapped-out states.** On systems with virtual memory, a ready or waiting process can be moved out of main memory to disk to free space, giving "swapped out and ready" and "swapped out and waiting" states ([Wikipedia: Process state](https://en.wikipedia.org/wiki/Process_state)). The Memory Management and Virtual Memory modules of this section explain the mechanism.
+- **Swapped-out states.** On systems with virtual memory, a ready or waiting process can be moved out of main memory to disk to free space, giving "swapped out and ready" and "swapped out and waiting" states ([Wikipedia: Process state](https://en.wikipedia.org/wiki/Process_state)). The [Memory Management](../memory-management/README.md) and Virtual Memory modules of this section explain the mechanism.
 - **Stopped.** Job control (Ctrl-Z in a shell) and debuggers freeze a process with a signal; it is neither ready nor waiting for an event but parked until it is resumed, which is why `ps` has its own `T` letter.
 - **Uninterruptible waits.** A process in the middle of certain I/O operations cannot be woken by a signal until the operation finishes, which is what `D` (Linux) and `U` (macOS) mean. A process stuck in such a wait, for example on a failing disk or network file system, may stay in it, immune to signals, until the device responds.
 - **Threads have the same states.** The kernel schedules threads, so each thread is individually ready, running, or waiting. A process as a whole is waiting only when all its threads are.
