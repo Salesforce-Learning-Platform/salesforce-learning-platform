@@ -39,7 +39,7 @@ By the end of this module, you will be able to:
 
 **Deep-dive** [process-vs-thread.md](process-vs-thread.md) first if you are preparing for interviews or designing a concurrent system: the comparison table, the global interpreter lock, and the question of when to use which tool come up constantly, and the experiments show the numbers behind the folklore. [process-states.md](process-states.md) is the usual source of exam questions about the five-state model and the legal transitions.
 
-**Skim** [what-is-a-process.md](what-is-a-process.md) if you already know `fork` and `exec` from a systems course, but run its zombie and orphan examples on your own machine. Treat [context-switching.md](context-switching.md) as the bridge to the CPU Scheduling module: read the counting experiment and the time-slice table, and skim the rest unless you care about the cost of switching in detail.
+**Skim** [what-is-a-process.md](what-is-a-process.md) if you already know `fork` and `exec` from a systems course, but run its zombie and orphan examples on your own machine. Treat [context-switching.md](context-switching.md) as the bridge to the [CPU Scheduling module](../cpu-scheduling/README.md): read the counting experiment and the time-slice table, and skim the rest unless you care about the cost of switching in detail.
 
 ## 🧠 Knowledge Check
 
@@ -71,4 +71,4 @@ It enters the **ready** state. A finished I/O operation (typically signalled by 
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the CPU Scheduling module, the next module in this section: with many processes and threads ready to run, it studies how the kernel decides which one gets the CPU next, and why first-come-first-served, shortest-job-first, round-robin, and priority scheduling suit different goals.
+Continue to the [CPU Scheduling module](../cpu-scheduling/README.md), the next module in this section: with many processes and threads ready to run, it studies how the kernel decides which one gets the CPU next, and why first-come-first-served, shortest-job-first, round-robin, and priority scheduling suit different goals.

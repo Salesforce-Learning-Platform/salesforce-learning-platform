@@ -40,7 +40,7 @@ Some books use "waiting" for what is called *ready* here, because a ready proces
 | Waiting → Ready | The awaited I/O completes or the event occurs, typically signalled by an interrupt | The kernel |
 | Running → Terminated | It calls `exit`, finishes, or is killed | The process or the kernel |
 
-Notice what is missing. A waiting process never goes straight to running: when its event arrives it becomes *ready* and must wait its turn like every other ready process. And a ready process cannot start itself: only the scheduler can dispatch it. The rules for *which* ready process to choose are the subject of the CPU Scheduling module of this section.
+Notice what is missing. A waiting process never goes straight to running: when its event arrives it becomes *ready* and must wait its turn like every other ready process. And a ready process cannot start itself: only the scheduler can dispatch it. The rules for *which* ready process to choose are the subject of the [CPU Scheduling module](../cpu-scheduling/README.md) of this section.
 
 ## 👀 Seeing the States on Your Own Machine
 

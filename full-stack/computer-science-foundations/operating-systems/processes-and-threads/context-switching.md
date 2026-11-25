@@ -22,7 +22,7 @@ The "context" is whatever must survive the break: the CPU registers, the program
  Task B continues from where it was last stopped
 ```
 
-The scheduler's choice (step three) is the subject of the CPU Scheduling module; this file is about the machinery around it.
+The scheduler's choice (step three) is the subject of the [CPU Scheduling module](../cpu-scheduling/README.md); this file is about the machinery around it.
 
 ## 🔔 What Triggers a Switch
 
@@ -243,7 +243,7 @@ time slice | time doing useful work | worst wait for a turn
     100 ms |                 100.0% |              900.4 ms
 ```
 
-No slice length is best for every workload: a desktop that must feel responsive prefers short slices, while a batch machine crunching numbers prefers long ones. The simulation in [types-of-operating-systems.md](../introduction-to-operating-systems/types-of-operating-systems.md) showed the same trade-off with total completion time, and the CPU Scheduling module of this section builds on it.
+No slice length is best for every workload: a desktop that must feel responsive prefers short slices, while a batch machine crunching numbers prefers long ones. The simulation in [types-of-operating-systems.md](../introduction-to-operating-systems/types-of-operating-systems.md) showed the same trade-off with total completion time, and the [CPU Scheduling module](../cpu-scheduling/README.md) of this section builds on it.
 
 ## 🧰 Keeping the Cost Under Control
 
@@ -262,4 +262,4 @@ No slice length is best for every workload: a desktop that must feel responsive 
 
 ## ➡️ Next
 
-This completes the tour of processes and threads: what they are, how they differ, which states they pass through, and what it costs to change from one to another. The next module of this section, CPU Scheduling, studies how the kernel chooses *which* ready task receives the CPU at each switch, and why different policies suit different goals.
+This completes the tour of processes and threads: what they are, how they differ, which states they pass through, and what it costs to change from one to another. The next module of this section, [CPU Scheduling](../cpu-scheduling/README.md), studies how the kernel chooses *which* ready task receives the CPU at each switch, and why different policies suit different goals.

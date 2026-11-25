@@ -71,4 +71,4 @@ A 4 KiB page has a 12-bit offset, so the low 12 bits of the address, `0xFFF`, ar
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the CPU Scheduling module, the next module in this section: with memory divided and protected, the kernel still has to decide which ready process gets the processor next, and why first-come-first-served, shortest-job-first, round-robin, and priority scheduling suit different goals. The Virtual Memory module then returns to paging to show how page tables let a process use more memory than the machine has.
+Continue to the [CPU Scheduling module](../cpu-scheduling/README.md), the next module in this section: with memory divided and protected, the kernel still has to decide which ready process gets the processor next, and why first-come-first-served, shortest-job-first, round-robin, and priority scheduling suit different goals. The Virtual Memory module then returns to paging to show how page tables let a process use more memory than the machine has.
