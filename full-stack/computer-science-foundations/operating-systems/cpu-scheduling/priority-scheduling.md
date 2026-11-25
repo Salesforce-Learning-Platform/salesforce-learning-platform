@@ -181,7 +181,7 @@ Real kernels build aging in. The manual page of Linux's default policy, `SCHED_O
 
 ## 🔃 Priority Inversion
 
-Priorities interact with locks in a way that can turn them upside down. Suppose a low-priority task L holds a lock that a high-priority task H needs, so H must wait for L. If a medium-priority task M becomes ready, it preempts L (it has no need of the lock), L cannot release the lock, and H, the most urgent task of all, is held up indirectly by a task of lower priority: the priorities are *inverted*. The best-known case is the 1997 Mars Pathfinder lander, whose real-time system suffered from exactly this problem ([Wikipedia: Priority inversion](https://en.wikipedia.org/wiki/Priority_inversion)). The remedy, giving the lock holder a temporary boost, belongs to the study of locks and synchronization, in the Deadlocks and Concurrency module of this section.
+Priorities interact with locks in a way that can turn them upside down. Suppose a low-priority task L holds a lock that a high-priority task H needs, so H must wait for L. If a medium-priority task M becomes ready, it preempts L (it has no need of the lock), L cannot release the lock, and H, the most urgent task of all, is held up indirectly by a task of lower priority: the priorities are *inverted*. The best-known case is the 1997 Mars Pathfinder lander, whose real-time system suffered from exactly this problem ([Wikipedia: Priority inversion](https://en.wikipedia.org/wiki/Priority_inversion)). The remedy, giving the lock holder a temporary boost, belongs to the study of locks and synchronization, and is covered in [mutex-and-semaphores.md](../deadlocks-and-concurrency/mutex-and-semaphores.md) of the Deadlocks and Concurrency module.
 
 ## 🪜 Priorities That Adjust Themselves: Multilevel Feedback Queues
 
@@ -318,4 +318,4 @@ The simulators were tested on 3,000 random workloads. For the priority policy, e
 
 ## ➡️ Next
 
-This completes the CPU Scheduling module: how a scheduler is judged, and four policies that each trade one measure against another. The next module of this section, Deadlocks and Concurrency, deals with what happens when the processes and threads that the scheduler runs *share* resources, and can block one another for good.
+This completes the CPU Scheduling module: how a scheduler is judged, and four policies that each trade one measure against another. The next module of this section, [Deadlocks and Concurrency](../deadlocks-and-concurrency/README.md), deals with what happens when the processes and threads that the scheduler runs *share* resources, and can block one another for good.

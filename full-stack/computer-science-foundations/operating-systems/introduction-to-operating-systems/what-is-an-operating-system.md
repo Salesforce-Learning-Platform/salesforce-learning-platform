@@ -42,7 +42,7 @@ The word "operating system" is used for two slightly different things. The **ker
 | **User interface** | Letting people start and control programs | Shell, windows, icons |
 | **Accounting and monitoring** | Measuring resource use per process and per user | Counters, logs |
 
-The [Processes and Threads](../processes-and-threads/README.md), [CPU Scheduling](../cpu-scheduling/README.md), [Memory Management](../memory-management/README.md), Virtual Memory, File Systems, and Deadlocks and Concurrency modules in this section take these responsibilities one at a time. The rest of this file shows the most important idea that connects them: how an ordinary program asks the OS for help.
+The [Processes and Threads](../processes-and-threads/README.md), [CPU Scheduling](../cpu-scheduling/README.md), [Memory Management](../memory-management/README.md), Virtual Memory, File Systems, and [Deadlocks and Concurrency](../deadlocks-and-concurrency/README.md) modules in this section take these responsibilities one at a time. The rest of this file shows the most important idea that connects them: how an ordinary program asks the OS for help.
 
 ## 🔌 System Calls: How Programs Ask for Service
 
