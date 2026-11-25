@@ -75,7 +75,7 @@ Four threads (three workers and the main thread) live in one process: they share
 | Open files and sockets | Thread-local storage, if the program uses it |
 | The process id and the address space | |
 
-The rule, as Wikipedia states it, is that the threads of a process share the process's code, its dynamically allocated data, and its global variables, except those declared thread-local ([Wikipedia: Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))). The next block makes the difference concrete. Four threads each count to 1,000. Each thread has a *local* counter of its own, and all four add to one *shared* total. The shared total sits behind a lock, because two threads updating the same value at the same moment can lose an update (the Race Conditions module of this section shows why):
+The rule, as Wikipedia states it, is that the threads of a process share the process's code, its dynamically allocated data, and its global variables, except those declared thread-local ([Wikipedia: Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))). The next block makes the difference concrete. Four threads each count to 1,000. Each thread has a *local* counter of its own, and all four add to one *shared* total. The shared total sits behind a lock, because two threads updating the same value at the same moment can lose an update ([race-conditions.md](../deadlocks-and-concurrency/race-conditions.md) in the Deadlocks and Concurrency module shows why):
 
 ```python
 shared = {"total": 0}
@@ -211,7 +211,7 @@ That sentence matches the experiments: waiting threads overlap, because a blocke
 - **"Python threads are fake."** They are real operating-system threads with kernel-assigned ids. The GIL restricts how many of them run Python code at one instant; it does not make them pretend.
 - **"Each thread has its own copy of the global variables."** Globals and the heap are shared. Only the stack (local variables), the registers, and explicit thread-local storage are private.
 - **"A thread is a small process."** A thread lives *inside* a process and shares its address space; a process is the container that owns the resources. A crash in one thread can take down the entire process, as [process-vs-thread.md](process-vs-thread.md) demonstrates.
-- **"Sharing data between threads is free."** Reading is cheap, but any value that threads *modify* needs coordination with locks or similar tools, and getting that wrong produces bugs that appear only occasionally. The Deadlocks and Concurrency module of this section studies them.
+- **"Sharing data between threads is free."** Reading is cheap, but any value that threads *modify* needs coordination with locks or similar tools, and getting that wrong produces bugs that appear only occasionally. The [Deadlocks and Concurrency](../deadlocks-and-concurrency/README.md) module of this section studies them.
 
 ## ➡️ Next
 

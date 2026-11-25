@@ -68,4 +68,4 @@ Each turn does 4 ms of useful work and then 1 ms of switching, so the useful fra
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Deadlocks and Concurrency module, the next module in this section: once the scheduler can run many processes and threads, they begin to share data and resources, and the interesting new questions are how to keep them from corrupting each other's work (race conditions, mutexes, and semaphores) and from blocking each other forever (deadlocks).
+Continue to the [Deadlocks and Concurrency](../deadlocks-and-concurrency/README.md) module, the next module in this section: once the scheduler can run many processes and threads, they begin to share data and resources, and the interesting new questions are how to keep them from corrupting each other's work (race conditions, mutexes, and semaphores) and from blocking each other forever (deadlocks).
