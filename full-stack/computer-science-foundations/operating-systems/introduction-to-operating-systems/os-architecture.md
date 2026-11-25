@@ -192,4 +192,4 @@ The round trip includes two messages, two switches between processes, and four s
 
 ## ➡️ Next
 
-Continue to the Processes and Threads module, the next module in this section: the kernel's central abstractions, what a running program is from the operating system's point of view, and how the kernel keeps many of them progressing at once.
+Continue to the [Processes and Threads module](../processes-and-threads/README.md), the next module in this section: the kernel's central abstractions, what a running program is from the operating system's point of view, and how the kernel keeps many of them progressing at once.
