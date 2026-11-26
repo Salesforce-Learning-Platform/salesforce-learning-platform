@@ -65,4 +65,4 @@ Under these rules the only candidate key is **(room, day)**: the rule says that 
 
 ## ➡️ Continue Your Learning Path
 
-Continue to Normalisation, the next module of this section: with keys and constraints in hand, it studies the dependencies between attributes and splits tables so that each fact is stored once, which prevents the update anomalies seen in the first module.
+Continue to [Normalisation](../normalisation/README.md), the next module of this section: with keys and constraints in hand, it studies the dependencies between attributes and splits tables so that each fact is stored once, which prevents the update anomalies seen in the first module.

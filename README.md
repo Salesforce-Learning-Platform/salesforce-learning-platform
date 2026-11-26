@@ -56,7 +56,7 @@ Building applications on large language models ([`full-stack/artificial-intellig
 How computers work underneath the code ([`full-stack/computer-science-foundations/`](full-stack/computer-science-foundations/)):
 
 - Operating systems: processes and threads, memory management, CPU scheduling, deadlocks and concurrency, file systems, and virtual memory ([section index](full-stack/computer-science-foundations/operating-systems/README.md))
-- Database management systems: why databases exist, data modeling, the entity-relationship model, and the relational model, with normalization, transactions, and optimization in preparation ([section index](full-stack/computer-science-foundations/database-management-systems/README.md))
+- Database management systems: why databases exist, data modeling, the entity-relationship model, the relational model, and normalization, with transactions and optimization in preparation ([section index](full-stack/computer-science-foundations/database-management-systems/README.md))
 
 ### Data Structures and Algorithms
 
