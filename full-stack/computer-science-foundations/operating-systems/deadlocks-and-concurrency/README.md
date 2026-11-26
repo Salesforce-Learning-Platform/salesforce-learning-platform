@@ -69,4 +69,4 @@ The four Coffman conditions are **mutual exclusion** (resources are held exclusi
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the File Systems module, the next module in this section: the concurrency tools of this module protect memory and data structures inside a running program, and the file system is where the data that must outlive the program is kept, with its own versions of the same problems (concurrent access, consistency after a crash, and protection).
+Continue to the [File Systems module](../file-systems/README.md), the next module in this section: the concurrency tools of this module protect memory and data structures inside a running program, and the file system is where the data that must outlive the program is kept, with its own versions of the same problems (concurrent access, consistency after a crash, and protection).
