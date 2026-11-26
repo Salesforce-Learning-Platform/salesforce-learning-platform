@@ -2,7 +2,7 @@
 
 ## 📚 Overview
 
-An operating system shares one computer among many programs. It decides which program runs on the processor and for how long, which memory each program may use, where data lives on the disk, and what every program is allowed to touch. This section builds that picture one module at a time. It starts with what an operating system is and how programs talk to it, follows a program from creation to exit, shows how memory is divided and the processor is scheduled, examines how programs that share data go wrong (and how to stop them), and ends with the file system that keeps data alive between runs.
+An operating system shares one computer among many programs. It decides which program runs on the processor and for how long, which memory each program may use, where data lives on the disk, and what every program is allowed to touch. This section builds that picture one module at a time. It starts with what an operating system is and how programs talk to it, follows a program from creation to exit, shows how memory is divided and the processor is scheduled, examines how programs that share data go wrong (and how to stop them), then covers the file system that keeps data alive between runs, and ends with virtual memory, which ties memory and disk together.
 
 Every module follows the same pattern. Its README gives an overview, learning objectives, prerequisites, a table of lessons, advice on what to deep-dive and what to skim, knowledge-check questions with answers, and references. The lessons then explain one idea at a time with runnable Python experiments, small simulators, and measurements, and each ends by clearing up common misconceptions. Every code example was run on CPython 3.9 on a Mac (macOS, Apple silicon); results that depend on the machine are labelled, and the lessons say where something is specific to macOS or Linux.
 
@@ -18,7 +18,7 @@ Work through the modules in this order. The last column lists the earlier module
 | 4 | [CPU Scheduling](cpu-scheduling/README.md) | Which ready program runs next, and for how long? | Introduction, Processes and Threads |
 | 5 | [Deadlocks and Concurrency](deadlocks-and-concurrency/README.md) | What goes wrong when threads share data, and how do locks, semaphores, and lock ordering fix it? | Processes and Threads, CPU Scheduling |
 | 6 | [File Systems](file-systems/README.md) | How do names lead to data on a disk, how is space allocated, and who may access it? | Introduction, Processes and Threads, Memory Management, Deadlocks and Concurrency |
-| 7 | Virtual Memory (in preparation) | How can a program use more memory than the machine has? | Memory Management |
+| 7 | [Virtual Memory](virtual-memory/README.md) | How can a program use more memory than the machine has, and what happens when memory runs short? | Introduction, Processes and Threads, Memory Management |
 
 ## 🧠 How to Study This Section
 

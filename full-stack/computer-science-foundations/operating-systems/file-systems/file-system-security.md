@@ -361,4 +361,4 @@ Each piece of code was compared with an independent reference. `O_CREAT | O_EXCL
 
 ## ➡️ Next
 
-This completes the File Systems module: what a file system is and how it survives crashes, how names lead to files, how blocks are allocated to them, and how access to them is controlled and attacked. The next module, Virtual Memory, returns to the paging of [paging.md](../memory-management/paging.md) to show how page tables let a process use more memory than the machine has, and how the system decides which pages to keep in RAM.
+This completes the File Systems module: what a file system is and how it survives crashes, how names lead to files, how blocks are allocated to them, and how access to them is controlled and attacked. The next module, [Virtual Memory](../virtual-memory/README.md), returns to the paging of [paging.md](../memory-management/paging.md) to show how page tables let a process use more memory than the machine has, and how the system decides which pages to keep in RAM.

@@ -38,7 +38,7 @@ By the end of this module, you will be able to:
 
 ## 🔍 When to Deep-Dive vs. Skim
 
-**Deep-dive** [paging.md](paging.md) first if you are preparing for interviews or for the Virtual Memory module: splitting an address into page number and offset, the size of a page table, and the TLB with its effective access time are the standard exam and interview questions, and everything in virtual memory builds on them. [memory-allocation.md](memory-allocation.md) is the place to look for fragmentation, the placement policies, and the buddy system.
+**Deep-dive** [paging.md](paging.md) first if you are preparing for interviews or for the [Virtual Memory](../virtual-memory/README.md) module: splitting an address into page number and offset, the size of a page table, and the TLB with its effective access time are the standard exam and interview questions, and everything in virtual memory builds on them. [memory-allocation.md](memory-allocation.md) is the place to look for fragmentation, the placement policies, and the buddy system.
 
 **Skim** [segmentation.md](segmentation.md) if you only need the exam-level contrast with paging (read its comparison table), and treat [memory-management-basics.md](memory-management-basics.md) as the foundation to read once, with its locality experiment worth running on your own machine, because the size of the effect surprises most people.
 
@@ -71,4 +71,4 @@ A 4 KiB page has a 12-bit offset, so the low 12 bits of the address, `0xFFF`, ar
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the [CPU Scheduling module](../cpu-scheduling/README.md), the next module in this section: with memory divided and protected, the kernel still has to decide which ready process gets the processor next, and why first-come-first-served, shortest-job-first, round-robin, and priority scheduling suit different goals. The Virtual Memory module then returns to paging to show how page tables let a process use more memory than the machine has.
+Continue to the [CPU Scheduling module](../cpu-scheduling/README.md), the next module in this section: with memory divided and protected, the kernel still has to decide which ready process gets the processor next, and why first-come-first-served, shortest-job-first, round-robin, and priority scheduling suit different goals. The [Virtual Memory](../virtual-memory/README.md) module then returns to paging to show how page tables let a process use more memory than the machine has.

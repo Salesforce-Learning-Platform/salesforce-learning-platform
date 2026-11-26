@@ -156,4 +156,4 @@ The `__TEXT` segment holds the program's code and constant data and is read-only
 
 ## ➡️ Next
 
-This completes the tour of memory management: where memory is divided into pieces (allocation), how pieces are mapped (paging and segmentation), and how the hardware keeps it fast and safe. The Virtual Memory module of this section builds directly on paging: if a page table entry can say "not present", the kernel can keep some pages on disk, which lets a process use more memory than the machine has and load a program lazily.
+This completes the tour of memory management: where memory is divided into pieces (allocation), how pieces are mapped (paging and segmentation), and how the hardware keeps it fast and safe. The [Virtual Memory](../virtual-memory/README.md) module of this section builds directly on paging: if a page table entry can say "not present", the kernel can keep some pages on disk, which lets a process use more memory than the machine has and load a program lazily.
