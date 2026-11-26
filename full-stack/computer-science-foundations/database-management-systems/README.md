@@ -9,7 +9,7 @@ Databases sit under almost every application. This section explains the ideas th
 | # | Module | The question it answers | Builds on |
 |---|--------|-------------------------|-----------|
 | 1 | [Introduction to DBMS](introduction-to-dbms/README.md) | Why do databases exist, and how does an entity-relationship model become tables? | Basic Python |
-| 2 | The Relational Model (in preparation) | What are relations, keys, and joins? | Introduction to DBMS |
+| 2 | [The Relational Model](the-relational-model/README.md) | What are relations, keys, and joins, and where does SQL depart from the model? | Introduction to DBMS |
 | 3 | Normalisation (in preparation) | How are tables split so that facts are stored once? | The Relational Model |
 | 4 | Transactions and ACID (in preparation) | What does a transaction guarantee, and what can go wrong when transactions overlap? | The Relational Model |
 | 5 | Database Classification and Optimisation (in preparation) | Which kinds of database exist, and how are queries made fast? | The earlier modules |

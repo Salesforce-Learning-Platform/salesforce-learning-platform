@@ -64,4 +64,4 @@ Lending is a **many-to-many** relationship between *member* and *book copy* over
 
 ## ➡️ Continue Your Learning Path
 
-Continue to The Relational Model, the next module of this section: the tables that the entity-relationship model produced are relations, and the next module studies their keys, their integrity rules, and the operations that combine them, building on the practical [SQL Fundamentals](../../../backend/sql-fundamentals/README.md) lessons.
+Continue to [The Relational Model](../the-relational-model/README.md), the next module of this section: the tables that the entity-relationship model produced are relations, and the next module studies their keys, their integrity rules, and the operations that combine them, building on the practical [SQL Fundamentals](../../../backend/sql-fundamentals/README.md) lessons.

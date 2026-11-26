@@ -194,4 +194,4 @@ The constraints accept exactly what each cardinality allows. What they **cannot*
 
 ## ➡️ Next
 
-This completes the Introduction to DBMS module: why databases exist, how data is modeled, and how an entity-relationship diagram becomes a schema. The next module of this section, The Relational Model, studies the structures this schema was built from: relations, keys, and the operations that combine them.
+This completes the Introduction to DBMS module: why databases exist, how data is modeled, and how an entity-relationship diagram becomes a schema. The next module of this section, [The Relational Model](../the-relational-model/README.md), studies the structures this schema was built from: relations, keys, and the operations that combine them.

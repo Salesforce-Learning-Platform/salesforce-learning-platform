@@ -133,7 +133,7 @@ The data model that a DBMS offers shapes everything built on it. The main famili
 | **Object-oriented** | objects | from the 1990s, to avoid converting between objects and rows |
 | **Graph** | nodes connected to any other nodes | more general than the network model |
 
-Non-relational databases, often grouped as **NoSQL** and popular since the 2000s, use other query languages ([Wikipedia: Database](https://en.wikipedia.org/wiki/Database)). The relational model is the subject of the next module of this section.
+Non-relational databases, often grouped as **NoSQL** and popular since the 2000s, use other query languages ([Wikipedia: Database](https://en.wikipedia.org/wiki/Database)). The relational model is the subject of the [next module of this section](../the-relational-model/README.md).
 
 ## 🔄 How a Model Gets Made
 
