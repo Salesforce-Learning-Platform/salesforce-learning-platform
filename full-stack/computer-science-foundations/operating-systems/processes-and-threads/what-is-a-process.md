@@ -93,7 +93,7 @@ Every process gets its own **address space**: the range of memory addresses it b
                   └─────────────────────────────┘
 ```
 
-The addresses are **virtual**: the hardware and the kernel translate them to real memory using the page tables recorded in the PCB, so the same virtual address in two processes can refer to different physical memory. That translation is what makes isolation possible (a process cannot even *name* another process's memory), and it is the subject of the [Memory Management](../memory-management/README.md) and Virtual Memory modules later in this section. The next experiment shows it directly, once `fork` has been introduced.
+The addresses are **virtual**: the hardware and the kernel translate them to real memory using the page tables recorded in the PCB, so the same virtual address in two processes can refer to different physical memory. That translation is what makes isolation possible (a process cannot even *name* another process's memory), and it is the subject of the [Memory Management](../memory-management/README.md) and [Virtual Memory](../virtual-memory/README.md) modules later in this section. The next experiment shows it directly, once `fork` has been introduced.
 
 ## 🍴 Creating a Process: fork, exec, and wait
 

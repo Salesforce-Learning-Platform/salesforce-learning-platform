@@ -14,7 +14,7 @@ It helps to separate two layers that share the name. The operating system hands 
 | **Address translation (relocation)** | Let a program use its own addresses while the hardware maps them to wherever the program really sits in RAM | This file, then [paging.md](paging.md) and [segmentation.md](segmentation.md) |
 | **Protection** | Stop a process from reading or writing memory that is not its own, and the kernel's memory from being touched at all | This file, [paging.md](paging.md), [segmentation.md](segmentation.md) |
 | **Sharing** | Let processes deliberately use the same physical memory, for example one copy of a library's code | [paging.md](paging.md), [segmentation.md](segmentation.md) |
-| **Using more than fits** | Keep the parts of a program that are not needed right now out of RAM | The Virtual Memory module |
+| **Using more than fits** | Keep the parts of a program that are not needed right now out of RAM | The [Virtual Memory](../virtual-memory/README.md) module |
 
 ## 🪜 The Memory Hierarchy
 
