@@ -310,4 +310,4 @@ The two resource algorithms were compared with exhaustive searches. For `safe_se
 
 ## ➡️ Next
 
-This completes the Deadlocks and Concurrency module: how concurrent activities overlap, how overlapping on shared data goes wrong (races), how locks and semaphores prevent that, and how holding locks can in turn lead to deadlock and what to do about it. The next module of this section, File Systems, turns to a shared resource that every one of these mechanisms protects: the persistent store of files and directories on disk.
+This completes the Deadlocks and Concurrency module: how concurrent activities overlap, how overlapping on shared data goes wrong (races), how locks and semaphores prevent that, and how holding locks can in turn lead to deadlock and what to do about it. The next module of this section, [File Systems](../file-systems/README.md), turns to a shared resource that every one of these mechanisms protects: the persistent store of files and directories on disk.
