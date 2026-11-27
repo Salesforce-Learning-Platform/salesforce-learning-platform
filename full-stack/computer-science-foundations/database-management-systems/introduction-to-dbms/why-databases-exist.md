@@ -55,7 +55,7 @@ db.close()
 (3, 'Ada', 'Bristol', 20)
 ```
 
-Both of Ada's orders show the new city, because neither order stores it. Deciding how to split data into tables so that such anomalies cannot happen is the subject of **normalization**; [normalization.md](../../../backend/database-design-and-modeling/normalization.md) introduces it in practice, and a later module of this section studies the theory.
+Both of Ada's orders show the new city, because neither order stores it. Deciding how to split data into tables so that such anomalies cannot happen is the subject of **normalization**; [normalization.md](../../../backend/database-design-and-modeling/normalization.md) introduces it in practice, and a [later module of this section](../normalisation/README.md) studies the theory.
 
 ## 2️⃣ Nothing Stops Bad Data
 

@@ -170,4 +170,4 @@ The `NOT IN` and `NOT EXISTS` queries were compared with a direct Python computa
 
 ## ➡️ Next
 
-This completes The Relational Model module: relations and keys, the algebra that queries are built from, and the places where SQL departs from the model. The next module of this section, Normalisation, uses keys to find and remove the redundancy that causes update anomalies.
+This completes The Relational Model module: relations and keys, the algebra that queries are built from, and the places where SQL departs from the model. The next module of this section, [Normalisation](../normalisation/README.md), uses keys to find and remove the redundancy that causes update anomalies.
