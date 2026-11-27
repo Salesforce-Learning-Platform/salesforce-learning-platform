@@ -3,7 +3,7 @@
 ## Running the Testing Pyramid, Automatically
 
 [The Testing Pyramid](../../frontend/testing/frontend-testing-fundamentals/the-testing-pyramid.md),
-covered earlier in this repository's Frontend domain, established the shape of a well-balanced test
+covered earlier in this repository's [Frontend domain](../../frontend/README.md), established the shape of a well-balanced test
 suite — many unit tests, fewer integration tests, fewer still end-to-end tests. A CI pipeline is
 what actually *runs* that entire suite automatically, on every single change, rather than relying on
 a developer remembering to run it manually before pushing.

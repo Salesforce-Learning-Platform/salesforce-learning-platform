@@ -91,7 +91,7 @@ const nums2 = [3, 1, 2];
 console.log(nums2.toSorted(), nums2);  // [ 1, 2, 3 ] [ 3, 1, 2 ] — the non-mutating version
 ```
 
-(`toSorted` and its siblings are newer additions — see the Modern JavaScript module's ES2020+
+(`toSorted` and its siblings are newer additions — see the [Modern JavaScript](../modern-javascript/README.md) module's ES2020+
 coverage — and `[...nums].sort()` is the long-standing alternative.)
 
 ### Updating nested data
@@ -151,7 +151,7 @@ config.tags.push("b");   // TypeError: Cannot add property 1, object is not exte
 ```
 
 (This simple version does not handle circular references. Treat freezing as a development-time
-guard; the Objects in Depth module, later in this section, covers freezing, sealing, and copying in
+guard; the [Objects in Depth](../objects-in-depth/README.md) module, later in this section, covers freezing, sealing, and copying in
 full.)
 
 Remember too that `const` does not make a value immutable — it only prevents reassigning the

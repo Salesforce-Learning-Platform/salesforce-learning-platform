@@ -295,5 +295,5 @@ this file).
 
 ## ➡️ Next
 
-Continue to the Built-in Objects and Collections module, the next module in this section, which
+Continue to the [Built-in Objects and Collections](../built-in-objects-and-collections/README.md) module, the next module in this section, which
 covers `Map` and `Set`, weak collections, strings, numbers, dates, and typed arrays.

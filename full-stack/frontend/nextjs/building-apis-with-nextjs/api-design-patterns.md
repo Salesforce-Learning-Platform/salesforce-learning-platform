@@ -57,7 +57,7 @@ export async function POST(request: Request) {
 
 This is the server-side validation half of the discipline established in
 [frontend-and-backend-responsibilities.md](../../foundations/client-server-architecture/frontend-and-backend-responsibilities.md)
-and revisited throughout the Advanced Forms module — a Route Handler is a genuine backend
+and revisited throughout the [Advanced Forms](../../react/advanced-forms-and-validation/README.md) module — a Route Handler is a genuine backend
 boundary, and it must never trust that incoming data is well-formed just because a trusted
 frontend usually sends it correctly.
 

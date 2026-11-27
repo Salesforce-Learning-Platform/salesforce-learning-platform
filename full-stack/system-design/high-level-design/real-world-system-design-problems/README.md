@@ -72,5 +72,5 @@ cause the same notification to be sent to the user a second time.
 ## ➡️ Continue Your Learning Path
 
 This is the final module of the High-Level Design domain, and completes the System Design domain's
-Low-Level and High-Level Design coverage. Continue to Data Structures and Algorithms to build the
+Low-Level and High-Level Design coverage. Continue to [Data Structures and Algorithms](../../../data-structures-and-algorithms/introduction-to-data-structures-and-algorithms/README.md) to build the
 problem-solving foundations that complement this domain's architectural thinking.

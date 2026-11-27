@@ -220,6 +220,6 @@ this file).
 
 ## ➡️ Next
 
-Continue to the Browser APIs in Depth module, the next module in this section, which covers the
+Continue to the [Browser APIs in Depth](../browser-apis-in-depth/README.md) module, the next module in this section, which covers the
 observer APIs, URL and History, files and the clipboard, performance measurement, and the
 debouncing and throttling that tame event-driven code.

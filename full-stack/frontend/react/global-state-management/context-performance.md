@@ -65,7 +65,7 @@ context lacked.
 - Bundling frequently-changing data (a live notification count, real-time data) into the same
   context as rarely-changing data (the logged-in user's identity), causing unrelated components to
   re-render far more often than necessary.
-- Assuming `memo` (from the Performance Optimization module) automatically prevents this — `memo`
+- Assuming `memo` (from the [Performance Optimization](../performance-optimization-in-react/README.md) module) automatically prevents this — `memo`
   compares props, not context values; a component consuming a changed context re-renders
   regardless of whether it's wrapped in `memo`.
 - Splitting every conceivable value into its own separate context reflexively, adding unnecessary

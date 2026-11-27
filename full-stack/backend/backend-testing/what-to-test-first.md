@@ -69,7 +69,7 @@ precisely the code most worth covering first.
 ## Module Summary
 
 Across this module: backend testing matters specifically because backend bugs are often silent and
-more consequential than frontend ones, and the same testing pyramid from the Frontend domain
+more consequential than frontend ones, and the same testing pyramid from the [Frontend domain](../../frontend/README.md)
 applies directly here (see
 [why-backend-testing-matters.md](why-backend-testing-matters.md)); **unit testing** the service
 layer in isolation, with a mocked repository, verifies real business logic fast and independently

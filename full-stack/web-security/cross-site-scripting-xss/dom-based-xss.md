@@ -75,7 +75,7 @@ DEFAULT - but each provides an explicit ESCAPE HATCH
 REINTRODUCES this exact risk when used with untrusted data.
 ```
 
-This directly connects to this repository's Frontend domain — the safety modern frameworks provide
+This directly connects to this repository's [Frontend domain](../../frontend/README.md) — the safety modern frameworks provide
 by default is a genuinely real benefit, but it's not automatic protection against every possible
 misuse; an explicit escape hatch used carelessly with untrusted data reopens exactly this
 vulnerability.

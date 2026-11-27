@@ -233,5 +233,5 @@ module systems, so portable code sticks to web standards and `globalThis` (see t
 
 ## ➡️ Next
 
-Continue to the Modern JavaScript Additions module (extending the existing Modern JavaScript module with
+Continue to the [Modern JavaScript Additions](../modern-javascript/README.md) module (extending the existing Modern JavaScript module with
 ES2020+ features), the next module in this section.

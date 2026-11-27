@@ -334,7 +334,7 @@ implemented in C, is far faster than any of the Python versions, and is what you
 yourself is for understanding — and for interviews.
 
 (Another well-known approach, **Rabin–Karp**, compares a rolling *hash* of each text window with the pattern's hash;
-it is built on hash functions, so it is covered in the Hashing module's
+it is built on hash functions, so it is covered in the [Hashing](../hashing/README.md) module's
 [hash-functions.md](../hashing/hash-functions.md).)
 
 ## 🧱 Pattern 6: Parsing With a Stack
@@ -397,7 +397,7 @@ Carry these ideas forward:
 
 - Strings are immutable: edit a list, build with `join`, and slice sparingly.
 - Count with a dictionary; the next module develops that idea fully as **hashing**.
-- Two pointers and sliding windows from the Arrays module apply directly to text.
+- Two pointers and sliding windows from the [Arrays](../arrays/README.md) module apply directly to text.
 - Naive substring search is O(n · m); KMP guarantees O(n + m).
 
 ## ➡️ Next

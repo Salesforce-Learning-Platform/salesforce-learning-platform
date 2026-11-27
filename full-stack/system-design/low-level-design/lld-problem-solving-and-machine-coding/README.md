@@ -73,5 +73,5 @@ without modification, despite what the design might claim.
 
 ## ➡️ Continue Your Learning Path
 
-This is the final module of the Low-Level Design domain. Continue to the High-Level Design domain
+This is the final module of the Low-Level Design domain. Continue to the [High-Level Design domain](../../high-level-design/system-design-foundations/README.md)
 to move from a single component's internal class structure to an entire system's architecture.

@@ -39,7 +39,7 @@ HLD question: "How many SERVERS does this need? Should URLs live
 
 Both questions are genuinely valid and important for the *same* real system — they simply operate
 at entirely different levels of abstraction. This exact URL Shortener problem is covered as a
-complete, worked example in the Real-World System Design Problems module, the final module in this
+complete, worked example in the [Real-World System Design Problems](../real-world-system-design-problems/README.md) module, the final module in this
 domain.
 
 ## Why HLD Matters, Even for Developers Who Don't Design Entire Systems

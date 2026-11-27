@@ -73,4 +73,4 @@ Deleting `a.txt` removes one *name*: the link count drops from 2 to 1 and nothin
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the [Virtual Memory module](../virtual-memory/README.md), the next module in this section: the memory-management module showed how paging divides memory into frames and how page tables translate addresses; virtual memory builds on it to let a process use more memory than the machine has, by keeping some of its pages on disk and bringing them in on demand, which makes the disk and the file system part of how memory works.
+Continue to the [Virtual Memory module](../virtual-memory/README.md), the next module in this section: the [memory-management module](../memory-management/README.md) showed how paging divides memory into frames and how page tables translate addresses; virtual memory builds on it to let a process use more memory than the machine has, by keeping some of its pages on disk and bringing them in on demand, which makes the disk and the file system part of how memory works.

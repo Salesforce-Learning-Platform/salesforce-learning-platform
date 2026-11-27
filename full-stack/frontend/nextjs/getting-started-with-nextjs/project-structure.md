@@ -33,7 +33,7 @@ app/
 ```
 
 A folder becomes a URL segment; a `page.tsx` file inside it makes that segment an actual,
-navigable route. This is covered in full depth in the App Router Deep Dive module later in this
+navigable route. This is covered in full depth in the [App Router Deep Dive](../app-router-deep-dive/README.md) module later in this
 domain — this file establishes just the core mental model.
 
 ## `layout.tsx` — The Required Root Layout

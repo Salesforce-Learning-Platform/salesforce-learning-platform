@@ -29,7 +29,7 @@ three layers — the same shape applies directly to backend code:
 | Integration | Testing that a route, its service, and a real (test) database genuinely work together |
 | End-to-end | Testing a full user flow — signup, login, checkout — against a real running system |
 
-The same underlying reasoning from the frontend module applies: many fast unit tests, fewer
+The same underlying reasoning from the [frontend module](../../frontend/testing/frontend-testing-fundamentals/README.md) applies: many fast unit tests, fewer
 integration tests, and very few, carefully-chosen end-to-end tests.
 
 ## Testing Is Also a Design Forcing Function

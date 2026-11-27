@@ -181,7 +181,7 @@ array.includes × 1000:  ~15 ms
 set.has        × 1000:  ~0.03 ms
 ```
 
-(Timings vary by machine; the gap is what matters.) The Hashing module of the Data Structures and
+(Timings vary by machine; the gap is what matters.) The [Hashing](../../../data-structures-and-algorithms/hashing/README.md) module of the Data Structures and
 Algorithms section explains the data structure that makes this possible.
 
 ### Set Operations

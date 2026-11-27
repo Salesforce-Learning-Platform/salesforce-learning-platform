@@ -6,8 +6,8 @@ A `Map` keeps every key — and its value — alive for as long as the `Map` exi
 wrong when you only want to *attach* information to objects that someone else owns. If the owner is
 finished with an object, a regular `Map` still holds a reference to it, so the garbage collector can
 never reclaim it: a memory leak. **Weak collections** solve this by holding their keys **weakly**: a
-key that is otherwise unreachable can be garbage-collected, taking its entry with it. (See the How
-JavaScript Runs module, later in this section, for how garbage collection works.)
+key that is otherwise unreachable can be garbage-collected, taking its entry with it. (See the [How
+JavaScript Runs](../how-javascript-runs/README.md) module, later in this section, for how garbage collection works.)
 
 ## 🗝️ WeakMap
 

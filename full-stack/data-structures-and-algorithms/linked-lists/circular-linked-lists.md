@@ -231,7 +231,7 @@ print(round_robin([("A", 5), ("B", 3), ("C", 1)], quantum=2))
 ```
 
 Trace it: A runs 0–2 (3 left), B runs 2–4 (1 left), C runs 4–5 and finishes at time 5; A runs 5–7 (1 left), B runs 7–8 and finishes at 8;
-A runs 8–9 and finishes at 9. (CPU scheduling is treated in depth in the Operating Systems modules later in this curriculum.)
+A runs 8–9 and finishes at 9. ([CPU scheduling](../../computer-science-foundations/operating-systems/cpu-scheduling/README.md) is treated in depth in the [Operating Systems](../../computer-science-foundations/operating-systems/README.md) modules later in this curriculum.)
 
 ## 🐍 The Python Equivalents
 

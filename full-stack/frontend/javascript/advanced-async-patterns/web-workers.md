@@ -178,8 +178,8 @@ each message and have the worker echo it back so replies can be matched to their
 | Keeping a UI smooth during unavoidable CPU work | Code that needs shared mutable state with the page |
 
 Other kinds exist: **shared workers** serve several pages at once, and **service workers** sit
-between the page and the network for offline support and caching — the subject of the Offline Storage
-and Real-Time Web APIs module, later in this section. Node.js has its own `worker_threads` module for
+between the page and the network for offline support and caching — the subject of the [Offline Storage
+and Real-Time Web APIs](../offline-and-real-time-web-apis/README.md) module, later in this section. Node.js has its own `worker_threads` module for
 the same purpose with a different API.
 
 ## 🎤 Interview Angle

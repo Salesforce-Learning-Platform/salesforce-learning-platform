@@ -142,7 +142,7 @@ console.log(order);
 In the browser the order was the same, with a `requestAnimationFrame` callback arriving after the
 timeout in that run (`rAF` waits for the next frame, so its position relative to a timer varies).
 Use `queueMicrotask` to defer work to the end of the current task without waiting for a timer; just
-remember the warning from the event-loop module — microtasks that keep queueing more microtasks
+remember the warning from the [event-loop module](../event-loop/README.md) — microtasks that keep queueing more microtasks
 starve everything else.
 
 ## 😴 `requestIdleCallback`: Work for Quiet Moments
@@ -229,7 +229,7 @@ Treat the tail of that list with care: the guide states that from the main modul
 `setTimeout(fn, 0)` and `setImmediate(fn)` is **non-deterministic** (it depends on process
 performance), while inside an I/O callback `setImmediate` always runs first. Prefer promises and
 `queueMicrotask` unless you specifically need Node's phases. Debouncing and throttling — rate-limiting
-callbacks built on these timers — are covered in the Browser APIs in Depth module, later in this
+callbacks built on these timers — are covered in the [Browser APIs in Depth](../browser-apis-in-depth/README.md) module, later in this
 section.
 
 ## 🎤 Interview Angle

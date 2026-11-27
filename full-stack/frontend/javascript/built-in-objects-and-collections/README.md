@@ -87,6 +87,6 @@ the entries you added.
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Advanced Asynchronous Patterns module, the next module in this section, which builds
+Continue to the [Advanced Asynchronous Patterns](../advanced-async-patterns/README.md) module, the next module in this section, which builds
 on promises and the event loop with combinators, cancellation, async iteration, scheduling, and Web
 Workers.

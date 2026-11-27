@@ -85,7 +85,7 @@ class instances) can be passed from a Server Component into a Client Component a
   needs interactivity, unnecessarily shipping far more JavaScript to the browser than needed.
 - Trying to pass a function or a non-serializable value as a prop from a Server Component to a
   Client Component, which fails since it can't cross the actual server/client boundary.
-- Forgetting that a context provider (from the React domain's Global State Management module)
+- Forgetting that a context provider (from the React domain's [Global State Management](../../react/global-state-management/README.md) module)
   must itself be wrapped in `"use client"`, since Context isn't supported directly in Server
   Components.
 
