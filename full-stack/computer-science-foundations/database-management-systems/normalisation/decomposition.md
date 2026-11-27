@@ -221,4 +221,4 @@ On 1,500 random sets of dependencies with random decompositions, every decomposi
 
 ## ➡️ Next
 
-This completes the Normalisation module: dependencies, the normal forms, and how to decompose tables safely. The next module of this section, Transactions and ACID, turns from how data is arranged to how changes to it stay correct while many operations run at once and when failures happen.
+This completes the Normalisation module: dependencies, the normal forms, and how to decompose tables safely. The next module of this section, [Transactions and ACID](../transactions/README.md), turns from how data is arranged to how changes to it stay correct while many operations run at once and when failures happen.
