@@ -66,4 +66,4 @@ Both transactions read the same snapshot (two on call), each updates a **differe
 
 ## ➡️ Continue Your Learning Path
 
-Continue to Database Classification and Optimisation, the last module of this section: with correct data and correct transactions, it compares the kinds of database that exist and studies how indexes and query plans make queries fast.
+Continue to [Database Classification and Optimisation](../classification-and-optimisation/README.md), the last module of this section: with correct data and correct transactions, it compares the kinds of database that exist and studies how indexes and query plans make queries fast.

@@ -138,4 +138,4 @@ The precedence-graph test agreed with the definition (some serial order keeps ev
 
 ## ➡️ Next
 
-This completes the Transactions and ACID module: what a transaction promises, the anomalies that isolation levels allow or forbid, and the mechanisms that enforce them. The next module of this section, Database Classification and Optimisation, looks at the kinds of database there are and how queries are made fast.
+This completes the Transactions and ACID module: what a transaction promises, the anomalies that isolation levels allow or forbid, and the mechanisms that enforce them. The next module of this section, [Database Classification and Optimisation](../classification-and-optimisation/README.md), looks at the kinds of database there are and how queries are made fast.

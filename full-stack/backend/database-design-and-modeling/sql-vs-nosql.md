@@ -14,6 +14,8 @@ types — MongoDB (document), Redis (key-value), and others each work differentl
 this comparison, focuses specifically on the document model covered in
 [MongoDB Fundamentals](../mongodb-fundamentals/), since that's the NoSQL style most directly
 comparable to SQL's row-based model for typical backend application data.
+[Classifying Databases](../../computer-science-foundations/database-management-systems/classification-and-optimisation/database-classification.md) compares the main data models,
+including wide-column and graph databases, on the same data.
 
 ## Real Decision Criteria, Not Trend-Following
 

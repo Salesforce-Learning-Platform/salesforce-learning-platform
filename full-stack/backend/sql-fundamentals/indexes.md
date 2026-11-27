@@ -23,6 +23,9 @@ book's index: instead of reading every page to find a topic, you look it up in a
 points straight to the right page. Once `idx_products_name` exists, `WHERE name = 'Keyboard'` no
 longer needs to scan the whole table — it can jump almost directly to matching rows.
 
+For how indexes work inside, and how the database decides whether to use one, see
+[How Indexes Work](../../computer-science-foundations/database-management-systems/classification-and-optimisation/indexing-theory.md) and [Query Optimization](../../computer-science-foundations/database-management-systems/classification-and-optimisation/query-optimisation.md).
+
 ## The Real Tradeoff: Faster Reads, Slower Writes, More Storage
 
 | | Without an index | With an index |

@@ -12,7 +12,7 @@ Databases sit under almost every application. This section explains the ideas th
 | 2 | [The Relational Model](the-relational-model/README.md) | What are relations, keys, and joins, and where does SQL depart from the model? | Introduction to DBMS |
 | 3 | [Normalisation](normalisation/README.md) | How are tables split so that facts are stored once, without losing information? | The Relational Model |
 | 4 | [Transactions and ACID](transactions/README.md) | What does a transaction guarantee, and what can go wrong when transactions overlap? | Introduction to DBMS, The Relational Model |
-| 5 | Database Classification and Optimisation (in preparation) | Which kinds of database exist, and how are queries made fast? | The earlier modules |
+| 5 | [Database Classification and Optimisation](classification-and-optimisation/README.md) | Which kinds of database exist, and how are queries made fast? | The earlier modules |
 
 ## 🔗 Practical Material Elsewhere in the Repository
 
