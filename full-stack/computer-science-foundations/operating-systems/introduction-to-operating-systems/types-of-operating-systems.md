@@ -95,7 +95,7 @@ Compare the rows:
 - **Batch** makes the three short jobs wait for the 100-millisecond job: they do not even *start* until time 100, and the average wait for a first turn is 78.75 ms.
 - **Time-sharing with a 10 ms quantum** cuts the average wait to 12.75 ms and lets the short jobs finish at times 16, 22, and 28 instead of 105 to 115. The long job pays only slightly: it finishes at 119 instead of 100 plus the others' time. The total time is 119 rather than 115 — the 4 ms of switching overhead, one per context switch.
 - **A tiny quantum of 2 ms** makes first turns come even sooner (4.5 ms) but wastes more time switching (12 switches, total 127), and the *average turnaround gets worse* (54.25 against 46.25), because the short jobs are chopped into more rounds. Choosing the quantum is a real design decision, and [CPU Scheduling](../cpu-scheduling/README.md) ([Round Robin](../cpu-scheduling/round-robin.md)) returns to it.
-- **A zero switch cost** (the last row) is an idealization; real switches are never free, which is why the lesson on [context switching](../processes-and-threads/context-switching.md) in the Processes and Threads module measures them.
+- **A zero switch cost** (the last row) is an idealization; real switches are never free, which is why the lesson on [context switching](../processes-and-threads/context-switching.md) in the [Processes and Threads](../processes-and-threads/README.md) module measures them.
 
 The same program, with a quantum at least as long as the longest job and no switch cost, gives exactly the batch schedule — the simulation was checked against that equivalence, and against the accounting identity *total time = sum of CPU bursts + switch cost × number of switches*, on thousands of random job mixes:
 

@@ -24,7 +24,7 @@ Would you like to use App Router? (recommended)     Yes
 ```
 
 The recommended defaults enable TypeScript (from the
-[TypeScript domain](../../../typescript/typescript-essentials/)), ESLint, and the **App Router** —
+[TypeScript domain](../../typescript/typescript-essentials/)), ESLint, and the **App Router** —
 the modern, currently-recommended routing system covered throughout this domain (an older "Pages
 Router" exists in legacy Next.js projects, but the App Router is the standard choice for new
 projects today).

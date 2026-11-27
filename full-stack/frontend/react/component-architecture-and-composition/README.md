@@ -32,7 +32,7 @@ the controlled-vs-uncontrolled distinction for form inputs.
 Deep-dive [controlled-and-uncontrolled-components.md](controlled-and-uncontrolled-components.md) —
 this distinction is directly responsible for a very common category of React form bugs (an input
 that won't update, or a warning about switching between controlled/uncontrolled), and is assumed
-knowledge once you reach the dedicated Advanced Forms module later in this domain.
+knowledge once you reach the dedicated [Advanced Forms](../advanced-forms-and-validation/README.md) module later in this domain.
 
 ## Quick Knowledge Check
 

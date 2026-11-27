@@ -84,8 +84,9 @@ an `if` statement cannot go inside `{}`, but a ternary expression can.
 
 `.map()` (from [array-methods.md](../../javascript/arrays-and-objects/array-methods.md)) is the
 standard way to render a list of elements from an array — each transformed into JSX inline. The
-`key` prop is required and covered in depth in the state-and-rerendering module; it's how React
-tracks which list item is which across re-renders.
+`key` prop is required: it's how React tracks which list item is which across re-renders.
+[Missing `key` Prop Warning](../error-handling-and-debugging/common-react-errors.md#missing-key-prop-warning)
+shows what happens without one and how to choose it.
 
 ## Common Mistakes
 

@@ -228,7 +228,7 @@ For `"bbbab"` the longest palindromic subsequence is `"bbbb"`, found by skipping
 
 ### Longest Palindromic Substring
 
-*Which is the longest **contiguous** palindrome?* A DP table `is_palindrome[i][j]` can be filled by growing lengths (`s[i..j]` is a palindrome if `s[i] == s[j]` and the inside `s[i+1..j−1]` is one). But there is a simpler method that needs no table at all: every palindrome has a **center**, so expand outward from each of the `2n − 1` possible centers (each character, and each gap between two characters) while the two ends match. It is O(n²) time and O(1) space, and it is the standard answer; the strings module analyses it in [palindrome-problems.md](../strings/palindrome-problems.md), including the O(n) Manacher algorithm.
+*Which is the longest **contiguous** palindrome?* A DP table `is_palindrome[i][j]` can be filled by growing lengths (`s[i..j]` is a palindrome if `s[i] == s[j]` and the inside `s[i+1..j−1]` is one). But there is a simpler method that needs no table at all: every palindrome has a **center**, so expand outward from each of the `2n − 1` possible centers (each character, and each gap between two characters) while the two ends match. It is O(n²) time and O(1) space, and it is the standard answer; the [strings module](../strings/README.md) analyses it in [palindrome-problems.md](../strings/palindrome-problems.md), including the O(n) Manacher algorithm.
 
 ```python
 def longest_palindromic_substring_expand(s):

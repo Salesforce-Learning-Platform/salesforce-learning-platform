@@ -37,7 +37,7 @@ here to HTML rendering specifically.
 ```
 
 This is a genuinely significant, practical benefit already implicit throughout this repository's
-Frontend domain — React, Vue, and similar frameworks escape interpolated content by default,
+[Frontend domain](../../frontend/README.md) — React, Vue, and similar frameworks escape interpolated content by default,
 meaning ordinary, idiomatic use of these frameworks is already safe from XSS in the overwhelming
 majority of cases, *unless* an explicit raw-HTML escape hatch is deliberately used (per
 [dom-based-xss.md](dom-based-xss.md)).

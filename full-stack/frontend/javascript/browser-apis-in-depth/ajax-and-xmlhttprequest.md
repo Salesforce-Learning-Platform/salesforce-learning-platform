@@ -202,5 +202,5 @@ file).
 
 ## ➡️ Next
 
-Continue to the Offline Storage and Real-Time Web APIs module, the next module in this section, which
+Continue to the [Offline Storage and Real-Time Web APIs](../offline-and-real-time-web-apis/README.md) module, the next module in this section, which
 covers IndexedDB, service workers and the Cache API, WebSockets, and Server-Sent Events.

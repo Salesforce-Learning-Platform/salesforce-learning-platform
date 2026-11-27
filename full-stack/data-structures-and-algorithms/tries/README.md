@@ -69,4 +69,4 @@ The XOR of two numbers has a `1` at a bit position exactly when they differ ther
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Operating Systems module, the first in the Computer Science Foundations domain, where the focus moves from the data structures and algorithms programs are built from to the system that runs them: processes, memory, scheduling, and files.
+Continue to the [Operating Systems](../../computer-science-foundations/operating-systems/README.md) section, the first in the Computer Science Foundations domain, where the focus moves from the data structures and algorithms programs are built from to the system that runs them: processes, memory, scheduling, and files.

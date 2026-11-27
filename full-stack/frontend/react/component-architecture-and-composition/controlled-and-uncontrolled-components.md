@@ -23,7 +23,7 @@ function UncontrolledInput() {
 
 An **uncontrolled** input behaves like a plain HTML input — the browser manages keystrokes and the
 current value internally; React only reads that value when it actually needs it (typically via a
-`ref`, covered in the React Hooks module), rather than tracking every keystroke.
+`ref`, covered in the [React Hooks](../react-hooks/README.md) module), rather than tracking every keystroke.
 
 ## Controlled Components — React State Owns It
 

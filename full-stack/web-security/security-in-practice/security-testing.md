@@ -4,7 +4,7 @@
 
 Every fix covered throughout this domain deserves the same discipline already established in
 [The Testing Pyramid](../../frontend/testing/frontend-testing-fundamentals/the-testing-pyramid.md),
-earlier in this repository's Frontend domain: implementing a defense and *verifying* it actually
+earlier in this repository's [Frontend domain](../../frontend/README.md): implementing a defense and *verifying* it actually
 works are two genuinely separate steps, and skipping the second leaves real, unconfirmed
 assumptions in place.
 

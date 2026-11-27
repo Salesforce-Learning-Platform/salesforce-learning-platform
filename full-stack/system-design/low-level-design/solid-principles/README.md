@@ -38,8 +38,8 @@ By the end of this module, you will be able to:
 
 ## 🔍 When to Deep-Dive vs. Skim
 
-**Deep-dive** regardless of prior OOP experience — SOLID is foundational vocabulary the Creational,
-Structural, and Behavioral Design Patterns modules, later in this domain, assume throughout.
+**Deep-dive** regardless of prior OOP experience — SOLID is foundational vocabulary the [Creational](../creational-design-patterns/README.md),
+[Structural](../structural-design-patterns/README.md), and [Behavioral Design Patterns](../behavioral-design-patterns/README.md) modules, later in this domain, assume throughout.
 
 **Skim** only if you can already confidently explain and apply all five principles from memory —
 but the Liskov Substitution file's Rectangle/Square example is worth a second look even then, since

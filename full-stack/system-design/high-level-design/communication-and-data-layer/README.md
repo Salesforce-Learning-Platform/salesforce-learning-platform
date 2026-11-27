@@ -76,5 +76,5 @@ genuinely common in real production systems.
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Core Infrastructure module to see the caching, load balancing, and messaging
+Continue to the [Core Infrastructure](../core-infrastructure/README.md) module to see the caching, load balancing, and messaging
 infrastructure that makes systems like these genuinely scale in production.

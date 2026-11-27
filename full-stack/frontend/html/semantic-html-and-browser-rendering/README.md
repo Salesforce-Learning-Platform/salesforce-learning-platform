@@ -29,8 +29,8 @@ but not yet with what's inside the page itself.
 - [ ] [content-structure-and-heading-hierarchy.md](content-structure-and-heading-hierarchy.md) — document outline and heading levels
 - [ ] [lists.md](lists.md) — ordered, unordered, and description lists
 - [ ] [links-and-navigation-flow.md](links-and-navigation-flow.md) — anchors, navigation, and link accessibility
-- [ ] [forms-introduction.md](forms-introduction.md) — the basic form elements (deep dive in the dedicated HTML Forms module)
-- [ ] [accessibility-basics.md](accessibility-basics.md) — how semantic HTML is the foundation of accessibility (deep dive in the dedicated HTML Accessibility module)
+- [ ] [forms-introduction.md](forms-introduction.md) — the basic form elements (deep dive in the dedicated [HTML Forms](../html-forms-and-user-input/README.md) module)
+- [ ] [accessibility-basics.md](accessibility-basics.md) — how semantic HTML is the foundation of accessibility (deep dive in the dedicated [HTML Accessibility](../html-accessibility/README.md) module)
 - [ ] [how-browsers-render-pages.md](how-browsers-render-pages.md) — DOM, CSSOM, render tree, layout, paint
 - [ ] [reflow-and-repaint.md](reflow-and-repaint.md) — what triggers each, and why it matters for performance
 - [ ] [responsive-images.md](responsive-images.md) — `srcset`, `sizes`, and `<picture>`

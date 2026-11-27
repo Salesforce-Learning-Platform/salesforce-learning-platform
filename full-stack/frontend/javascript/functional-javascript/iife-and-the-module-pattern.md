@@ -137,7 +137,7 @@ console.log(c.items);     // undefined
 // c.#items               // SyntaxError: Private field '#items' must be declared in an enclosing class
 ```
 
-Private fields enforce privacy in the language itself and are covered in the Objects in Depth
+Private fields enforce privacy in the language itself and are covered in the [Objects in Depth](../objects-in-depth/README.md)
 module, later in this section. Prefer them (or modules) for new code; understanding IIFEs and the
 module pattern remains valuable for reading existing code and for grasping what closures make
 possible.
@@ -195,5 +195,5 @@ private state, a technique now largely served by modules and `#private` fields (
 
 ## ➡️ Next
 
-Continue to the Objects in Depth module, the next module in this section, which examines property
+Continue to the [Objects in Depth](../objects-in-depth/README.md) module, the next module in this section, which examines property
 descriptors, freezing, copying, JSON, private fields, and `Proxy`.

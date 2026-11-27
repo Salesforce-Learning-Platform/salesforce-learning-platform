@@ -35,7 +35,7 @@ By the end of this module, you will be able to:
 ## 🔍 When to Deep-Dive vs. Skim
 
 **Deep-dive** if you're new to named design patterns — this module establishes the pattern-based
-vocabulary the Structural and Behavioral Design Patterns modules, later in this domain, assume.
+vocabulary the [Structural](../structural-design-patterns/README.md) and [Behavioral Design Patterns](../behavioral-design-patterns/README.md) modules, later in this domain, assume.
 
 **Skim** if you already recognize and correctly apply all five creational patterns — but the
 Abstract Factory vs. Factory Method distinction is worth a second look, since it's commonly

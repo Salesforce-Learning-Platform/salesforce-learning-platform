@@ -80,7 +80,7 @@ location / {
 For a client-side-routed single-page application, a direct URL like `myapp.com/dashboard/settings`
 doesn't correspond to a real file on disk — `try_files` handles this by falling back to serving
 `index.html` for any path that doesn't match a real file, letting the frontend's own client-side
-router (already covered in this repository's Frontend domain) take over from there.
+router (already covered in this repository's [Frontend domain](../../frontend/README.md)) take over from there.
 
 ## Common Mistakes
 

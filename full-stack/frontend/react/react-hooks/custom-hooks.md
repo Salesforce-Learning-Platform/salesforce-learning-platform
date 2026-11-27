@@ -60,7 +60,7 @@ Calling the same custom hook from two different components creates two entirely 
 instances — exactly like calling `useState` twice would (see
 [understanding-state.md](../state-and-rerendering-logic/understanding-state.md)). A custom hook
 shares the *logic* (the pattern of how state is managed), not the actual state value itself,
-between components — for genuinely shared state, Context (covered in the Global State Management
+between components — for genuinely shared state, Context (covered in the [Global State Management](../global-state-management/README.md)
 module) is the correct tool.
 
 ## Common Mistakes

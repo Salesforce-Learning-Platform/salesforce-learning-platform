@@ -92,7 +92,7 @@ exactly like any other value.
   the pattern has outgrown configuration and needs composition instead.
 - Drilling a prop through several components that don't use it, rather than restructuring with
   composition (or, for genuinely global data touched by many unrelated components, the Context API
-  covered in the Global State Management module).
+  covered in the [Global State Management](../global-state-management/README.md) module).
 - Overusing multiple named JSX-element props when a single `children` slot would already express
   the same structure more simply.
 

@@ -47,7 +47,7 @@ const Child = memo(function Child({ onClick }) {
 });
 ```
 
-`memo` (covered in the Performance Optimization module) skips a child's re-render when its props
+`memo` (covered in the [Performance Optimization](../performance-optimization-in-react/README.md) module) skips a child's re-render when its props
 are reference-equal to the previous render's — but this only works if `onClick` is actually the
 same function reference each time. Without `useCallback`, a new `handleClick` function on every
 `Parent` render defeats `memo`'s optimization entirely, since `Child`'s props are never

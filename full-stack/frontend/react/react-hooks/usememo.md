@@ -41,7 +41,7 @@ formatting a short string), the overhead of `useMemo` can exceed the cost of jus
 plainly — memoization is worth reaching for specifically when the computation is **actually
 expensive** (filtering/sorting a large array, a complex calculation) or when its **result's
 reference identity matters** for another optimization (like preventing a child component wrapped
-in `memo`, covered in the Performance Optimization module, from re-rendering unnecessarily).
+in `memo`, covered in the [Performance Optimization](../performance-optimization-in-react/README.md) module, from re-rendering unnecessarily).
 
 ## Common Mistakes
 

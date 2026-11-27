@@ -28,7 +28,7 @@ Bracket notation is required whenever the key is dynamic (stored in a variable) 
 identifier (contains spaces, starts with a number). Accessing a missing property returns
 `undefined` rather than throwing — but chaining further access onto that `undefined` does throw,
 which is exactly the problem **optional chaining** (`user.address?.city`) exists to solve, covered
-in the Modern JavaScript module.
+in the [Modern JavaScript](../modern-javascript/README.md) module.
 
 ## Nested Objects
 

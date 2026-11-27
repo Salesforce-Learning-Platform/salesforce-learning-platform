@@ -76,7 +76,7 @@ ASYNCHRONOUS: the API immediately returns an ACKNOWLEDGMENT (e.g.
 
 For genuinely long-running operations (video processing, a large data export), an asynchronous API
 shape is often the correct choice at scale — directly previewing the message-queue-based
-asynchronous communication covered in the Core Infrastructure module, later in this domain.
+asynchronous communication covered in the [Core Infrastructure](../core-infrastructure/README.md) module, later in this domain.
 
 ## Common Mistakes
 

@@ -90,7 +90,7 @@ operation completing) rather than a direct link click.
 A wildcard `path="*"` route, placed last, catches any URL that didn't match an earlier route —
 the client-side routing equivalent of the
 [404 status code](../../foundations/understanding-http-and-https/http-status-codes-in-depth.md)
-from the Foundations domain.
+from the [Foundations domain](../../foundations/README.md).
 
 ## Common Mistakes
 

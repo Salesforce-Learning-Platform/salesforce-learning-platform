@@ -142,7 +142,7 @@ console.log(next(), next(), next());   // 1 2 3
 The context for `makeCounter()` finished long ago, but the returned function's outer link still
 points at the environment holding `count`, so every call to `next` finds and updates the same
 variable. A closure is simply a function plus the environment it was created in — see
-[closures.md](../functions/closures.md) for patterns built on this, and the How JavaScript Runs
+[closures.md](../functions/closures.md) for patterns built on this, and the [How JavaScript Runs](../how-javascript-runs/README.md)
 module, later in this section, for what it means for memory.
 
 ## 🎯 `this` Belongs to the Call, Not the Chain

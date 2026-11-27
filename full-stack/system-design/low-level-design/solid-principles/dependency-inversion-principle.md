@@ -9,7 +9,7 @@ should depend on ABSTRACTIONS."
 
 This is a direct, full realization of
 [designing-clean-interfaces.md](../lld-foundations/designing-clean-interfaces.md)'s Principle 4,
-previewed briefly at the end of the LLD Foundations module — this file covers it completely, as the
+previewed briefly at the end of the [LLD Foundations](../lld-foundations/README.md) module — this file covers it completely, as the
 capstone SOLID principle every other one builds toward.
 
 ## Before: A High-Level Class Depending on a Low-Level Detail

@@ -124,7 +124,7 @@ recent); `square(3)` pushes the cache over its limit of 2 and evicts `2`; the fi
 therefore has to be recomputed.
 
 - **Hold object keys weakly.** A `WeakMap` lets cached entries disappear when the key object is
-  garbage-collected — covered in the Built-in Objects and Collections module, later in this section.
+  garbage-collected — covered in the [Built-in Objects and Collections](../built-in-objects-and-collections/README.md) module, later in this section.
 
 ## 🚫 When Not to Memoize
 

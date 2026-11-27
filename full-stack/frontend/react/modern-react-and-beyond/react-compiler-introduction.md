@@ -84,5 +84,5 @@ status (see [useactionstate-and-useformstatus.md](useactionstate-and-useformstat
 interactions (see [optimistic-ui-with-useoptimistic.md](optimistic-ui-with-useoptimistic.md)); the
 **`use()`** hook reads a promise or context directly during render, uniquely callable
 conditionally unlike every other hook (see [the-use-hook.md](the-use-hook.md)); and the
-**React Compiler** automates the manual memoization taught in the Performance module, currently as
+**React Compiler** automates the manual memoization taught in the [Performance](../performance-optimization-in-react/README.md) module, currently as
 an experimental, opt-in, incrementally-adoptable tool.

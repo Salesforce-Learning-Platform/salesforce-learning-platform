@@ -75,7 +75,7 @@ Four threads (three workers and the main thread) live in one process: they share
 | Open files and sockets | Thread-local storage, if the program uses it |
 | The process id and the address space | |
 
-The rule, as Wikipedia states it, is that the threads of a process share the process's code, its dynamically allocated data, and its global variables, except those declared thread-local ([Wikipedia: Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))). The next block makes the difference concrete. Four threads each count to 1,000. Each thread has a *local* counter of its own, and all four add to one *shared* total. The shared total sits behind a lock, because two threads updating the same value at the same moment can lose an update ([race-conditions.md](../deadlocks-and-concurrency/race-conditions.md) in the Deadlocks and Concurrency module shows why):
+The rule, as Wikipedia states it, is that the threads of a process share the process's code, its dynamically allocated data, and its global variables, except those declared thread-local ([Wikipedia: Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))). The next block makes the difference concrete. Four threads each count to 1,000. Each thread has a *local* counter of its own, and all four add to one *shared* total. The shared total sits behind a lock, because two threads updating the same value at the same moment can lose an update ([race-conditions.md](../deadlocks-and-concurrency/race-conditions.md) in the [Deadlocks and Concurrency](../deadlocks-and-concurrency/README.md) module shows why):
 
 ```python
 shared = {"total": 0}

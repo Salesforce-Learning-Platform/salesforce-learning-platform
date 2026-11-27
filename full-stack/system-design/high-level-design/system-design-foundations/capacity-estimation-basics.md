@@ -53,7 +53,7 @@ bytes per response:
 ```
 
 This directly informs whether a single server's network interface could genuinely handle this load
-alone, or whether load balancing — covered in the Core Infrastructure module, later in this domain
+alone, or whether load balancing — covered in the [Core Infrastructure](../core-infrastructure/README.md) module, later in this domain
 — is a genuine architectural necessity rather than a "nice to have."
 
 ## Latency Numbers Every Programmer Should Know
@@ -70,7 +70,7 @@ This widely-referenced list (originating from Jeff Dean and Peter Norvig, popula
 resources like the System Design Primer) isn't meant to be memorized precisely — hardware numbers
 genuinely change over time — but the *relative* magnitude matters enormously: a database query
 hitting disk is genuinely orders of magnitude slower than one served from an in-memory cache,
-which is exactly the practical justification behind caching, covered in the Core Infrastructure
+which is exactly the practical justification behind caching, covered in the [Core Infrastructure](../core-infrastructure/README.md)
 module later in this domain.
 
 ## Why Rough Estimates Are Genuinely Sufficient

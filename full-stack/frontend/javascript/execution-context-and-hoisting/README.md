@@ -81,5 +81,5 @@ on the same line as `return` avoids it.
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Functional JavaScript Patterns module, the next module in this section, which builds
+Continue to the [Functional JavaScript Patterns](../functional-javascript/README.md) module, the next module in this section, which builds
 on closures and scope to cover higher-order functions, currying, and memoization.

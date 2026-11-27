@@ -85,5 +85,5 @@ IDs can replay exactly the events the client missed.
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the How JavaScript Runs module, the next module in this section, which looks under the hood:
+Continue to the [How JavaScript Runs](../how-javascript-runs/README.md) module, the next module in this section, which looks under the hood:
 engines and JIT compilation, memory and garbage collection, transpilation, bundling, and runtimes.

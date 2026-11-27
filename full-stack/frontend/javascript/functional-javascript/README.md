@@ -88,5 +88,5 @@ outside state — the cache would serve stale or wrong values.
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Objects in Depth module, the next module in this section, which examines property
+Continue to the [Objects in Depth](../objects-in-depth/README.md) module, the next module in this section, which examines property
 descriptors, freezing, copying, JSON, private fields, and `Proxy`.

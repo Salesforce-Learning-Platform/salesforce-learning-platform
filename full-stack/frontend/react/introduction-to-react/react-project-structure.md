@@ -56,8 +56,8 @@ the top of the component tree introduced in [what-is-react.md](what-is-react.md)
 - Confusing Vite's own configuration (`vite.config.ts`) with the application's actual logic — it
   controls the build tool's behavior, not the app itself.
 - Expecting a multi-page-style file structure (a separate `.html` file per page) — a single-page
-  React application typically has one `index.html`, with different "pages" handled by client-side
-  routing (covered in its own module later in this domain) rather than separate HTML files.
+  React application typically has one `index.html`, with different "pages" handled by [client-side
+  routing](../client-side-routing/README.md) (covered in its own module later in this domain) rather than separate HTML files.
 
 ## Module Summary
 

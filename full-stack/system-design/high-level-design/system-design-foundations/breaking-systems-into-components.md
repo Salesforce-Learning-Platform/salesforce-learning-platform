@@ -4,7 +4,7 @@
 
 A system's requirements, once clarified, need to translate into an actual set of components — the
 real, deployable pieces (services, databases, caches) that together make up the system. This
-directly builds toward Microservices Fundamentals, covered in full in the Core Infrastructure
+directly builds toward Microservices Fundamentals, covered in full in the [Core Infrastructure](../core-infrastructure/README.md)
 module later in this domain, but starts here with the more basic, foundational question: *how* to
 actually decide where the boundaries between components should go.
 

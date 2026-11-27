@@ -33,7 +33,7 @@ When `count` changes and `App` re-renders, **every child it renders also re-rend
 including `StaticFooter`, which doesn't even use `count` or receive any prop that changed. This is
 React's default, intentionally simple behavior: a parent re-rendering re-renders its entire
 subtree, not just the parts that "obviously" need it. (Performance techniques to avoid this
-unnecessary cascade — like `memo` — are covered in the Performance Optimization module later in
+unnecessary cascade — like `memo` — are covered in the [Performance Optimization](../performance-optimization-in-react/README.md) module later in
 this domain.)
 
 ## Re-render ≠ DOM Update

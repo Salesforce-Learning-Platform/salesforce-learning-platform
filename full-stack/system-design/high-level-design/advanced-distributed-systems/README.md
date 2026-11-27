@@ -81,5 +81,5 @@ lookups fast, and enables scoring algorithms like BM25 to rank results by actual
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the Real-World System Design Problems module to apply every concept from this entire
+Continue to the [Real-World System Design Problems](../real-world-system-design-problems/README.md) module to apply every concept from this entire
 domain to complete, interview-style worked examples.

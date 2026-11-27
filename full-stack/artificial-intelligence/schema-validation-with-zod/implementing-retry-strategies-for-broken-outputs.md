@@ -80,7 +80,7 @@ If a particular field fails validation on a meaningful fraction of requests over
 signal to go back and strengthen the prompt (per
 [Prompt Engineering Fundamentals](../prompt-engineering-fundamentals/)) or reconsider the schema
 itself — not a signal to simply raise the retry budget. Logging every validation failure (as
-`handling-invalid-or-mismatched-responses.md` covered) is exactly what makes a pattern like this
+[`handling-invalid-or-mismatched-responses.md`](handling-invalid-or-mismatched-responses.md) covered) is exactly what makes a pattern like this
 visible in the first place.
 
 ## Looking Ahead
