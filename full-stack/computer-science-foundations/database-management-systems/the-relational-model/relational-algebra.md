@@ -195,7 +195,7 @@ filter before combining:    33,000 combined tuples examined
 same result: True (110 tuples)
 ```
 
-The answer is the same, and the second form built about a tenth as many combinations, because only about one customer in ten lives in London. A database's **query optimizer** applies rules like this, and chooses join algorithms (nested loop, sort-merge, and hash joins are the three fundamental ones, [Wikipedia: Join (SQL)](https://en.wikipedia.org/wiki/Join_(SQL))) and indexes, which is why a declarative query can run quickly without saying how.
+The answer is the same, and the second form built about a tenth as many combinations, because only about one customer in ten lives in London. A database's **query optimizer** applies rules like this, and chooses join algorithms (nested loop, sort-merge, and hash joins are the three fundamental ones, [Wikipedia: Join (SQL)](https://en.wikipedia.org/wiki/Join_(SQL))) and indexes, which is why a declarative query can run quickly without saying how. [query-optimisation.md](../classification-and-optimisation/query-optimisation.md) studies these join algorithms and the optimizer's choices.
 
 ## ✅ Checking the Code
 

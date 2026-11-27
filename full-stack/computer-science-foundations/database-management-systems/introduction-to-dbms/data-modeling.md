@@ -117,7 +117,7 @@ index on (customer, total)  result (21, 12217)   plan: SEARCH orders USING COVER
 same result every time: True
 ```
 
-The result never changed, only the way SQLite found it: first it **scanned** every row, then it **searched** the index and fetched the matching rows, and with the index that also contains `total`, a **covering index**, it answered from the index alone. Indexing is studied further in the last module of this section; the practical side is in [indexes.md](../../../backend/sql-fundamentals/indexes.md).
+The result never changed, only the way SQLite found it: first it **scanned** every row, then it **searched** the index and fetched the matching rows, and with the index that also contains `total`, a **covering index**, it answered from the index alone. Indexing is studied further in [the last module of this section](../classification-and-optimisation/README.md); the practical side is in [indexes.md](../../../backend/sql-fundamentals/indexes.md).
 
 ## 🧬 Families of Data Models
 

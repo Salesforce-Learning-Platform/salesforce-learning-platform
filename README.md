@@ -56,7 +56,7 @@ Building applications on large language models ([`full-stack/artificial-intellig
 How computers work underneath the code ([`full-stack/computer-science-foundations/`](full-stack/computer-science-foundations/)):
 
 - Operating systems: processes and threads, memory management, CPU scheduling, deadlocks and concurrency, file systems, and virtual memory ([section index](full-stack/computer-science-foundations/operating-systems/README.md))
-- Database management systems: why databases exist, data modeling, the entity-relationship model, the relational model, normalization, and transactions, with database classification and optimization in preparation ([section index](full-stack/computer-science-foundations/database-management-systems/README.md))
+- Database management systems: why databases exist, data modeling, the entity-relationship model, the relational model, normalization, transactions, and database classification and optimization ([section index](full-stack/computer-science-foundations/database-management-systems/README.md))
 
 ### Data Structures and Algorithms
 
@@ -114,6 +114,7 @@ Want to start learning right now? Pick the path that matches your goal:
 
 - **Frontend engineering** (the area with the most content): [full-stack/frontend/](full-stack/frontend/) is a "start here" learning path that goes from Foundations through HTML, CSS, JavaScript, TypeScript, React, and Next.js to frontend architecture, in order.
 - **How computers work:** the [Operating Systems section](full-stack/computer-science-foundations/operating-systems/README.md) starts with what an operating system is and builds up to scheduling, concurrency, file systems, and virtual memory.
+- **How databases work:** the [Database Management Systems section](full-stack/computer-science-foundations/database-management-systems/README.md) starts with why databases exist and builds up to transactions, indexing, and query optimization.
 - **Algorithms and data structures:** [full-stack/data-structures-and-algorithms/](full-stack/data-structures-and-algorithms/).
 - **Backend, AI, production, system design, and web security:** the matching folders under [full-stack/](full-stack/).
 

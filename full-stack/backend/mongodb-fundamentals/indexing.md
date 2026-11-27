@@ -6,7 +6,8 @@ MongoDB indexes solve the exact same problem [SQL's indexes.md](../sql-fundament
 already covered: without one, a query has to scan every document in a collection (a "collection
 scan," directly comparable to SQL's full table scan) to find matches. An index is a separate,
 ordered data structure — built on a B-tree, the same underlying structure many SQL databases use —
-that lets the database jump directly to matching documents instead.
+that lets the database jump directly to matching documents instead. [How Indexes Work](../../computer-science-foundations/database-management-systems/classification-and-optimisation/indexing-theory.md)
+shows how B-trees work inside.
 
 ## Creating a Single-Field Index
 
