@@ -63,4 +63,4 @@ The dependencies are {student, course} → instructor and instructor → course,
 
 ## ➡️ Continue Your Learning Path
 
-Continue to Transactions and ACID, the next module of this section: a well-designed schema keeps each fact in one place; transactions keep those facts correct while many operations run at once and when something fails in the middle.
+Continue to [Transactions and ACID](../transactions/README.md), the next module of this section: a well-designed schema keeps each fact in one place; transactions keep those facts correct while many operations run at once and when something fails in the middle.

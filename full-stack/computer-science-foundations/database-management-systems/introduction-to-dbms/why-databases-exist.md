@@ -174,7 +174,7 @@ with tempfile.TemporaryDirectory() as workshop:
 database, after forty concurrent deposits of 1 to 40: 920 (should be 920)
 ```
 
-No deposit was lost, because SQLite allows only one writer at any instant and the other writers queue up for their turn ([SQLite: Appropriate uses](https://www.sqlite.org/whentouse.html)). (Databases differ in how much writing they let happen at once, which is part of the story of transactions in a later module of this section.)
+No deposit was lost, because SQLite allows only one writer at any instant and the other writers queue up for their turn ([SQLite: Appropriate uses](https://www.sqlite.org/whentouse.html)). (Databases differ in how much writing they let happen at once, which is part of the story of [transactions](../transactions/README.md) in a later module of this section.)
 
 ## 4️⃣ A Crash in the Middle
 
