@@ -58,7 +58,7 @@ an API, a new version number in the URL).
 
 ## Deprecating an Old Version Gracefully
 
-```json
+```jsonc
 {
   "data": [ /* ... */ ],
   "meta": {

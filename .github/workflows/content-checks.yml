@@ -1,0 +1,26 @@
+name: Content checks
+
+# Relative links, anchors, and the syntax of Python and JSON code blocks.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Links and code blocks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - run: python3 .github/scripts/check_content.py

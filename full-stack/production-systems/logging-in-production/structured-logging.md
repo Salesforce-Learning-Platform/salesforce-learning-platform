@@ -58,7 +58,7 @@ entire purpose of structuring logs in the first place.
 
 ## A Request ID: Tying Related Logs Together
 
-```json
+```jsonl
 { "timestamp": "...", "level": "info", "message": "Request received", "requestId": "req-a1b2c3" }
 { "timestamp": "...", "level": "info", "message": "Database query executed", "requestId": "req-a1b2c3" }
 { "timestamp": "...", "level": "error", "message": "Payment failed", "requestId": "req-a1b2c3" }

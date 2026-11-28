@@ -19,7 +19,7 @@ JWT LIBRARIES historically accepted a token claiming "alg": "none"
 as VALID, with NO signature check at all.
 ```
 
-```json
+```text
 {"alg": "none", "typ": "JWT"}.{"userId": 42, "role": "admin"}.
 ```
 
