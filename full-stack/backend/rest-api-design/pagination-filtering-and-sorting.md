@@ -17,7 +17,7 @@ deliberate strategy for returning a manageable slice of the data instead.
 GET /products?page=2&limit=20
 ```
 
-```json
+```jsonc
 {
   "data": [ /* 20 products */ ],
   "pagination": {

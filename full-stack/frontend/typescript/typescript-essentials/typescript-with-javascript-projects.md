@@ -9,7 +9,7 @@ time as they're touched for other reasons.
 
 ## `allowJs` and `checkJs`
 
-```json
+```jsonc
 // tsconfig.json
 {
   "compilerOptions": {

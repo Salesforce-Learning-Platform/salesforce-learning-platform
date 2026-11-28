@@ -1,0 +1,17 @@
+[
+  {
+    "file": "full-stack/artificial-intelligence/generating-json-responses-from-llms/using-model-supported-json-mode-for-structured-outputs.md",
+    "block": "4fe655e121901a2a",
+    "reason": "One property of the schema shown above, on its own"
+  },
+  {
+    "file": "full-stack/artificial-intelligence/generating-json-responses-from-llms/using-model-supported-json-mode-for-structured-outputs.md",
+    "block": "c2cc83733cab9b65",
+    "reason": "One property of the schema shown above, on its own"
+  },
+  {
+    "file": "full-stack/frontend/nextjs/building-apis-with-nextjs/api-design-patterns.md",
+    "block": "a0d0a01e78431d7e",
+    "reason": "Two example responses shown together, each introduced by a comment"
+  }
+]

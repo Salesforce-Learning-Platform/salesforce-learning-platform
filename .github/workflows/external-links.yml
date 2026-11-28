@@ -1,0 +1,23 @@
+name: External links
+
+# Links to other websites, checked weekly because sites change on their own schedule.
+# A run fails only for dead links (HTTP 404 or 410, or a host name that no longer resolves);
+# links that could not be verified (blocked, rate limited, or timing out) are listed in the run summary.
+on:
+  schedule:
+    - cron: "17 4 * * 1"  # Mondays at 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: External links
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - run: python3 .github/scripts/check_content.py --external
