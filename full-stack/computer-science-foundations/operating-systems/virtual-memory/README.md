@@ -66,4 +66,4 @@ It is **Bélády's anomaly**: with more frames, FIFO caused more faults. LRU can
 
 ## ➡️ Continue Your Learning Path
 
-This is the last module of the Operating Systems section. Return to the [section index](../README.md) to review the path or revisit a module, and keep the ideas here in mind wherever a program's memory use or speed surprises you: the question to ask is which pages it is touching, and whether they are in memory.
+This is the last module of the Operating Systems section. Return to the [section index](../README.md) to review the path or revisit a module, and keep the ideas here in mind wherever a program's memory use or speed surprises you: the question to ask is which pages it is touching, and whether they are in memory. Then continue to the [Database Management Systems section](../../database-management-systems/README.md).

@@ -75,5 +75,5 @@ never be, since only the backend service should ever connect to it directly.
 
 ## ➡️ Continue Your Learning Path
 
-Continue to [CI/CD Pipelines](../ci-cd-pipelines/) to see how building and testing a containerized
-application like this one is automated on every code change.
+Continue to [Domains, DNS, and SSL](../domains-dns-and-ssl/) to see how a deployed application gets a
+domain name and HTTPS.

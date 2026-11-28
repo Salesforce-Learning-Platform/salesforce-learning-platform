@@ -67,5 +67,7 @@ See [revalidation.md](revalidation.md).
 
 ## Continue Your Learning Path
 
-This is the last module in the Next.js domain. See the
-[Frontend learning path](../../README.md) for what comes next.
+This is the last module in the Next.js domain. Continue to
+[Reading and Navigating Unfamiliar Codebases](../../frontend-architecture/reading-and-navigating-unfamiliar-codebases/README.md),
+the first Frontend Architecture module, or see the
+[Frontend learning path](../../README.md) for the full sequence.

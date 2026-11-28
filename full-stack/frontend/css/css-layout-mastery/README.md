@@ -2,10 +2,9 @@
 
 ## Purpose
 
-This folder covers CSS layout across three OPS modules that ship incrementally and build on each
-other: normal flow and positioning (OPS-055), Flexbox (OPS-056), and Grid (OPS-057). They share a
-folder because they're one continuous topic — modern CSS layout — but are scoped as separate
-learning modules so each can be absorbed on its own.
+This module covers CSS layout in three parts that build on each other: normal flow and positioning,
+Flexbox, and Grid. They share a folder because they're one continuous topic — modern CSS layout —
+but each part can be absorbed on its own.
 
 ## Files in This Module
 

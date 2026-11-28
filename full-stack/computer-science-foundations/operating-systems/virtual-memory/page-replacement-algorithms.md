@@ -281,4 +281,4 @@ Each piece of code was compared with an independent reference. The six simulator
 
 ## ➡️ Next
 
-This completes the Virtual Memory module and the Operating Systems section: the kernel and its modes, processes and threads, memory, scheduling, concurrency, files, and the virtual memory that ties memory and disk together. Return to the [section index](../README.md) to review the path or to revisit a module.
+This completes the Virtual Memory module and the Operating Systems section: the kernel and its modes, processes and threads, memory, scheduling, concurrency, files, and the virtual memory that ties memory and disk together. Return to the [section index](../README.md) to review the path or to revisit a module. Then continue to the [Database Management Systems section](../../database-management-systems/README.md).

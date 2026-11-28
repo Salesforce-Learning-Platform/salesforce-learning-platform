@@ -61,5 +61,5 @@ first page. See [code-splitting.md](code-splitting.md).
 
 ## Continue Your Learning Path
 
-Next: [React Error Handling and Debugging](../error-handling-and-debugging/) — see the
+Next: [Modern React](../modern-react-and-beyond/) — see the
 [Frontend learning path](../../README.md) for the full sequence.

@@ -104,6 +104,6 @@ smooth a two-state change while `@keyframes`/`animation` define self-running or 
 both should prefer `transform`/`opacity` for performance and respect `prefers-reduced-motion` for
 accessibility.
 
-This completes the CSS domain. Continue to
-[Introduction to JavaScript](../../javascript/introduction-to-javascript/), or see the
+This completes the Advanced CSS and Modern Styling module. Continue to
+[CSS Architecture and Debugging](../css-architecture-and-debugging/), the last CSS module, or see the
 [Frontend learning path](../../README.md) for the full sequence.
