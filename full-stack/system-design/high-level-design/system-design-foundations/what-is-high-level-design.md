@@ -2,7 +2,7 @@
 
 ## Zooming Out From a Single Component
 
-[Low-Level Design](../../low-level-design/), the previous domain, covered a single component's
+[Low-Level Design](../../README.md#-low-level-design), the previous domain, covered a single component's
 internal class structure in real depth — a Parking Lot system's actual classes. **High-Level
 Design (HLD)** zooms out entirely: designing an *entire system's* architecture — which services
 exist, how they communicate, where data lives, and how the whole thing scales to real,

@@ -62,5 +62,5 @@ at which point it returns `undefined`. See [prototypes.md](prototypes.md).
 
 ## Continue Your Learning Path
 
-Next: [Modern JavaScript](../modern-javascript/) — see the
+Next: [Additional JavaScript Topics](../additional-javascript-topics/) — see the
 [Frontend learning path](../../README.md) for the full sequence.

@@ -72,4 +72,5 @@ behavior, and a test that breaks means something a real user would actually noti
 
 ## Continue Your Learning Path
 
-See the [Frontend learning path](../../README.md) for the remaining modules and what comes next.
+Next: [Frontend Performance Fundamentals](../../performance/frontend-performance-fundamentals/README.md) —
+see the [Frontend learning path](../../README.md) for the full sequence.

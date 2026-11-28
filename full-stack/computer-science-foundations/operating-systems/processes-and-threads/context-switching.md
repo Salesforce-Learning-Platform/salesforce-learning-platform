@@ -262,4 +262,4 @@ No slice length is best for every workload: a desktop that must feel responsive 
 
 ## ➡️ Next
 
-This completes the tour of processes and threads: what they are, how they differ, which states they pass through, and what it costs to change from one to another. The next module of this section, [CPU Scheduling](../cpu-scheduling/README.md), studies how the kernel chooses *which* ready task receives the CPU at each switch, and why different policies suit different goals.
+This completes the tour of processes and threads: what they are, how they differ, which states they pass through, and what it costs to change from one to another. The next module of this section, [Memory Management](../memory-management/README.md), shows how memory is divided among processes and how their addresses are translated and protected. [CPU Scheduling](../cpu-scheduling/README.md), the module after it, studies how the kernel chooses *which* ready task receives the CPU at each switch, and why different policies suit different goals.

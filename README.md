@@ -18,7 +18,7 @@ Practical learning material covering:
 
 ### Frontend Engineering
 
-Modern frontend concepts and practical development ([`full-stack/frontend/`](full-stack/frontend/)):
+Modern frontend concepts and practical development ([`full-stack/frontend/`](full-stack/frontend/README.md)):
 
 - HTML, CSS, and JavaScript
 - TypeScript
@@ -32,7 +32,7 @@ Modern frontend concepts and practical development ([`full-stack/frontend/`](ful
 
 ### Backend Engineering
 
-Server-side development and data ([`full-stack/backend/`](full-stack/backend/)):
+Server-side development and data ([`full-stack/backend/`](full-stack/backend/README.md)):
 
 - Node.js and Express, from the first server to file handling and templates
 - REST API design, documentation, and developer experience
@@ -43,7 +43,7 @@ Server-side development and data ([`full-stack/backend/`](full-stack/backend/)):
 
 ### Artificial Intelligence Engineering
 
-Building applications on large language models ([`full-stack/artificial-intelligence/`](full-stack/artificial-intelligence/)):
+Building applications on large language models ([`full-stack/artificial-intelligence/`](full-stack/artificial-intelligence/README.md)):
 
 - How LLMs work, prompt engineering, and calling LLM APIs
 - Structured output, function calling, schema validation, and streaming
@@ -53,14 +53,14 @@ Building applications on large language models ([`full-stack/artificial-intellig
 
 ### Computer Science Foundations
 
-How computers work underneath the code ([`full-stack/computer-science-foundations/`](full-stack/computer-science-foundations/)):
+How computers work underneath the code ([`full-stack/computer-science-foundations/`](full-stack/computer-science-foundations/README.md)):
 
 - Operating systems: processes and threads, memory management, CPU scheduling, deadlocks and concurrency, file systems, and virtual memory ([section index](full-stack/computer-science-foundations/operating-systems/README.md))
 - Database management systems: why databases exist, data modeling, the entity-relationship model, the relational model, normalization, transactions, and database classification and optimization ([section index](full-stack/computer-science-foundations/database-management-systems/README.md))
 
 ### Data Structures and Algorithms
 
-The core toolkit for solving problems efficiently ([`full-stack/data-structures-and-algorithms/`](full-stack/data-structures-and-algorithms/)):
+The core toolkit for solving problems efficiently ([`full-stack/data-structures-and-algorithms/`](full-stack/data-structures-and-algorithms/README.md)):
 
 - Time and space complexity
 - Arrays, strings, linked lists, stacks, and queues
@@ -70,11 +70,11 @@ The core toolkit for solving problems efficiently ([`full-stack/data-structures-
 
 ### System Design
 
-High-level and low-level design ([`full-stack/system-design/`](full-stack/system-design/)).
+High-level and low-level design ([`full-stack/system-design/`](full-stack/system-design/README.md)).
 
 ### Production Systems
 
-Getting software into production and keeping it running ([`full-stack/production-systems/`](full-stack/production-systems/)):
+Getting software into production and keeping it running ([`full-stack/production-systems/`](full-stack/production-systems/README.md)):
 
 - DevOps foundations, Docker, and CI/CD pipelines
 - Cloud infrastructure, domains, DNS and SSL, and Nginx as a reverse proxy
@@ -82,7 +82,7 @@ Getting software into production and keeping it running ([`full-stack/production
 
 ### Web Security
 
-How web applications are attacked and defended ([`full-stack/web-security/`](full-stack/web-security/)):
+How web applications are attacked and defended ([`full-stack/web-security/`](full-stack/web-security/README.md)):
 
 - The security mindset and security in practice
 - Injection, cross-site scripting, CSRF, clickjacking, and server-side attacks
@@ -110,13 +110,23 @@ Curated references including official documentation, Trailhead content, articles
 
 ## Getting Started
 
-Want to start learning right now? Pick the path that matches your goal:
+The areas under `full-stack/` also form one course. Each area page lists its modules in learning order, and each module ends with a link to the next one:
 
-- **Frontend engineering** (the area with the most content): [full-stack/frontend/](full-stack/frontend/) is a "start here" learning path that goes from Foundations through HTML, CSS, JavaScript, TypeScript, React, and Next.js to frontend architecture, in order.
+1. [Frontend Engineering](full-stack/frontend/README.md), starting with Foundations, which assumes no web development experience
+2. [Backend Engineering](full-stack/backend/README.md)
+3. [Artificial Intelligence Engineering](full-stack/artificial-intelligence/README.md)
+4. [Production Systems](full-stack/production-systems/README.md)
+5. [Web Security](full-stack/web-security/README.md)
+6. [System Design](full-stack/system-design/README.md)
+7. [Data Structures and Algorithms](full-stack/data-structures-and-algorithms/README.md)
+8. [Computer Science Foundations](full-stack/computer-science-foundations/README.md): operating systems, then database management systems
+
+You don't have to follow that order. Pick the path that matches your goal:
+
+- **Frontend engineering** (the area with the most content): the [frontend home page](full-stack/frontend/README.md) is a "start here" learning path that goes from Foundations through HTML, CSS, JavaScript, TypeScript, React, Next.js, and frontend architecture to Vue.js, Web Components, testing, and performance, in order.
 - **How computers work:** the [Operating Systems section](full-stack/computer-science-foundations/operating-systems/README.md) starts with what an operating system is and builds up to scheduling, concurrency, file systems, and virtual memory.
 - **How databases work:** the [Database Management Systems section](full-stack/computer-science-foundations/database-management-systems/README.md) starts with why databases exist and builds up to transactions, indexing, and query optimization.
-- **Algorithms and data structures:** [full-stack/data-structures-and-algorithms/](full-stack/data-structures-and-algorithms/).
-- **Backend, AI, production, system design, and web security:** the matching folders under [full-stack/](full-stack/).
+- **Anything else:** start from an area page in the list above and check what the module you want builds on.
 
 ## Repository Structure
 

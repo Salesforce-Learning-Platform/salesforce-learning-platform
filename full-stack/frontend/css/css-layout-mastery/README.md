@@ -6,6 +6,19 @@ This module covers CSS layout in three parts that build on each other: normal fl
 Flexbox, and Grid. They share a folder because they're one continuous topic — modern CSS layout —
 but each part can be absorbed on its own.
 
+## Learning Objectives
+
+- Explain normal flow and `display`, and place elements with `relative`, `absolute`, `fixed`, and
+  `sticky` positioning, including which ancestor an `absolute` element is positioned against.
+- Explain what creates a stacking context, and fix a `z-index` bug by finding which context each
+  element is in.
+- Choose an `overflow` value, and recognize the older centering and float techniques in existing code.
+- Lay out items along one axis with Flexbox, using direction, wrapping, alignment, `gap`, and `flex`,
+  and explain why `order` can confuse keyboard and screen reader users.
+- Build two-dimensional layouts with Grid, using tracks, grid lines, named template areas, and
+  `repeat()` with `minmax()`.
+- Choose between Grid and Flexbox for a layout, and combine them.
+
 ## Files in This Module
 
 | File | Covers | Module |

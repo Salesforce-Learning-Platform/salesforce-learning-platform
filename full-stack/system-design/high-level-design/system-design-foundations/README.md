@@ -3,7 +3,7 @@
 ## 📚 Overview
 
 This module opens the High-Level Design domain, zooming out from
-[Low-Level Design](../../low-level-design/)'s single-component focus to an entire system's
+[Low-Level Design](../../README.md#-low-level-design)'s single-component focus to an entire system's
 architecture. It covers what HLD actually is, how functional and non-functional requirements shape
 architecture differently, how to break a system into genuine components, back-of-envelope capacity
 estimation, and a repeatable four-step process for approaching any new system design problem.
@@ -22,7 +22,7 @@ By the end of this module, you will be able to:
 
 ## 📋 Prerequisites
 
-- [Low-Level Design](../../low-level-design/) — this module directly extends its requirements-analysis and Single-Responsibility concepts to system scale.
+- [Low-Level Design](../../README.md#-low-level-design) — this module directly extends its requirements-analysis and Single-Responsibility concepts to system scale.
 
 ## 📂 Module Contents
 

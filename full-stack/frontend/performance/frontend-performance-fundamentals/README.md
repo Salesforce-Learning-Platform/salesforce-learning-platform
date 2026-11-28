@@ -71,5 +71,7 @@ fully parsed or on running in a guaranteed order relative to other scripts. See
 
 ## Continue Your Learning Path
 
-This is the only module in the Performance domain. See the
-[Frontend learning path](../../README.md) for what comes next.
+This is the only module in the Performance domain, and the last in the
+[Frontend learning path](../../README.md). Continue to
+[Starting with Node.js](../../../backend/starting-with-nodejs/README.md), the first module of
+[Backend Engineering](../../../backend/README.md).

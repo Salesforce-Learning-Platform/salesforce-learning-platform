@@ -9,6 +9,36 @@ modern codebases and interviews but were not covered elsewhere: template literal
 nullish coalescing, logical assignment and numeric separators, the newer array and object methods,
 top-level `await` with import attributes, and static blocks, error `cause`, and iterator helpers.
 
+## Learning Objectives
+
+- Write template literals, including multi-line strings and tagged templates.
+- Read values that may be missing with `?.`, give defaults with `??`, and explain how `??` differs
+  from `||`.
+- Use `||=`, `&&=`, and `??=`, saying when each one assigns, and write large numbers with numeric
+  separators.
+- Use `at()`, `findLast()`, the copying methods such as `toSorted()` and `with()`, `Object.hasOwn()`,
+  and `Object.groupBy()`.
+- Use top-level `await`, import JSON with import attributes, and explain how top-level `await` delays
+  the modules that import it.
+- Use class static blocks, `Error` `cause`, and iterator helpers, and explain why iterator helpers are
+  lazy.
+
+## Prerequisites
+
+- [Introduction to JavaScript](../introduction-to-javascript/README.md),
+  [JavaScript Arrays and Objects](../arrays-and-objects/README.md), and
+  [JavaScript Functions](../functions/README.md): the quick-reference files summarize material taught
+  there.
+- [JavaScript Operators and Type System](../operators-and-type-system/README.md): truthy and falsy
+  values, which `??` and the logical assignment operators depend on.
+- [Asynchronous Programming and Modules](../asynchronous-programming-and-modules/README.md):
+  `async`/`await` and modules, needed for top-level `await`.
+- [Error Handling and Debugging](../error-handling-and-debugging/README.md) and
+  [Advanced JavaScript](../advanced-javascript/README.md): errors and classes, needed for `Error`
+  `cause` and static blocks.
+- [Additional JavaScript Topics](../additional-javascript-topics/README.md): the iterator protocol and
+  generator functions, which the iterator helpers section uses.
+
 ## Files in This Module
 
 | File | Covers |
@@ -113,5 +143,5 @@ pipeline after five results instead of trying to collect an endless sequence int
 
 ## Continue Your Learning Path
 
-Next: [Additional JavaScript Topics](../additional-javascript-topics/) — see the
+Next: [Execution Context, Hoisting and Strict Mode](../execution-context-and-hoisting/README.md) — see the
 [Frontend learning path](../../README.md) for the full sequence.

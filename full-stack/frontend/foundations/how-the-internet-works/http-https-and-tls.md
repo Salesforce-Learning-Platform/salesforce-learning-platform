@@ -71,9 +71,10 @@ to actually deliver the envelope.
 ## HTTPS and TLS
 
 **HTTPS** is HTTP layered on top of **TLS (Transport Layer Security)** — most current deployments
-use **TLS 1.3** ([RFC 8446](https://www.rfc-editor.org/rfc/rfc8446.html)), the successor to the older
-and now-deprecated SSL protocol (the term "SSL certificate" persists in casual usage even though
-the underlying protocol in modern use is TLS).
+use **TLS 1.3** ([RFC 9846](https://www.rfc-editor.org/rfc/rfc9846.html), which replaced the
+original 2018 specification, RFC 8446, in July 2026), the successor to the older and now-deprecated
+SSL protocol (the term "SSL certificate" persists in casual usage even though the underlying protocol
+in modern use is TLS).
 
 TLS provides three guarantees that plain HTTP does not:
 

@@ -77,4 +77,5 @@ last-minute gate also risks it becoming a rushed formality rather than a genuine
 ## ➡️ Continue Your Learning Path
 
 This is the final module of the Web Security domain. Continue to
-[Low-Level Design](../../system-design/low-level-design/) to begin the System Design domain.
+[LLD Foundations](../../system-design/low-level-design/lld-foundations/README.md), the first module of
+[System Design](../../system-design/README.md).

@@ -26,6 +26,15 @@ flat sequence of statements into a program that actually branches and repeats.
 | [switch-statements.md](switch-statements.md) | `switch`, fall-through behavior, and when to prefer it |
 | [loops.md](loops.md) | `for`, `while`, `do...while`, `for...of`, `for...in`, `break`/`continue` |
 
+## When to Deep-Dive vs. Skim
+
+If you know `if`, `switch`, and loops from another language, skim
+[conditional-statements.md](conditional-statements.md) and
+[switch-statements.md](switch-statements.md), but check two JavaScript details: a condition tests
+whether a value is truthy, and `switch` compares with `===`. Read [loops.md](loops.md) closely, in
+particular `for...of` and `for...in`: on an array, `for...in` gives index keys as strings, not the
+values.
+
 ## Quick Knowledge Check
 
 <details>

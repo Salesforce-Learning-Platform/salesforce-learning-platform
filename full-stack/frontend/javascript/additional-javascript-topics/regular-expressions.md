@@ -89,4 +89,4 @@ compact pattern language for matching, extracting, and replacing text, appropria
 well-defined patterns but not a substitute for a real parser once complexity grows.
 
 This completes the Additional JavaScript Topics module. Continue to
-[Execution Context, Hoisting and Strict Mode](../execution-context-and-hoisting/README.md).
+[Modern JavaScript](../modern-javascript/README.md).

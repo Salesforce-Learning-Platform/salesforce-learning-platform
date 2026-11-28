@@ -62,7 +62,10 @@ between algorithms that are already confirmed to be correct.
 
 ## 📚 References
 
-- This module establishes foundational vocabulary confirmed against standard, well-established computer science definitions — subsequent modules in this domain include specific, verified external references as more advanced techniques are introduced.
+- NIST, Dictionary of Algorithms and Data Structures: [data structure](https://xlinux.nist.gov/dads/HTML/datastructur.html) and [algorithm](https://xlinux.nist.gov/dads/HTML/algorithm.html), short standard definitions of both terms
+- Pat Morin, [Open Data Structures](https://opendatastructures.org/), a free textbook on implementing and analyzing data structures, with a pseudocode edition and Python source code
+- Python documentation, [Data Structures](https://docs.python.org/3/tutorial/datastructures.html), the tutorial chapter on lists, sets, and dictionaries
+- MIT OpenCourseWare, [6.006 Introduction to Algorithms (Spring 2020)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/), a full undergraduate course
 
 ## ➡️ Continue Your Learning Path
 

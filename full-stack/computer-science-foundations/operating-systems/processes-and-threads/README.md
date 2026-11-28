@@ -71,4 +71,4 @@ It enters the **ready** state. A finished I/O operation (typically signalled by 
 
 ## ➡️ Continue Your Learning Path
 
-Continue to the [CPU Scheduling module](../cpu-scheduling/README.md), the next module in this section: with many processes and threads ready to run, it studies how the kernel decides which one gets the CPU next, and why first-come-first-served, shortest-job-first, round-robin, and priority scheduling suit different goals.
+Continue to the [Memory Management module](../memory-management/README.md), the next module in this section: every process sees its own address space, and this module shows how real memory is divided among processes, how their addresses are translated, and how they are kept apart. The [CPU Scheduling module](../cpu-scheduling/README.md) after it studies how the kernel decides which ready process or thread gets the CPU next.

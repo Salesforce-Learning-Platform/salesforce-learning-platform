@@ -58,7 +58,7 @@ Browser turns the response into the page you see
 The Internet's job, in one sentence, is to let any two connected computers exchange data
 reliably, even though neither one knows the physical route the data will take.
 
-## How This Module Is Organized
+## Files in This Module
 
 Read the files in this folder in order — each one builds on the last:
 
@@ -145,6 +145,17 @@ is even sent. Each adds at least one network round trip. See
 [what-happens-when-you-enter-a-url.md](what-happens-when-you-enter-a-url.md).
 
 </details>
+
+## References
+
+- MDN Web Docs, [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work)
+- MDN Web Docs, [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
+- IETF, [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293.html)
+- IETF, [RFC 9110: HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
+- IETF, [RFC 9846: The Transport Layer Security (TLS) Protocol Version 1.3](https://www.rfc-editor.org/rfc/rfc9846.html)
+
+The standards for IP addressing, private addresses, UDP, and DNS are listed in
+[Knowledge Check and Further Reading](knowledge-check-and-further-reading.md#references).
 
 ## Continue Your Learning Path
 
