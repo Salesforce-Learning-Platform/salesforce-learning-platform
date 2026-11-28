@@ -53,3 +53,6 @@ JavaScript Fundamentals
 Advanced JavaScript
   ↓
 Frontend Frameworks
+```
+
+The order that the frontend lessons follow is listed on the [frontend home page](../../full-stack/frontend/README.md).

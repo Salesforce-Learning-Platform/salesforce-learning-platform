@@ -119,7 +119,7 @@ However, changes to core concepts should be deliberate because they may affect m
 
 ---
 
-# Core Domain Overview
+## Core Domain Overview
 
 The Salesforce Learning Platform can initially be organized into six primary domains:
 
@@ -134,7 +134,7 @@ These domains group related concepts according to their primary responsibility.
 
 ---
 
-## Domain Relationship Overview
+### Domain Relationship Overview
 
 ```text
 Learning Path
@@ -173,7 +173,7 @@ For example, the eventual implementation does not require every relationship to 
 
 ---
 
-# Learning Structure Domain
+## Learning Structure Domain
 
 The Learning Structure domain defines how learning is organized.
 
@@ -188,7 +188,7 @@ The main concepts within this domain are:
 
 ---
 
-## Learning Path
+### Learning Path
 
 A Learning Path represents a structured learning journey.
 
@@ -218,7 +218,7 @@ Instead, it provides structure by organizing related Learning Modules and defini
 
 ---
 
-## Learning Module
+### Learning Module
 
 A Learning Module represents a logical grouping of related learning material.
 
@@ -252,7 +252,7 @@ The important principle is that the module provides a meaningful organizational 
 
 ---
 
-## Learning Objective
+### Learning Objective
 
 A Learning Objective defines what a learner should understand or be able to do after completing a learning experience.
 
@@ -279,7 +279,7 @@ They also provide a basis for determining whether assessments and practical acti
 
 ---
 
-## Learning Dependency
+### Learning Dependency
 
 A Learning Dependency represents a relationship where one learning resource should be understood before progressing to another.
 
@@ -308,7 +308,7 @@ The future platform may support different dependency behaviors depending on lear
 
 ---
 
-# Learning Content Domain
+## Learning Content Domain
 
 The Learning Content domain represents the instructional material provided to learners.
 
@@ -330,7 +330,7 @@ The domain model should not assume that all content belongs permanently to a sin
 
 ---
 
-## Learning Content Relationships
+### Learning Content Relationships
 
 Learning Content may have relationships with:
 
@@ -373,7 +373,7 @@ These relationships allow learning content to participate in multiple areas of t
 
 ---
 
-# Learning Experience Domain
+## Learning Experience Domain
 
 The Learning Experience domain represents activities through which learners interact with knowledge and apply what they learn.
 
@@ -386,7 +386,7 @@ The primary concepts include:
 
 ---
 
-## Exercise
+### Exercise
 
 An Exercise provides a focused opportunity for a learner to apply a specific concept or skill.
 
@@ -412,7 +412,7 @@ The future platform may track exercise completion, attempts, results, or other r
 
 ---
 
-## Project
+### Project
 
 A Project represents a larger practical learning experience.
 
@@ -439,7 +439,7 @@ The detailed project framework is defined separately in the Project-Based Learni
 
 ---
 
-## Learning Activity
+### Learning Activity
 
 A Learning Activity is a conceptual representation of an action that contributes to the learning experience.
 
@@ -457,7 +457,7 @@ At the current stage, Learning Activity is a conceptual abstraction rather than 
 
 ---
 
-# Assessment and Knowledge Validation Domain
+## Assessment and Knowledge Validation Domain
 
 The Assessment and Knowledge Validation domain represents how learner understanding and knowledge may be evaluated.
 
@@ -470,7 +470,7 @@ The primary concepts include:
 
 ---
 
-## Assessment
+### Assessment
 
 An Assessment evaluates a learner's understanding of one or more Learning Objectives.
 
@@ -488,7 +488,7 @@ An Assessment should have a clear relationship with the knowledge or Learning Ob
 
 ---
 
-## Assessment Item
+### Assessment Item
 
 An Assessment Item represents an individual unit within an Assessment.
 
@@ -503,7 +503,7 @@ The detailed structure of Assessment Items is intentionally outside the scope of
 
 ---
 
-## Assessment Result
+### Assessment Result
 
 An Assessment Result represents the outcome of a learner's assessment attempt or evaluation.
 
@@ -519,7 +519,7 @@ The exact structure should be defined later according to assessment, reporting, 
 
 ---
 
-# Learner Progress Domain
+## Learner Progress Domain
 
 The Learner Progress domain represents the learner's relationship with learning resources and activities over time.
 
@@ -533,7 +533,7 @@ The primary concepts include:
 
 ---
 
-## Learner
+### Learner
 
 A Learner represents a person participating in learning activities through the platform.
 
@@ -562,7 +562,7 @@ These concepts may eventually refer to the same individual, but they represent d
 
 ---
 
-## Progress
+### Progress
 
 Progress represents a learner's advancement through a learning structure or activity.
 
@@ -594,7 +594,7 @@ The detailed rules for calculating and maintaining progress are defined separate
 
 ---
 
-# Content Management Domain
+## Content Management Domain
 
 The Content Management domain represents the information and processes required to manage learning resources over time.
 
@@ -608,7 +608,7 @@ The primary concepts include:
 
 ---
 
-## Content Lifecycle
+### Content Lifecycle
 
 Content Lifecycle represents the current operational state of a learning resource.
 
@@ -634,7 +634,7 @@ The detailed lifecycle model is defined separately in the Content Lifecycle and 
 
 ---
 
-## Content Version
+### Content Version
 
 Content Version represents a meaningful revision of learning material.
 
@@ -663,7 +663,7 @@ Detailed versioning rules are defined separately in the Learning Content Version
 
 ---
 
-## Content Metadata
+### Content Metadata
 
 Content Metadata describes information about a learning resource that helps the platform organize, discover, classify, and manage it.
 
@@ -684,7 +684,7 @@ The exact metadata structure may evolve as the platform grows.
 
 ---
 
-# Core Entity Responsibilities
+## Core Entity Responsibilities
 
 The following table summarizes the primary responsibility of each core concept.
 
@@ -710,7 +710,7 @@ This responsibility model should guide future architecture and implementation de
 
 ---
 
-# Conceptual Relationship Model
+## Conceptual Relationship Model
 
 The following diagram provides a broader view of the core domain relationships.
 
@@ -770,7 +770,7 @@ It should not be interpreted as a database schema, object model, or mandatory se
 
 ---
 
-# Domain Boundaries
+## Domain Boundaries
 
 The core domain model intentionally separates concepts according to their primary responsibility.
 
@@ -788,7 +788,7 @@ Future platform modules should respect these conceptual boundaries unless there 
 
 ---
 
-# What This Domain Model Does Not Define
+## What This Domain Model Does Not Define
 
 This document does not define:
 
@@ -811,7 +811,7 @@ The purpose of this document is to establish the conceptual foundation before im
 
 ---
 
-# Relationship to Other Architecture Documents
+## Relationship to Other Architecture Documents
 
 This domain model should be considered alongside the following platform documentation:
 
@@ -835,7 +835,7 @@ The Core Domain Model provides the shared conceptual vocabulary that connects th
 
 ---
 
-# Future Evolution
+## Future Evolution
 
 As the Salesforce Learning Platform evolves, the domain model may expand to include additional concepts such as:
 
@@ -869,7 +869,7 @@ Changes to core concepts should also consider their impact on:
 
 ---
 
-# Architectural Guidance
+## Architectural Guidance
 
 The Core Domain Model should serve as a reference point for future architectural decisions.
 
@@ -887,7 +887,7 @@ Applying these questions consistently will help maintain a coherent domain model
 
 ---
 
-## Conclusion
+### Conclusion
 
 The Core Domain Model establishes a shared conceptual foundation for the Salesforce Learning Platform.
 
@@ -908,11 +908,11 @@ Future architecture, data modeling, APIs, modules, integrations, permissions, an
 
 ---
 
-## References
+### References
 
 The concepts in this document are informed by established software architecture and domain modeling practices. These references provide additional background for readers who want to explore the principles in greater depth.
 
-### Martin Fowler — Domain Model
+#### Martin Fowler — Domain Model
 
 Martin Fowler defines the Domain Model pattern as an object model that represents the business domain and incorporates both behavior and data.
 
@@ -923,7 +923,7 @@ https://martinfowler.com/eaaCatalog/domainModel.html
 
 This reference supports the distinction between the conceptual business domain and the technical implementation of a system.
 
-### Martin Fowler — Domain-Driven Design
+#### Martin Fowler — Domain-Driven Design
 
 Domain-Driven Design emphasizes building software around a well-developed understanding of the business domain, its concepts, rules, and relationships.
 
@@ -934,7 +934,7 @@ https://martinfowler.com/bliki/DomainDrivenDesign.html
 
 This provides background for identifying the core concepts and relationships that make up the Salesforce Learning Platform domain model.
 
-### C4 Model — Software Architecture Abstractions
+#### C4 Model — Software Architecture Abstractions
 
 The C4 model provides a structured way to describe software architecture using hierarchical abstractions, including software systems, containers, components, and code.
 
@@ -950,7 +950,7 @@ https://c4model.com/abstractions
 
 The C4 model is relevant to this document because it reinforces the importance of defining architecture at different levels of abstraction without prematurely mixing conceptual domain concerns with detailed implementation decisions.
 
-### Martin Fowler — Presentation, Domain, and Data Layering
+#### Martin Fowler — Presentation, Domain, and Data Layering
 
 Separating presentation concerns, domain logic, and data access is a widely used architectural approach for managing complexity and reducing unnecessary coupling between different responsibilities.
 
@@ -963,7 +963,7 @@ This reference supports the separation between the platform's conceptual domain 
 
 ---
 
-## Reference Usage
+### Reference Usage
 
 These references are provided as architectural background and supporting material.
 

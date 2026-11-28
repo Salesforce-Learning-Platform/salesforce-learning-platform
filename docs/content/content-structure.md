@@ -15,3 +15,6 @@ Learning Area
 └── Domain or Subject
     └── Topic
         └── Learning Material
+```
+
+In this repository the folders follow the hierarchy. For example, `full-stack/frontend/javascript/functions/closures.md` is learning material in the JavaScript topic of the frontend domain, in the full-stack learning area.
