@@ -17,6 +17,12 @@ technical judgment.
 - Apply a consistent standard: you must be able to explain and defend every line of code you ship,
   regardless of who or what wrote the first draft.
 
+## Prerequisites
+
+- [Git and GitHub](../git-and-github/README.md), especially
+  [the pull request workflow](../git-and-github/the-pull-request-workflow.md): this module asks you to
+  review AI-written code the way you would review a colleague's pull request.
+
 ## Files in This Module
 
 | File | Covers |

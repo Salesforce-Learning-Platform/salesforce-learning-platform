@@ -72,5 +72,6 @@ test runs. See [api-testing-with-supertest.md](api-testing-with-supertest.md).
 
 ## ➡️ Continue Your Learning Path
 
-This is the final module in the Backend domain. See the platform's root
-[README](../../../README.md) for the full repository structure and what comes next.
+This is the final module in the Backend domain. Continue to
+[Understanding AI Fundamentals](../../artificial-intelligence/understanding-ai-fundamentals/README.md),
+the first module of [Artificial Intelligence Engineering](../../artificial-intelligence/README.md).

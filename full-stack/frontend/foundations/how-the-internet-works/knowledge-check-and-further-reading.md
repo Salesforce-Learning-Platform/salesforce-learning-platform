@@ -108,7 +108,7 @@ Primary and standards sources used and recommended for further study:
 - IETF, [RFC 9293 — Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293.html)
 - IETF, [RFC 768 — User Datagram Protocol (UDP)](https://www.rfc-editor.org/rfc/rfc768.html)
 - IETF, [RFC 9110 — HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html)
-- IETF, [RFC 8446 — The Transport Layer Security (TLS) Protocol Version 1.3](https://www.rfc-editor.org/rfc/rfc8446.html)
+- IETF, [RFC 9846 — The Transport Layer Security (TLS) Protocol Version 1.3](https://www.rfc-editor.org/rfc/rfc9846.html)
 - IETF, [RFC 1034](https://www.rfc-editor.org/rfc/rfc1034.html) / [RFC 1035 — Domain Names (concepts and implementation)](https://www.rfc-editor.org/rfc/rfc1035.html)
 - MDN Web Docs, [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work)
 - MDN Web Docs, [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)

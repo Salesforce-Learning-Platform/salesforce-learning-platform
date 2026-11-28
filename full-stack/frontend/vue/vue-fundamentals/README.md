@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Having just finished the [React domain](../../react/) and [Next.js domain](../../nextjs/), this
+With the [React domain](../../react/) and [Next.js domain](../../nextjs/) behind you, this
 module introduces **Vue.js** — a second major component framework, not as a replacement for what
 you've learned, but as an example of how the same underlying problems (reusable components,
 reactive UI updates) can be solved with genuinely different design choices. Every comparison in
@@ -67,5 +67,6 @@ Vue does support a JSX-like syntax as an option, but templates are the idiomatic
 
 ## Continue Your Learning Path
 
-This is the only module in the Vue.js domain. See the
-[Frontend learning path](../../README.md) for what comes next.
+This is the only module in the Vue.js domain. Next:
+[Web Components Fundamentals](../../web-components/web-components-fundamentals/README.md) — see the
+[Frontend learning path](../../README.md) for the full sequence.

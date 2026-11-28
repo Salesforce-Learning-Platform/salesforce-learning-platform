@@ -61,5 +61,5 @@ string key from another part of the codebase. See [symbols.md](symbols.md).
 
 ## Continue Your Learning Path
 
-Next: [Execution Context, Hoisting and Strict Mode](../execution-context-and-hoisting/README.md) — see the
+Next: [Modern JavaScript](../modern-javascript/) — see the
 [Frontend learning path](../../README.md) for the full sequence.

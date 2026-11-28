@@ -14,6 +14,13 @@ baseline so every later module can assume it.
 - Configure a code editor for a productive frontend workflow.
 - Locate and use the core panels of browser DevTools (Elements, Console, Network).
 
+## Prerequisites
+
+- No terminal experience or installed tools are assumed.
+- The Network panel part of [browser-devtools-essentials.md](browser-devtools-essentials.md) follows
+  the request steps in
+  [What Happens When You Enter a URL](../how-the-internet-works/what-happens-when-you-enter-a-url.md).
+
 ## Files in This Module
 
 | File | Covers |

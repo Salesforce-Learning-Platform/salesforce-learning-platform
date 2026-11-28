@@ -12,14 +12,18 @@ module can assume what came before it, instead of re-explaining prerequisites �
 makes learning here fast and non-repetitive.
 
 ```text
-1. Foundations              → how the web actually works, your tools, your workflow
-2. HTML                     → structuring content
-3. CSS                      → styling and layout
-4. JavaScript               → behavior and interactivity
-5. TypeScript                → typed JavaScript at scale
-6. React                    → building UI with components
-7. Next.js                  → production React applications
-8. Frontend Architecture     → reading and navigating real, larger codebases
+1.  Foundations             → how the web actually works, your tools, your workflow
+2.  HTML                    → structuring content
+3.  CSS                     → styling and layout
+4.  JavaScript              → behavior and interactivity
+5.  TypeScript              → typed JavaScript at scale
+6.  React                   → building UI with components
+7.  Next.js                 → production React applications
+8.  Frontend Architecture   → reading larger codebases, and design systems
+9.  Vue.js                  → a second component framework, compared with React
+10. Web Components          → components built into the browser, without a framework
+11. Testing                 → unit, component, and end-to-end tests
+12. Performance             → making pages load and respond quickly
 ```
 
 | Domain | Start here | Status |
@@ -32,6 +36,10 @@ makes learning here fast and non-repetitive.
 | 6. React | [react/introduction-to-react/](react/introduction-to-react/) | — |
 | 7. Next.js | [nextjs/getting-started-with-nextjs/](nextjs/getting-started-with-nextjs/) | — |
 | 8. Frontend Architecture | [frontend-architecture/reading-and-navigating-unfamiliar-codebases/](frontend-architecture/reading-and-navigating-unfamiliar-codebases/) | — |
+| 9. Vue.js | [vue/vue-fundamentals/](vue/vue-fundamentals/) | — |
+| 10. Web Components | [web-components/web-components-fundamentals/](web-components/web-components-fundamentals/) | — |
+| 11. Testing | [testing/frontend-testing-fundamentals/](testing/frontend-testing-fundamentals/) | — |
+| 12. Performance | [performance/frontend-performance-fundamentals/](performance/frontend-performance-fundamentals/) | — |
 
 ## If You Already Know Some of This
 
@@ -54,4 +62,5 @@ them:
 
 ## Next
 
-Start at [foundations/](foundations/).
+Start at [foundations/](foundations/). When you finish the last frontend module, the course continues with
+[Backend Engineering](../backend/README.md).

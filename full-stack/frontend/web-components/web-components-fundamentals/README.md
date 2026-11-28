@@ -74,5 +74,6 @@ browser guarantee, not a build-tool convention. See [shadow-dom.md](shadow-dom.m
 
 ## Continue Your Learning Path
 
-This is the only module in the Web Components domain. See the
-[Frontend learning path](../../README.md) for what comes next.
+This is the only module in the Web Components domain. Next:
+[Frontend Testing Fundamentals](../../testing/frontend-testing-fundamentals/README.md) — see the
+[Frontend learning path](../../README.md) for the full sequence.

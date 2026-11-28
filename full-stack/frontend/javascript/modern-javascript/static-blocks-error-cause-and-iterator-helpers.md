@@ -196,5 +196,5 @@ where needed.
 
 ## ➡️ Next
 
-Continue to the [Additional JavaScript Topics](../additional-javascript-topics/README.md) module,
-the next module in this section.
+Continue to the [Execution Context, Hoisting and Strict Mode](../execution-context-and-hoisting/README.md)
+module, the next module in this section.

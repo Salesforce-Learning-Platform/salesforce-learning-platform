@@ -70,5 +70,6 @@ matters most precisely when the output looks most trustworthy by default.
 ## ➡️ Continue Your Learning Path
 
 This is the final module in the Generative AI Engineering domain. Continue to
-[DevOps and Infrastructure](../../production-systems/) to move from building AI-powered features to
-deploying and operating production systems more broadly.
+[DevOps Foundations](../../production-systems/devops-foundations/README.md), the first module of
+[Production Systems](../../production-systems/README.md), to move from building AI-powered features
+to deploying and operating production systems more broadly.

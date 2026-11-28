@@ -16,6 +16,11 @@ it.
 - Explain the pull request workflow and why code review exists.
 - Recognize and resolve a merge conflict.
 
+## Prerequisites
+
+- [Terminal and Command Line Basics](../preparing-your-machine/terminal-and-command-line-basics.md):
+  the Git commands in this module are run in a terminal.
+
 ## Files in This Module
 
 | File | Covers |

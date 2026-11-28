@@ -72,5 +72,6 @@ format from one shared source, whereas a CSS custom property only ever describes
 
 ## Continue Your Learning Path
 
-This is the last module in the Frontend Architecture domain. See the
-[Frontend learning path](../../README.md) for what comes next.
+This is the last module in the Frontend Architecture domain. Next:
+[Vue.js Fundamentals](../../vue/vue-fundamentals/README.md) — see the
+[Frontend learning path](../../README.md) for the full sequence.

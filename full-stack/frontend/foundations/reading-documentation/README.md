@@ -15,6 +15,12 @@ that skill explicit, closing out the Foundations sequence.
 - Evaluate whether documentation is current, authoritative, and applicable to your exact version.
 - Know when documentation is genuinely wrong or outdated, versus when you've misread it.
 
+## Prerequisites
+
+- No earlier module is required. Checking which version you have installed is easier after
+  [Installing a Package Manager and Node.js](../preparing-your-machine/installing-a-package-manager-and-node.md),
+  which explains `package.json` and lock files.
+
 ## Files in This Module
 
 | File | Covers |
