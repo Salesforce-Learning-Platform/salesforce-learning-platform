@@ -76,4 +76,5 @@ async update triggered from user interaction, not only forms. See
 
 ## ➡️ Continue Your Learning Path
 
-See the [Frontend learning path](../../README.md) for the remaining modules and what comes next.
+Next: [React Error Handling and Debugging](../error-handling-and-debugging/) — see the
+[Frontend learning path](../../README.md) for the full sequence.

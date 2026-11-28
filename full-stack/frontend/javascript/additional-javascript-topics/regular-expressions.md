@@ -88,4 +88,5 @@ way to implement it, with genuine lazy-evaluation benefits (see
 compact pattern language for matching, extracting, and replacing text, appropriate for
 well-defined patterns but not a substitute for a real parser once complexity grows.
 
-This completes the JavaScript domain (OPS-063 through OPS-077).
+This completes the Additional JavaScript Topics module. Continue to
+[Execution Context, Hoisting and Strict Mode](../execution-context-and-hoisting/README.md).

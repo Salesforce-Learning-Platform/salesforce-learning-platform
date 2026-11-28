@@ -68,5 +68,5 @@ overridden by a more specific class like `col-lg-4`. See
 
 ## Continue Your Learning Path
 
-Continue to the [CSS Architecture and Debugging module](../css-architecture-and-debugging/) to
-organize hand-written CSS (or a mix of hand-written and utility classes) at scale.
+Next: [Advanced CSS and Modern Styling](../advanced-css-and-modern-styling/) — see the
+[Frontend learning path](../../README.md) for the full sequence.

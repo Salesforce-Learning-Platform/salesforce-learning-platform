@@ -72,5 +72,5 @@ format from one shared source, whereas a CSS custom property only ever describes
 
 ## Continue Your Learning Path
 
-See the [Frontend learning path](../../README.md) for the remaining modules in the Frontend
-Architecture domain and what comes next.
+This is the last module in the Frontend Architecture domain. See the
+[Frontend learning path](../../README.md) for what comes next.

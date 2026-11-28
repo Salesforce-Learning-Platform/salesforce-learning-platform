@@ -93,4 +93,5 @@ like a well-built Route Handler (see [data-mutations.md](data-mutations.md));
 mutation's actual effect (see [revalidation.md](revalidation.md)); and `useActionState` provides
 the pending/error state a form-driven Server Action needs to give real user feedback.
 
-This completes the Next.js domain (OPS-093 through OPS-097).
+This completes the Next.js domain. Continue to
+[Reading and Navigating Unfamiliar Codebases](../../frontend-architecture/reading-and-navigating-unfamiliar-codebases/README.md).

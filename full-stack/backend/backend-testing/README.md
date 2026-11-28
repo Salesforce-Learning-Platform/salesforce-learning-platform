@@ -72,5 +72,5 @@ test runs. See [api-testing-with-supertest.md](api-testing-with-supertest.md).
 
 ## ➡️ Continue Your Learning Path
 
-This is the final module in the Backend domain's gap-fill expansion. See the platform's root
+This is the final module in the Backend domain. See the platform's root
 [README](../../../README.md) for the full repository structure and what comes next.

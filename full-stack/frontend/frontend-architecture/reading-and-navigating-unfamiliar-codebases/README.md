@@ -64,4 +64,5 @@ read first. See [tracing-data-flow.md](tracing-data-flow.md).
 
 ## Continue Your Learning Path
 
-See the [Frontend learning path](../../README.md) for the remaining modules and what comes next.
+Next: [Design Systems at Scale](../design-systems-at-scale/README.md) — see the
+[Frontend learning path](../../README.md) for the full sequence.

@@ -78,5 +78,5 @@ having side effects like emitting CSS on its own. See [mixins.md](mixins.md) and
 
 ## Continue Your Learning Path
 
-Continue to the [CSS Frameworks module](../css-frameworks/) to see how a utility-first framework
-like Tailwind approaches the same "avoid repeating yourself in CSS" goal from a different angle.
+Next: [CSS Layout Mastery](../css-layout-mastery/) — see the
+[Frontend learning path](../../README.md) for the full sequence.

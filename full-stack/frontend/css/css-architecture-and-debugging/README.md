@@ -70,5 +70,6 @@ adjustments (spacing, alignment) that don't deserve their own named class. See
 
 ## ➡️ Continue Your Learning Path
 
-This is the final module in the CSS domain's Beyond Sigma expansion. See the
-[Frontend learning path](../../README.md) for the remaining modules and what comes next.
+This is the last module in the CSS domain. Continue to
+[Introduction to JavaScript](../../javascript/introduction-to-javascript/) — see the
+[Frontend learning path](../../README.md) for the full sequence.

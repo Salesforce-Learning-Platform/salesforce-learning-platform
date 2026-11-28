@@ -62,6 +62,5 @@ automatically or loop, independent of a state change. See
 
 ## Continue Your Learning Path
 
-This is the last module in the CSS domain. Continue to
-[Introduction to JavaScript](../../javascript/introduction-to-javascript/) — see the
+Next: [CSS Architecture and Debugging](../css-architecture-and-debugging/) — see the
 [Frontend learning path](../../README.md) for the full sequence.

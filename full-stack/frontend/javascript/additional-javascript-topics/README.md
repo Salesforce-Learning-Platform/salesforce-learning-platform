@@ -61,6 +61,5 @@ string key from another part of the codebase. See [symbols.md](symbols.md).
 
 ## Continue Your Learning Path
 
-This is the last module in the JavaScript domain. Continue to
-[TypeScript Essentials](../../typescript/typescript-essentials/) — see the
+Next: [Execution Context, Hoisting and Strict Mode](../execution-context-and-hoisting/README.md) — see the
 [Frontend learning path](../../README.md) for the full sequence.

@@ -70,5 +70,5 @@ defined per-property by the CSS specification, not a universal behavior — see
 
 ## Continue Your Learning Path
 
-Next: [CSS Layout and Positioning](../css-layout-mastery/) — see the
+Next: [Working with Sass](../working-with-sass/) — see the
 [Frontend learning path](../../README.md) for the full sequence.

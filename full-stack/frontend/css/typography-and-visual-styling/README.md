@@ -62,5 +62,5 @@ Contrast should be checked with a tool, not judged purely by eye. See
 
 ## Continue Your Learning Path
 
-Next: [Advanced CSS and Modern Styling](../advanced-css-and-modern-styling/) — see the
+Next: [CSS Frameworks](../css-frameworks/) — see the
 [Frontend learning path](../../README.md) for the full sequence.

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is the capstone module of the Backend domain. Every prior module built one piece — a server,
+This is the capstone of the core Backend modules. Every prior module built one piece — a server,
 routing, a database, authentication. This module is about organizing all of those pieces together
 into a real, scalable project structure, the way an actual production backend is organized —
 directly mirroring what [Frontend Architecture](../../frontend/frontend-architecture/) did for the
@@ -70,5 +70,7 @@ committed config files precisely because secrets shouldn't live in source contro
 
 ## Continue Your Learning Path
 
-This is the final module of the core Backend domain. See the platform's root
-[README](../../../README.md) for the full repository structure and what comes next.
+This completes the core Backend modules. Continue to the
+[Template Engines (EJS) module](../template-engines-ejs/README.md), the start of the second part of the
+backend path: server-rendered pages, file uploads, API documentation, logging, production
+authentication, real-time features, caching, payments, and testing.
