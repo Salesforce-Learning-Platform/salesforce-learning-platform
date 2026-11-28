@@ -63,7 +63,7 @@ rendering untrusted user input with it directly creates a cross-site scripting v
 ## 📚 References
 
 - EJS, [Official site](https://ejs.co/)
-- Express, [Using template engines with Express](https://expressjs.com/en/guide/using-template-engines.html)
+- Express, [Using template engines with Express](https://expressjs.com/en/guide/using-template-engines/)
 
 ## ➡️ Continue Your Learning Path
 

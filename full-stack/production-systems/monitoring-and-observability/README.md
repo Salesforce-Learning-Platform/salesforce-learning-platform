@@ -61,7 +61,7 @@ failure mode that lets a genuinely serious, sustained incident go unnoticed amon
 ## 📚 References
 
 - [Prometheus - Metric Types](https://prometheus.io/docs/concepts/metric_types/) — official documentation for Counter, Gauge, Histogram, and Summary
-- [prom-client (npm)](https://github.com/siimon/prom-client) — the Node.js Prometheus client library used in this module's instrumentation example
+- [Prometheus client for Node.js, formerly prom-client](https://github.com/prometheus/client_js) — the Node.js Prometheus client library used in this module's instrumentation example
 
 ## ➡️ Continue Your Learning Path
 

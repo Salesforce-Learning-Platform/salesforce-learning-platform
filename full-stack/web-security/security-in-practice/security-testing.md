@@ -29,17 +29,19 @@ broader lesson that different testing approaches genuinely catch different class
 ## ZAP: a Widely-Used, Free DAST Tool
 
 ```
-ZAP (formerly "OWASP ZAP," now maintained under the Linux
-Foundation and Checkmarx as "ZAP by Checkmarx" following a 2023-
-2024 transition, though still free and open source) works as an
-INTERCEPTING PROXY - recording real requests/responses and
+ZAP (formerly "OWASP ZAP") left OWASP in 2023 to join the Linux
+Foundation's Software Security Project, then joined Checkmarx in
+2024. Now "ZAP by Checkmarx", it is still free and open source
+and, according to the project, not part of any foundation. It
+works as an INTERCEPTING PROXY - recording real requests/responses and
 actively probing for injection, XSS, authentication flaws, and
 missing security headers, exactly this module's own coverage.
 ```
 
 Worth knowing this project's exact current status explicitly, since it's commonly still referred to
 by its older name — it remains genuinely free, open-source, and directly usable, just under updated
-governance.
+governance ([joining the Software Security Project, 2023](https://www.zaproxy.org/blog/2023-08-01-zap-is-joining-the-software-security-project/);
+[joining Checkmarx, 2024](https://www.zaproxy.org/blog/2024-09-24-zap-has-joined-forces-with-checkmarx/)).
 
 ## Writing Security-Specific Tests
 

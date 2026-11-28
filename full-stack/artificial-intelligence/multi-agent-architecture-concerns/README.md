@@ -66,7 +66,7 @@ pipeline typically goes up, even as each individual call's context shrinks.
 
 ## 📚 References
 
-- [Anthropic Engineering - Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — the source of this module's "add complexity only when it demonstrably improves outcomes" guidance
+- [Anthropic - Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — the source of this module's "add complexity only when it demonstrably improves outcomes" guidance
 - [Backend: Caching - Local and Redis](../../backend/caching-local-and-redis/) — the shared-store patterns this module's shared-state guidance builds on
 
 ## ➡️ Continue Your Learning Path

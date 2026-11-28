@@ -78,7 +78,7 @@ a root `1` with only a right child `2`, both have preorder `[1, 2]` and postorde
 - [Wikipedia: Tree (data structure)](https://en.wikipedia.org/wiki/Tree_(data_structure)), [Binary tree](https://en.wikipedia.org/wiki/Binary_tree), and [Tree traversal](https://en.wikipedia.org/wiki/Tree_traversal) — definitions, variants, and traversal orders (including Morris traversal).
 - [Wikipedia: Lowest common ancestor](https://en.wikipedia.org/wiki/Lowest_common_ancestor) — the problem and its applications.
 - [W3Schools: DSA Trees](https://www.w3schools.com/dsa/dsa_theory_trees.php), [Binary Trees](https://www.w3schools.com/dsa/dsa_data_binarytrees.php), and [Pre-order Traversal](https://www.w3schools.com/dsa/dsa_algo_binarytrees_preorder.php) — illustrated beginner introductions.
-- [GeeksforGeeks: Tree Data Structure](https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure-and-algorithm-tutorials/), [Binary Tree](https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/), and [Tree Traversals](https://www.geeksforgeeks.org/dsa/tree-traversals-inorder-preorder-and-postorder/) — overviews and practice problems.
+- [GeeksforGeeks: Tree Data Structure](https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/), [Binary Tree](https://www.geeksforgeeks.org/dsa/binary-tree-data-structure/), and [Tree Traversals](https://www.geeksforgeeks.org/dsa/tree-traversals-inorder-preorder-and-postorder/) — overviews and practice problems.
 - [Python docs: `collections.deque`](https://docs.python.org/3/library/collections.html#collections.deque) — the queue used for level-order traversal.
 
 ## ➡️ Continue Your Learning Path

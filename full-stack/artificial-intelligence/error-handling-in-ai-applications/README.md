@@ -73,7 +73,7 @@ typical, reliably-reproducible application bug.
 
 - [Anthropic - Claude API Errors](https://platform.claude.com/docs/en/api/errors) — official documentation for HTTP error codes, error shapes, request IDs, and SDK retry behavior
 - [Anthropic - Streaming Messages: Error Events](https://platform.claude.com/docs/en/build-with-claude/streaming#error-events) — the shape of a mid-stream error
-- [W3Schools - JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp) — a refresher on JSON parsing and common syntax pitfalls
+- [W3Schools - JSON Introduction](https://www.w3schools.com/js/js_json.asp) — a refresher on JSON parsing and common syntax pitfalls
 
 ## ➡️ Continue Your Learning Path
 

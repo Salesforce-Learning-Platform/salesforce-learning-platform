@@ -65,7 +65,7 @@ matters most precisely when the output looks most trustworthy by default.
 ## 📚 References
 
 - [Claude Code - Overview](https://code.claude.com/docs/en/overview) — official documentation for Claude Code's agentic coding capabilities
-- [GitHub - About GitHub Copilot](https://docs.github.com/en/copilot/about-github-copilot) — official documentation for GitHub Copilot
+- [GitHub - About GitHub Copilot](https://docs.github.com/en/copilot/get-started/about-github-copilot) — official documentation for GitHub Copilot
 
 ## ➡️ Continue Your Learning Path
 

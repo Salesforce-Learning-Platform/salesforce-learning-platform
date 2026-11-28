@@ -79,7 +79,7 @@ sliding-window maximum. See [monotonic-stack.md](monotonic-stack.md).
 - [Wikipedia: Shunting-yard algorithm](https://en.wikipedia.org/wiki/Shunting_yard_algorithm) and [Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) — the expression conversion and evaluation used in the stack file.
 - [Wikipedia: Circular buffer](https://en.wikipedia.org/wiki/Circular_buffer) — the ring-buffer queue.
 - [W3Schools: DSA Stacks](https://www.w3schools.com/dsa/dsa_data_stacks.php) and [DSA Queues](https://www.w3schools.com/dsa/dsa_data_queues.php) — beginner-friendly illustrated introductions.
-- [GeeksforGeeks: Stack Data Structure](https://www.geeksforgeeks.org/dsa/stack-data-structure/), [Queue Data Structure](https://www.geeksforgeeks.org/dsa/queue-data-structure/), and [Monotonic Stack](https://www.geeksforgeeks.org/dsa/introduction-to-monotonic-stack-data-structure-and-algorithm-tutorials/) — overviews and practice problems.
+- [GeeksforGeeks: Stack Data Structure](https://www.geeksforgeeks.org/dsa/stack-data-structure/), [Queue Data Structure](https://www.geeksforgeeks.org/dsa/queue-data-structure/), and [Monotonic Stack](https://www.geeksforgeeks.org/dsa/introduction-to-monotonic-stack-2/) — overviews and practice problems.
 
 ## ➡️ Continue Your Learning Path
 

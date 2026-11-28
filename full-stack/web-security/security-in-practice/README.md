@@ -72,7 +72,7 @@ last-minute gate also risks it becoming a rushed formality rather than a genuine
 ## 📚 References
 
 - [npm Docs - npm audit](https://docs.npmjs.com/cli/v11/commands/npm-audit/) — official documentation for dependency vulnerability scanning
-- [Jit - What OWASP ZAP Can Do, and When to Use It](https://www.jit.io/resources/owasp-zap) — coverage of ZAP (formerly OWASP ZAP) as a DAST tool, including its current governance
+- [ZAP: Getting Started](https://www.zaproxy.org/getting-started/) — what ZAP does as a DAST tool, and [ZAP Has Joined Forces With Checkmarx](https://www.zaproxy.org/blog/2024-09-24-zap-has-joined-forces-with-checkmarx/), the project's announcement of its current status
 
 ## ➡️ Continue Your Learning Path
 

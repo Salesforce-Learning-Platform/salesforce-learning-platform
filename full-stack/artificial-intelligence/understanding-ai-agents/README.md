@@ -64,7 +64,7 @@ decomposes into distinct sub-problems and a simpler approach has measurably fall
 ## 📚 References
 
 - [Anthropic - How Tool Use Works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works) — official documentation for the agentic loop and `stop_reason` handling
-- [Anthropic Engineering - Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — the source of this module's "start simple" guidance and the workflows-vs-agents distinction
+- [Anthropic - Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — the source of this module's "start simple" guidance and the workflows-vs-agents distinction
 
 ## ➡️ Continue Your Learning Path
 

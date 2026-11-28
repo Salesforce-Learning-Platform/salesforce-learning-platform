@@ -8,7 +8,7 @@ the network, so other devices know where to send data.
 
 ## IPv4
 
-An **IPv4** address (defined in [RFC 791](https://www.rfc-editor.org/rfc/rfc791)) is a 32-bit
+An **IPv4** address (defined in [RFC 791](https://www.rfc-editor.org/rfc/rfc791.html)) is a 32-bit
 number, conventionally written as four decimal numbers from 0–255 separated by dots — "dotted
 quad" notation — for example `93.184.216.34`.
 
@@ -23,7 +23,7 @@ addresses has effectively been exhausted for years. Two things have kept IPv4 us
 
 ## IPv6
 
-**IPv6** ([RFC 8200](https://www.rfc-editor.org/rfc/rfc8200)) uses 128-bit addresses, written as
+**IPv6** ([RFC 8200](https://www.rfc-editor.org/rfc/rfc8200.html)) uses 128-bit addresses, written as
 eight groups of hexadecimal digits separated by colons, for example
 `2606:2800:220:1:248:1893:25c8:1946`. Consecutive groups of zeros can be compressed once with
 `::`, e.g. `2001:db8::1`.
@@ -44,7 +44,7 @@ systems today need to support both IPv4 and IPv6 ("dual stack").
 ## Public vs. Private IP Addresses
 
 Not every IP address is reachable from the wider Internet. Certain address ranges are reserved by
-[RFC 1918](https://www.rfc-editor.org/rfc/rfc1918) for **private** use inside local networks:
+[RFC 1918](https://www.rfc-editor.org/rfc/rfc1918.html) for **private** use inside local networks:
 
 - `10.0.0.0 – 10.255.255.255`
 - `172.16.0.0 – 172.31.255.255`

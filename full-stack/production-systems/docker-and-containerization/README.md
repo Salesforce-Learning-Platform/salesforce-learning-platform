@@ -68,7 +68,7 @@ never be, since only the backend service should ever connect to it directly.
 
 ## 📚 References
 
-- [Docker - What Is a Container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/) — official documentation on containers vs. VMs
+- [Docker - What Is a Container?](https://docs.docker.com/learn/content/what-is-a-container/) — official documentation on containers vs. VMs
 - [Docker - Multi-Stage Builds](https://docs.docker.com/build/building/multi-stage/) — official documentation for the multi-stage build pattern used in this module
 - [Docker - Networking Overview](https://docs.docker.com/engine/network/) and [Volumes](https://docs.docker.com/engine/storage/volumes/) — official documentation for this module's networking and persistence content
 - [Docker - Compose Getting Started](https://docs.docker.com/compose/gettingstarted/) — official documentation for the Docker Compose example in this module

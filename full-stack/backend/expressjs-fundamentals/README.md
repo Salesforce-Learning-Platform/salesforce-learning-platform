@@ -63,10 +63,10 @@ Older versions require manually catching the error and calling `next(err)`. See
 
 ## References
 
-- Express, [Hello world example](https://expressjs.com/en/starter/hello-world.html)
-- Express, [Routing](https://expressjs.com/en/guide/routing.html)
-- Express, [Using middleware](https://expressjs.com/en/guide/using-middleware.html)
-- Express, [Error handling](https://expressjs.com/en/guide/error-handling.html)
+- Express, [Hello world example](https://expressjs.com/en/starter/hello-world/)
+- Express, [Routing](https://expressjs.com/en/guide/routing/)
+- Express, [Using middleware](https://expressjs.com/en/guide/using-middleware/)
+- Express, [Error handling](https://expressjs.com/en/guide/error-handling/)
 
 ## Continue Your Learning Path
 

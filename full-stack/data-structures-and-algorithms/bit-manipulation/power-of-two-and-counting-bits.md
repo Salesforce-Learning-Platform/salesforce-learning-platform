@@ -179,7 +179,7 @@ Output:
        loop on 1 set bit |      0.109 us
 ```
 
-In CPython, `bin(n).count("1")` is the fastest of the four because it runs in compiled code, while the loop pays interpreter overhead for every set bit. The loop's cost tracks the **number of set bits**: it is more than ten times cheaper on a number with a single 1 than on one with 31. Python 3.10 added a built-in, `int.bit_count()`, which is documented as equivalent to `bin(n).count("1")` — for the absolute value of negative numbers — and is the right tool on those versions ([Python docs: `int.bit_count`](https://docs.python.org/3/library/stdtypes.html#int.bit_count)). It is not available on the Python 3.9 used to run this module, so the examples here use the equivalent forms.
+In CPython, `bin(n).count("1")` is the fastest of the four because it runs in compiled code, while the loop pays interpreter overhead for every set bit. The loop's cost tracks the **number of set bits**: it is more than ten times cheaper on a number with a single 1 than on one with 31. Python 3.10 added a built-in, `int.bit_count()`, which is documented as equivalent to `bin(n).count("1")` — for the absolute value of negative numbers — and is the right tool on those versions ([Python docs: `int.bit_count`](https://docs.python.org/3/builtins/stdtypes.html#int.bit_count)). It is not available on the Python 3.9 used to run this module, so the examples here use the equivalent forms.
 
 ### Counting the Bits of Every Number From 0 to n
 
