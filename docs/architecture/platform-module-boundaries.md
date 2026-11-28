@@ -116,11 +116,11 @@ The modules are not required to correspond directly to separate applications, se
 
 ---
 
-# Core Platform Modules
+## Core Platform Modules
 
-## 1. Identity and Access
+### 1. Identity and Access
 
-### Responsibility
+#### Responsibility
 
 The Identity and Access module is responsible for establishing who a user is and determining what that user is allowed to do within the platform.
 
@@ -142,7 +142,7 @@ Typical questions handled by this module include:
 - Is the user permitted to perform a specific action?
 - Can the user access a particular platform capability?
 
-### Boundary
+#### Boundary
 
 The Identity and Access module determines identity and access.
 
@@ -174,9 +174,9 @@ Other modules may rely on Identity and Access to determine whether an action is 
 
 ---
 
-## 2. Learning Content
+### 2. Learning Content
 
-### Responsibility
+#### Responsibility
 
 The Learning Content module is responsible for the learning resources available within the platform.
 
@@ -195,7 +195,7 @@ This includes the conceptual management of:
 
 The primary responsibility of this module is to define and manage what learners can learn.
 
-### Boundary
+#### Boundary
 
 The Learning Content module should not be responsible for:
 
@@ -227,9 +227,9 @@ The Content module provides information about learning resources. Other modules 
 
 ---
 
-## 3. Learning Experience
+### 3. Learning Experience
 
-### Responsibility
+#### Responsibility
 
 The Learning Experience module is responsible for how learning resources are organized and experienced by learners.
 
@@ -244,7 +244,7 @@ This may include:
 
 The Learning Experience module acts as a bridge between available learning content and the learner's journey through that content.
 
-### Boundary
+#### Boundary
 
 This module should not become the owner of the learning content itself.
 
@@ -269,9 +269,9 @@ Learning Experience is not responsible for:
 
 ---
 
-## 4. Assessment and Knowledge Validation
+### 4. Assessment and Knowledge Validation
 
-### Responsibility
+#### Responsibility
 
 The Assessment and Knowledge Validation module is responsible for evaluating learner understanding.
 
@@ -292,7 +292,7 @@ The purpose of this module is to answer questions such as:
 - What criteria determine successful completion?
 - What result should be associated with an assessment attempt?
 
-### Boundary
+#### Boundary
 
 This module should not own:
 
@@ -319,9 +319,9 @@ Assessment is not responsible for:
 
 ---
 
-## 5. Learner Progress
+### 5. Learner Progress
 
-### Responsibility
+#### Responsibility
 
 The Learner Progress module is responsible for tracking a learner's relationship with learning resources over time.
 
@@ -342,7 +342,7 @@ The central responsibility is to answer:
 - Where is the learner within a learning journey?
 - What learning milestones have been achieved?
 
-### Boundary
+#### Boundary
 
 Learner Progress should not determine:
 
@@ -371,9 +371,9 @@ The Learner Progress module owns the learner's progress state resulting from lea
 
 ---
 
-## 6. Projects and Practical Learning
+### 6. Projects and Practical Learning
 
-### Responsibility
+#### Responsibility
 
 The Projects and Practical Learning module is responsible for practical, project-based learning experiences.
 
@@ -391,7 +391,7 @@ This module supports the principle that technical learning should extend beyond 
 
 A learner may study a topic, complete exercises, and then apply that knowledge through a practical project.
 
-### Boundary
+#### Boundary
 
 The Projects and Practical Learning module should not own:
 
@@ -405,9 +405,9 @@ Projects may interact with assessment and learner progress capabilities, but the
 
 ---
 
-## 7. Platform Governance and Content Operations
+### 7. Platform Governance and Content Operations
 
-### Responsibility
+#### Responsibility
 
 The Platform Governance and Content Operations area is responsible for maintaining the quality, consistency, and long-term health of platform content and related operational processes.
 
@@ -429,7 +429,7 @@ This area answers questions such as:
 - Which version is current?
 - Should the content remain active or be archived?
 
-### Boundary
+#### Boundary
 
 Governance and operations should establish rules and processes without taking ownership of unrelated platform capabilities.
 
@@ -452,9 +452,9 @@ Platform Governance is not responsible for:
 
 ---
 
-## 8. Integration and External Services
+### 8. Integration and External Services
 
-### Responsibility
+#### Responsibility
 
 The Integration and External Services module represents the boundary between the Salesforce Learning Platform and external systems.
 
@@ -470,7 +470,7 @@ External systems may eventually include:
 
 This module should define how external capabilities interact with the platform while protecting the internal domain model from unnecessary dependency on external implementation details.
 
-### Boundary
+#### Boundary
 
 External systems should not directly define or control the platform's internal business model without an explicit architectural decision.
 
@@ -490,7 +490,7 @@ This reduces the risk of external implementation details spreading throughout th
 
 ---
 
-# Module Interaction Principles
+## Module Interaction Principles
 
 Modules will need to interact with one another.
 
@@ -519,7 +519,7 @@ This distinction helps reduce coupling.
 
 ---
 
-# Dependency Direction
+## Dependency Direction
 
 Dependencies should generally move toward stable, well-defined responsibilities.
 
@@ -548,11 +548,11 @@ Instead, it establishes the principle that modules should depend on capabilities
 
 ---
 
-# Avoiding Boundary Violations
+## Avoiding Boundary Violations
 
 A boundary violation occurs when one module begins taking responsibility for another module's core concerns.
 
-## Example 1: Content Owning Learner Progress
+### Example 1: Content Owning Learner Progress
 
 Incorrect approach:
 
@@ -576,7 +576,7 @@ Preferred approach:
 
 ---
 
-## Example 2: Assessment Owning Authorization
+### Example 2: Assessment Owning Authorization
 
 Incorrect approach:
 
@@ -595,7 +595,7 @@ Preferred approach:
 
 ---
 
-## Example 3: User Interface Owning Business Rules
+### Example 3: User Interface Owning Business Rules
 
 Incorrect approach:
 
@@ -619,7 +619,7 @@ User interface components may enforce presentation behavior, but core platform r
 
 ---
 
-# Module Ownership
+## Module Ownership
 
 Every major platform capability should have a clearly understood conceptual owner.
 
@@ -642,7 +642,7 @@ Clear ownership reduces duplication and conflicting responsibilities.
 
 ---
 
-# Future Evolution
+## Future Evolution
 
 The module boundaries defined in this document are conceptual and may evolve as the Salesforce Learning Platform grows.
 
@@ -667,7 +667,7 @@ The platform should preserve clear responsibilities first and introduce addition
 
 ---
 
-## Summary
+### Summary
 
 The Salesforce Learning Platform is organized around major conceptual responsibilities rather than arbitrary technical divisions.
 
@@ -697,40 +697,40 @@ This document establishes the conceptual module structure that future architectu
 
 ---
 
-## References
+### References
 
-### Domain-Driven Design
+#### Domain-Driven Design
 
 Eric Evans introduced Domain-Driven Design concepts that emphasize modeling complex software around meaningful domain boundaries and separating responsibilities through bounded contexts.
 
 - Eric Evans, *Domain-Driven Design: Tackling Complexity in the Heart of Software*.
 - https://www.domainlanguage.com/ddd/reference/
 
-### Martin Fowler — Monolith First
+#### Martin Fowler — Monolith First
 
 Martin Fowler discusses the importance of understanding domain and architectural boundaries before introducing distributed systems or microservices.
 
 - https://martinfowler.com/bliki/MonolithFirst.html
 
-### Martin Fowler — Bounded Context
+#### Martin Fowler — Bounded Context
 
 The bounded context concept describes how a domain model should have a clearly defined boundary and meaning within a specific context.
 
 - https://martinfowler.com/bliki/BoundedContext.html
 
-### Microsoft Architecture Center
+#### Microsoft Architecture Center
 
 Microsoft provides guidance on architectural styles, service boundaries, domain modeling, separation of concerns, and distributed system design.
 
 - https://learn.microsoft.com/en-us/azure/architecture/
 
-### AWS Prescriptive Guidance
+#### AWS Prescriptive Guidance
 
 AWS provides guidance on domain-driven design, microservice decomposition, service boundaries, and avoiding tightly coupled architectures.
 
 - https://docs.aws.amazon.com/prescriptive-guidance/
 
-### Salesforce Well-Architected
+#### Salesforce Well-Architected
 
 Salesforce provides architecture guidance focused on scalable, maintainable, secure, and well-governed solutions.
 

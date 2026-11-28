@@ -40,3 +40,6 @@ For example:
 Learning Area: Full Stack Development
 Domain: Frontend
 Topic: JavaScript
+```
+
+Lesson files in this repository do not currently store metadata of their own. Their learning area, domain, and topic come from the folders they are in.
