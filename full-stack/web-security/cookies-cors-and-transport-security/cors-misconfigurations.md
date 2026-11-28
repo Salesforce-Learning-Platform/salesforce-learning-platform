@@ -56,6 +56,7 @@ header it received without ever actually checking it against a real allowlist.
 const allowedOrigins = ["https://myapp.com", "https://admin.myapp.com"];
 
 app.use((req, res, next) => {
+  res.vary("Origin"); // the response depends on Origin, so caches must not reuse it across origins
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
     res.header("Access-Control-Allow-Origin", origin);
@@ -69,6 +70,10 @@ This is the actual, correct fix: an explicit list of genuinely trusted origins, 
 echoing anything back — this directly applies
 [least privilege](../the-security-mindset/security-principles.md), earlier in this domain, granting
 cross-origin, credentialed access only to the specific origins that genuinely need it.
+
+Because the answer now differs from one origin to the next, the response also says so with
+`Vary: Origin` (Express's `res.vary` adds it). Without it, a cache could hand the response meant for
+one origin to another ([MDN: CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS)).
 
 ## Mistake 3: Overly Permissive `Access-Control-Allow-Headers`
 
@@ -91,6 +96,8 @@ more disciplined, correct approach.
    blind echo of the request's own Origin header
 3. Confirm Access-Control-Allow-Headers/Methods list only what's
    genuinely needed, not a blanket wildcard
+4. Confirm responses whose CORS headers depend on the request's
+   Origin also send Vary: Origin
 ```
 
 ## Common Mistakes

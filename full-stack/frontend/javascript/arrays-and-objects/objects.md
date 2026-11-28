@@ -61,7 +61,12 @@ Exactly like arrays (see [arrays.md](arrays.md)), objects are compared by refere
 contents:
 
 ```js
-{ a: 1 } === { a: 1 }; // false — two different objects, even with identical contents
+const first = { a: 1 };
+const second = { a: 1 };
+first === second; // false: two different objects, even with identical contents
+
+const alias = first;
+alias === first;  // true: two names for the same object
 ```
 
 ## Common Mistakes
