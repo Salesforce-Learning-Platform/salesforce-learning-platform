@@ -19,13 +19,20 @@ SQL:
 
 NoSQL:
   - FLEXIBLE schema - key-value, document, or graph models
-  - RELAXES some ACID guarantees in exchange for scale
+  - OFTEN favours availability and eventual consistency (BASE),
+    although some offer ACID transactions
   - designed to scale HORIZONTALLY across many servers, natively
 ```
 
-Per AWS's own official comparison — this is the fundamental trade-off: SQL's strict guarantees
-come with real scaling constraints; NoSQL's native horizontal scalability comes at the cost of some
-of those same guarantees.
+[AWS's comparison](https://aws.amazon.com/compare/the-difference-between-relational-and-non-relational-databases/)
+describes the trade-off like this: relational databases follow strict ACID properties and need extra
+data management to scale horizontally, while non-relational databases usually offer a more flexible
+BASE model (basically available, soft state, eventually consistent) and scale horizontally more
+easily. It also notes that some non-relational databases offer ACID compliance, with performance or
+other trade-offs. So the label alone does not tell you what a product guarantees:
+[DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transactions.html) offers
+ACID transactions, and [MongoDB](https://www.mongodb.com/docs/manual/core/transactions/) offers
+transactions across multiple documents.
 
 ## When SQL Is the Right Choice at Scale
 

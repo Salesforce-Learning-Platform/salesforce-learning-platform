@@ -3,7 +3,7 @@
 ## The Trade-Off Every Prior File Already Previewed
 
 [database-replication-and-sharding.md](database-replication-and-sharding.md)'s replication lag,
-[sql-vs-nosql-at-scale.md](sql-vs-nosql-at-scale.md)'s "relaxed ACID guarantees" — every prior file
+[sql-vs-nosql-at-scale.md](sql-vs-nosql-at-scale.md)'s eventually consistent (BASE) model — every prior file
 in this module has already touched this same underlying tension. This file names it directly, with
 the formal framework distributed systems use to reason about it: the **CAP theorem**.
 
@@ -77,9 +77,9 @@ EVENTUAL consistency: reads MIGHT return slightly stale data
   for instance)
 ```
 
-This directly connects back to [sql-vs-nosql-at-scale.md](sql-vs-nosql-at-scale.md)'s "relaxed
-ACID" characterization of many NoSQL systems — eventual consistency is precisely the specific
-relaxation being made, in exchange for the genuine performance and availability benefits already
+This directly connects back to the BASE model that [sql-vs-nosql-at-scale.md](sql-vs-nosql-at-scale.md)
+describes for many NoSQL systems — eventual consistency is precisely the specific relaxation being
+made, in exchange for the genuine performance and availability benefits already
 covered throughout this module.
 
 ## A Practical Decision Framework
