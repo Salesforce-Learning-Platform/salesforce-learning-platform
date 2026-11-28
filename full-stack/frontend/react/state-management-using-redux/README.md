@@ -59,7 +59,7 @@ See [redux-toolkit.md](redux-toolkit.md).
 
 ## References
 
-- Redux Toolkit, [Getting Started](https://redux-toolkit.js.org/introduction/getting-started)
+- Redux Toolkit, [Getting Started](https://redux.js.org/toolkit/introduction/getting-started)
 
 ## Continue Your Learning Path
 

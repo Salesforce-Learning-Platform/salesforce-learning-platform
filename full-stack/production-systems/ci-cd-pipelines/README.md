@@ -66,7 +66,7 @@ older tag.
 
 ## 📚 References
 
-- [GitHub Actions - Quickstart](https://docs.github.com/en/actions/writing-workflows/quickstart) — official documentation for GitHub Actions workflow syntax
+- [GitHub Actions - Quickstart](https://docs.github.com/en/actions/get-started/quickstart) — official documentation for GitHub Actions workflow syntax
 - [GitHub Changelog - Artifacts v4](https://github.blog/changelog/2023-12-14-github-actions-artifacts-v4-is-now-generally-available/) — official documentation confirming current action versions used in this module's examples
 
 ## ➡️ Continue Your Learning Path

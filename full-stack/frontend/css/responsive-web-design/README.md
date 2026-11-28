@@ -59,7 +59,7 @@ container size. See [container-queries.md](container-queries.md).
 ## References
 
 - MDN Web Docs, [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using)
-- MDN Web Docs, [Container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries)
+- MDN Web Docs, [Container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
 
 ## Continue Your Learning Path
 

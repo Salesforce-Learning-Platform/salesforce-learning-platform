@@ -67,7 +67,7 @@ different tradeoffs.
 
 ### TCP (Transmission Control Protocol)
 
-TCP ([RFC 9293](https://www.rfc-editor.org/rfc/rfc9293)) provides a **reliable, ordered,
+TCP ([RFC 9293](https://www.rfc-editor.org/rfc/rfc9293.html)) provides a **reliable, ordered,
 connection-oriented** stream between two endpoints:
 
 - Before any data is sent, the two sides perform a **three-way handshake** (`SYN` →
@@ -82,7 +82,7 @@ built on — correctness matters more than raw speed for a web page or an API re
 
 ### UDP (User Datagram Protocol)
 
-UDP ([RFC 768](https://www.rfc-editor.org/rfc/rfc768)) is **connectionless and unreliable** by
+UDP ([RFC 768](https://www.rfc-editor.org/rfc/rfc768.html)) is **connectionless and unreliable** by
 design: it sends datagrams without a handshake, without guaranteed delivery, and without guaranteed
 ordering. There's no automatic retransmission — if a datagram is lost, it's simply gone unless the
 application itself handles that.

@@ -66,7 +66,7 @@ predetermined by the application.
 
 ## 📚 References
 
-- [Anthropic Engineering - Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — the source of every named pattern in this module (prompt chaining, routing, orchestrator-workers, evaluator-optimizer)
+- [Anthropic - Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — the source of every named pattern in this module (prompt chaining, routing, orchestrator-workers, evaluator-optimizer)
 - [Function Calling and Tool Calling: Letting AI Decide Which Function to Call](../function-calling-tool-calling/letting-ai-decide-which-function-to-call.md) — the `tool_choice` mechanics used throughout this module's examples
 
 ## ➡️ Continue Your Learning Path

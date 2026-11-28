@@ -53,7 +53,7 @@ See [stacking-context.md](stacking-context.md).
 
 ## References
 
-- MDN Web Docs, [`position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- MDN Web Docs, [`position`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position)
 - MDN Web Docs, [Stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context)
 
 ## Continue Your Learning Path

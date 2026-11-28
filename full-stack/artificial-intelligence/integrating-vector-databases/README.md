@@ -65,7 +65,7 @@ filter can leak across an intended boundary in a way a namespace structurally ca
 
 ## 📚 References
 
-- [Pinecone - Upsert Data](https://docs.pinecone.io/guides/index-data/upsert-data) — official documentation for creating an index and upserting vectors
+- [Pinecone - Upsert Data](https://docs.pinecone.io/guides/data/upsert-data) — official documentation for creating an index and upserting vectors
 - [Pinecone - Filter by Metadata](https://docs.pinecone.io/guides/search/filter-by-metadata) — official documentation for metadata filter operators
 - [IBM - What Is a Vector Database?](https://www.ibm.com/think/topics/vector-database) — a well-known, accessible explanation of vector database concepts
 

@@ -87,7 +87,7 @@ The real options are to rewrite the function as a loop, to manage an **explicit 
 - [Wikipedia: Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) — the puzzle and the proof that 2ⁿ − 1 moves are optimal.
 - [OEIS A000108: Catalan numbers](https://oeis.org/A000108) — the sequence counting balanced parentheses.
 - [W3Schools: Python Function Recursion](https://www.w3schools.com/python/gloss_python_function_recursion.asp) — a short beginner introduction.
-- [GeeksforGeeks: Introduction to Recursion](https://www.geeksforgeeks.org/dsa/introduction-to-recursion-data-structure-and-algorithm-tutorials/) — an overview of recursion and its common problems.
+- [GeeksforGeeks: Introduction to Recursion](https://www.geeksforgeeks.org/dsa/introduction-to-recursion-2/) — an overview of recursion and its common problems.
 
 ## ➡️ Continue Your Learning Path
 

@@ -66,7 +66,7 @@ changing.
 ## 📚 References
 
 - [The Twelve-Factor App - Dev/Prod Parity](https://12factor.net/dev-prod-parity) — the official source for this module's dev/prod gap analysis
-- [HashiCorp - Introduction to Terraform](https://developer.hashicorp.com/terraform/intro) and [Terraform AWS Get Started Tutorial](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build) — official documentation and tutorial for the Infrastructure as Code example in this module
+- [HashiCorp - Introduction to Terraform](https://developer.hashicorp.com/terraform/intro) and [Terraform AWS Get Started Tutorial](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-create) — official documentation and tutorial for the Infrastructure as Code example in this module
 
 ## ➡️ Continue Your Learning Path
 

@@ -10,7 +10,7 @@ page"), a response format ("here it is, and here's its status"), and a shared vo
 ## HTTP: Request/Response
 
 **HTTP (HyperText Transfer Protocol)** — most recently formalized as HTTP semantics in
-[RFC 9110](https://www.rfc-editor.org/rfc/rfc9110) — is a **stateless, request/response**
+[RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html) — is a **stateless, request/response**
 application-layer protocol. "Stateless" means each request is handled independently, with no
 built-in memory of previous requests (which is exactly why applications need cookies, tokens, or
 sessions to maintain any continuity between requests — a topic covered elsewhere in this
@@ -71,7 +71,7 @@ to actually deliver the envelope.
 ## HTTPS and TLS
 
 **HTTPS** is HTTP layered on top of **TLS (Transport Layer Security)** — most current deployments
-use **TLS 1.3** ([RFC 8446](https://www.rfc-editor.org/rfc/rfc8446)), the successor to the older
+use **TLS 1.3** ([RFC 8446](https://www.rfc-editor.org/rfc/rfc8446.html)), the successor to the older
 and now-deprecated SSL protocol (the term "SSL certificate" persists in casual usage even though
 the underlying protocol in modern use is TLS).
 

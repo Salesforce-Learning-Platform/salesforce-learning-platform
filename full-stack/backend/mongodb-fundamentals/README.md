@@ -69,7 +69,7 @@ ones queried independently of any post) favors referencing. See
 - MongoDB, [Documents](https://www.mongodb.com/docs/manual/core/document/)
 - MongoDB, [Query Documents](https://www.mongodb.com/docs/manual/tutorial/query-documents/)
 - MongoDB, [Aggregation Pipeline](https://www.mongodb.com/docs/manual/core/aggregation-pipeline/)
-- MongoDB, [Data Modeling Introduction](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/)
+- MongoDB, [Data Modeling Introduction](https://www.mongodb.com/docs/manual/data-modeling/)
 - Mongoose, [Documentation](https://mongoosejs.com/docs/index.html)
 
 ## Continue Your Learning Path

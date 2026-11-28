@@ -60,7 +60,7 @@ real API is finished. See [sdk-generation.md](sdk-generation.md).
 ## 📚 References
 
 - Swagger, [OpenAPI Basic Structure](https://swagger.io/docs/specification/v3_0/basic-structure/)
-- Postman, [Using Collections](https://learning.postman.com/docs/collections/using-collections/)
+- Postman, [Using Collections](https://learning.postman.com/docs/use/use-collections/overview/)
 
 ## ➡️ Continue Your Learning Path
 

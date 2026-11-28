@@ -295,7 +295,7 @@ The counters array has ten million entries, and the cost is O(n + k) with `k` do
 
 ## 🐍 Sorting in Python: The Practical Toolkit
 
-In real Python code you will almost always reach for `sorted()` or `list.sort()`. The details worth knowing, each verified below against the [Python documentation](https://docs.python.org/3/library/stdtypes.html#list.sort) and the [Sorting Techniques HOWTO](https://docs.python.org/3/howto/sorting.html):
+In real Python code you will almost always reach for `sorted()` or `list.sort()`. The details worth knowing, each verified below against the [Python documentation](https://docs.python.org/3/builtins/stdtypes.html#list.sort) and the [Sorting Techniques HOWTO](https://docs.python.org/3/howto/sorting.html):
 
 - `sorted()` returns a **new** list; `list.sort()` sorts **in place and returns `None`**.
 - Both are **stable** and use only `<` comparisons.

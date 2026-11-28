@@ -2,7 +2,7 @@
 
 ## The Methods
 
-[RFC 9110](https://www.rfc-editor.org/rfc/rfc9110) defines HTTP's methods (also called "verbs").
+[RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html) defines HTTP's methods (also called "verbs").
 The ones that matter for building web applications:
 
 | Method | Intent | Typical use |

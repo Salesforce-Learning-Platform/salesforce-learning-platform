@@ -65,7 +65,7 @@ The XOR of two numbers has a `1` at a bit position exactly when they differ ther
 - [Wikipedia: Longest prefix match](https://en.wikipedia.org/wiki/Longest_prefix_match), [Autocomplete](https://en.wikipedia.org/wiki/Autocomplete), [Approximate string matching](https://en.wikipedia.org/wiki/Approximate_string_matching), and [Aho–Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm) — what tries are used for.
 - [Python docs: `ipaddress`](https://docs.python.org/3/library/ipaddress.html) and [`heapq`](https://docs.python.org/3/library/heapq.html) — the standard-library tools used for routing checks and ranked suggestions.
 - [W3Schools: Trees](https://www.w3schools.com/dsa/dsa_theory_trees.php) — the tree vocabulary a trie builds on.
-- [GeeksforGeeks: Introduction to Trie](https://www.geeksforgeeks.org/dsa/introduction-to-trie-data-structure-and-algorithm-tutorials/), [Trie Insert and Search](https://www.geeksforgeeks.org/dsa/trie-insert-and-search/), [Trie Delete](https://www.geeksforgeeks.org/dsa/trie-delete/), and [Word Break Problem using Trie](https://www.geeksforgeeks.org/dsa/word-break-problem-trie-solution/) — overviews and practice problems.
+- [GeeksforGeeks: Introduction to Trie](https://www.geeksforgeeks.org/dsa/introduction-to-trie-data-structure-and-algorithm-tutorials/), [Trie Insert and Search](https://www.geeksforgeeks.org/dsa/trie-insert-and-search/), [Trie Delete](https://www.geeksforgeeks.org/dsa/trie-delete/), and [Word Break Problem (Trie and DP)](https://www.geeksforgeeks.org/dsa/word-break-problem-dp-32/) — overviews and practice problems.
 
 ## ➡️ Continue Your Learning Path
 

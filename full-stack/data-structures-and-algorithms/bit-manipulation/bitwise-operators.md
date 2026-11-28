@@ -23,7 +23,7 @@ print((255).bit_length(), (256).bit_length(), (0).bit_length()) # 8 9 0
 - The prefixes `0b`, `0o`, and `0x` start binary, octal, and hexadecimal literals.
 - `bin`, `oct`, and `hex` produce the strings; `format(n, "08b")` pads with zeros to a fixed width, which is how you line patterns up when printing.
 - `int(text, base)` converts back.
-- `n.bit_length()` is the number of bits needed to write `n` without leading zeros ([Python docs: `int.bit_length`](https://docs.python.org/3/library/stdtypes.html#int.bit_length)).
+- `n.bit_length()` is the number of bits needed to write `n` without leading zeros ([Python docs: `int.bit_length`](https://docs.python.org/3/builtins/stdtypes.html#int.bit_length)).
 
 Hexadecimal is popular because **one hex digit is exactly four bits**: `0xFF` is `1111 1111`, `0xA5` is `1010 0101`. It is a compact way to write long bit patterns.
 
@@ -76,7 +76,7 @@ Each of the first three operators works on **all the bits at once**, in a single
 
 Computers store negative integers using **two's complement**: to negate a number, flip all its bits and add one ([Wikipedia: Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)). In a fixed 8-bit word, `5` is `00000101`, so `-5` is `11111010 + 1 = 11111011`.
 
-Python integers have no fixed width, so the language defines bitwise operations as though the number had **an infinite string of sign bits** on the left: positive numbers are padded with infinitely many zeros, negative numbers with infinitely many ones ([Python docs: bitwise operations](https://docs.python.org/3/library/stdtypes.html#bitwise-operations-on-integer-types)). Two consequences follow:
+Python integers have no fixed width, so the language defines bitwise operations as though the number had **an infinite string of sign bits** on the left: positive numbers are padded with infinitely many zeros, negative numbers with infinitely many ones ([Python docs: bitwise operations](https://docs.python.org/3/builtins/stdtypes.html#bitwise-operations-on-integer-types)). Two consequences follow:
 
 - `~x` is always `-x - 1`, and `-x` is always `~x + 1`.
 - `bin()` shows a negative number as a minus sign and a magnitude (`bin(-5)` is `-0b101`), *not* as its two's-complement bits. To see the bits a fixed-width computer would store, mask with `& 0xFF` (or `0xFFFF`, and so on).
@@ -93,7 +93,7 @@ The last two lines show the 8-bit and 16-bit two's-complement patterns of `-5` a
 
 ## ⏩ Shifts: Multiplying and Dividing by Powers of Two
 
-Shifting left by `n` places multiplies by `2ⁿ`, and shifting right by `n` places divides by `2ⁿ` — but the division **rounds toward negative infinity**, exactly like `//`. The Python documentation states both equivalences ([Python docs: bitwise operations](https://docs.python.org/3/library/stdtypes.html#bitwise-operations-on-integer-types)). The rounding matters for negative numbers:
+Shifting left by `n` places multiplies by `2ⁿ`, and shifting right by `n` places divides by `2ⁿ` — but the division **rounds toward negative infinity**, exactly like `//`. The Python documentation states both equivalences ([Python docs: bitwise operations](https://docs.python.org/3/builtins/stdtypes.html#bitwise-operations-on-integer-types)). The rounding matters for negative numbers:
 
 ```python
 print(f"{'x':>4} | {'x << 3':>6} | {'x * 8':>5} | {'x >> 2':>6} | {'x // 4':>6} | {'int(x / 4)':>10}")

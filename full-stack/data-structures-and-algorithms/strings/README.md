@@ -82,7 +82,7 @@ is O(n). See [palindrome-problems.md](palindrome-problems.md).
 
 ## 📚 References
 
-- [Python docs: Text Sequence Type — `str`](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str) — the methods used throughout the module.
+- [Python docs: Text Sequence Type — `str`](https://docs.python.org/3/builtins/stdtypes.html#text-sequence-type-str) — the methods used throughout the module.
 - [Python docs: Unicode HOWTO](https://docs.python.org/3/howto/unicode.html) and [`unicodedata`](https://docs.python.org/3/library/unicodedata.html) — code points, encodings, and normalization.
 - [PEP 393 — Flexible String Representation](https://peps.python.org/pep-0393/) — how CPython stores one, two, or four bytes per character.
 - [PEP 8 — Programming Recommendations](https://peps.python.org/pep-0008/) — why not to rely on CPython's in-place string concatenation.

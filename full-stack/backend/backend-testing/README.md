@@ -67,7 +67,7 @@ test runs. See [api-testing-with-supertest.md](api-testing-with-supertest.md).
 
 ## 📚 References
 
-- Supertest, [GitHub repository](https://github.com/ladjs/supertest)
+- Supertest, [GitHub repository](https://github.com/forwardemail/supertest)
 - Vitest, [Mocking](https://vitest.dev/api/mock.html)
 
 ## ➡️ Continue Your Learning Path

@@ -76,9 +76,9 @@ part of a public (or even private, shared) git history. It's excluded via `.giti
 - Node.js, [Modules: ECMAScript modules](https://nodejs.org/api/esm.html)
 - Node.js, [File system](https://nodejs.org/api/fs.html)
 - Node.js, [Path](https://nodejs.org/api/path.html)
-- Node.js, [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick)
+- Node.js, [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick)
 - Node.js, [Process](https://nodejs.org/api/process.html)
-- Node.js, [How to read environment variables from Node.js](https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs)
+- Node.js, [How to read environment variables from Node.js](https://nodejs.org/learn/command-line/how-to-read-environment-variables-from-nodejs)
 
 ## Continue Your Learning Path
 
